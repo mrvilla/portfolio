@@ -29,7 +29,7 @@ const projectDetails = [
 				<p>ReactJS, VueJS, VEAMS, Nikita, ES5/ES6, VanillaJS, SASS, Handlebars, Grunt, Webpack, GitHub, Gitlab, Sketch, Zeplin, Jira, Trello Board</p>
 				<h4>Solutions</h4>
 				<p>Worked closely together with UI/UX designers and BE Developers to translate designs into code, ensuring that the usability worked well in different browsers while keeping in mind the maintainability, scalability and reliability of the products or projects.</p>
-				<p>Developed and documented components and into a design system for each project and product. Components being fully responsive, ensuring accessibility standards optimized for mobile, and optimized for performance, later to be tested across devices and browsers to deliver the best user experience to users./p>
+				<p>Developed and documented components and into a design system for each project and product. Components being fully responsive, ensuring accessibility standards optimized for mobile, and optimized for performance, later to be tested across devices and browsers to deliver the best user experience to users.</p>
 			</div>
 			<img src="./images/aptoix.svg">
 		</div>
@@ -70,7 +70,7 @@ const projectDetails = [
 				<p>React, NextJS, CSS3, Webpack, Figma, Material-UI, Github</p>
 				<h4>Solutions</h4>
 				<p>Designed a complete landing page with sections about the team, services they provide, client work, process of contributing to open source, tech stacks and tools used.</p>
-				<p>Created a product logo. Translated designs into coded components and build a responsive landing page.</p>
+				<p>Created a product logo. Translated designs into coded components and built a responsive landing page.</p>
 			</div>
 			<img src="./images/eyevn.svg">
 		</div>
@@ -107,7 +107,7 @@ const projectDetails = [
 				<p>React, NextJS, CSS3, Webpack, NodeJS, Docker, Figma, Material-UI, GitHub</p>
 				<h4>Solutions</h4>
 				<p>Created a user flow between the site page and product page. Designed a logo that represents the product.</p>
-				<p>Translated designs into coded components and build the responsive website.</p>
+				<p>Translated designs into coded components and built the responsive website.</p>
 				<p>Built reusable components to build the responsive landing page. Login and registration. And collaborated with BE to implement login and registration.</p>
 			</div>
 			<img src="./images/crupt.png">
@@ -149,7 +149,7 @@ const projectDetails = [
 				<p>CMS Magnolia, VEAMS, ES5/ES6, VanillaJS, SASS, Handlebars, Webpack, Sketch, Zeplin, Jira, Jenkins</p>
 				<h4>Solutions</h4>
 				<p>Built, documented and implemented components into the product design system.</p>
-				<p>Worked together with other FE devs, UI/UX Designers, and BE Developers to translate UI designs into code and conducted device and browser test, user test and UI test to make sure designs were properly implemented.</p>
+				<p>Worked together with other FE Developers, UI/UX Designers, and BE Developers to translate UI designs into code and conducted device and browser test, user test and UI test to make sure designs were properly implemented.</p>
 			</div>
 			<img src="./images/bta.svg">
 		</div>
