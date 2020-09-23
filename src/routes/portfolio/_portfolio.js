@@ -20,7 +20,7 @@ const projectDetails = [
 		<div class="project-detail__overview">
 			<div class="project-detail__overview-content">
 				<h3>Projects Overview</h3>
-				<p>Create Web Apps and Webpages with documented components and design system for various clients.</p>
+				<p>Created Web Apps and Webpages with documented components and design system for various clients.</p>
 				<h4>Role</h4>
 				<p>FE Developer</p>
 				<h4>Team</h4>
@@ -28,8 +28,8 @@ const projectDetails = [
 				<h4>Tools</h4>
 				<p>ReactJS, VueJS, VEAMS, Nikita, ES5/ES6, VanillaJS, SASS, Handlebars, Grunt, Webpack, GitHub, Gitlab, Sketch, Zeplin, Jira, Trello Board</p>
 				<h4>Solutions</h4>
-				<p>Worked closely together with UI/UX designers and BE Developers to translate designs, ensuring that the usability worked well in browsers while keeping in mind the maintainability, scalability and reliability of the products or projects.</p>
-				<p>Developed and documented components and into a design system for each project and product. Components being fully responsive, accessible, optimized for mobile, and optimized for performance, later to be tested across devices and browsers to deliver projects and products to clients.</p>
+				<p>Worked closely together with UI/UX designers and BE Developers to translate designs into code, ensuring that the usability worked well in different browsers while keeping in mind the maintainability, scalability and reliability of the products or projects.</p>
+				<p>Developed and documented components and into a design system for each project and product. Components being fully responsive, ensuring accessibility standards optimized for mobile, and optimized for performance, later to be tested across devices and browsers to deliver the best user experience to users./p>
 			</div>
 			<img src="./images/aptoix.svg">
 		</div>
@@ -61,7 +61,7 @@ const projectDetails = [
 		<div class="project-detail__overview">
 			<div class="project-detail__overview-content">
 				<h3>Project Overview</h3>
-				<p>Create a video dev team page to offer video streaming services.</p>
+				<p>Created a video dev team landing page to present video streaming services offer.</p>
 				<h4>Role</h4>
 				<p>UI Designer / FE Developer</p>
 				<h4>Team</h4>
@@ -70,7 +70,7 @@ const projectDetails = [
 				<p>React, NextJS, CSS3, Webpack, Figma, Material-UI, Github</p>
 				<h4>Solutions</h4>
 				<p>Designed a complete landing page with sections about the team, services they provide, client work, process of contributing to open source, tech stacks and tools used.</p>
-				<p>Create Product logo. Translate designs into develop components to build page.</p>
+				<p>Created a product logo. Translated designs into coded components and build a responsive landing page.</p>
 			</div>
 			<img src="./images/eyevn.svg">
 		</div>
@@ -87,7 +87,7 @@ const projectDetails = [
 		`
 	},
 	{
-		title: 'Corruptor',
+		title: 'Stream Corruptor',
 		slug: 'corruptor',
 		subtitle: 'Video Product',
 		shortDesc: 'A digitized simulator that corrupts video streams effectively',
@@ -98,7 +98,7 @@ const projectDetails = [
 		<div class="project-detail__overview">
 			<div class="project-detail__overview-content">
 				<h3>Project Overview</h3>
-				<p>Build a Product site that explains solution cases about simulating corrupted video streams.</p>
+				<p>Built a product landing page that explains use cases about simulating corrupted video streams.</p>
 				<h4>Role</h4>
 				<p>UI Designer / FE Developer</p>
 				<h4>Team</h4>
@@ -106,9 +106,9 @@ const projectDetails = [
 				<h4>Tools</h4>
 				<p>React, NextJS, CSS3, Webpack, NodeJS, Docker, Figma, Material-UI, GitHub</p>
 				<h4>Solutions</h4>
-				<p>Create a user flow between the site page and product page. Design a logo which represents the product.</p>
-				<p>Translate designs into develop components to build web page.</p>
-				<p>Worked closely with FE dev to build responsive components, include a Login/Registeration form to access Dashboard, build reusable components to use in sections of the landing page</p>
+				<p>Created a user flow between the site page and product page. Designed a logo that represents the product.</p>
+				<p>Translated designs into coded components and build the responsive website.</p>
+				<p>Built reusable components to build the responsive landing page. Login and registration. And collaborated with BE to implement login and registration.</p>
 			</div>
 			<img src="./images/crupt.png">
 		</div>
@@ -140,7 +140,7 @@ const projectDetails = [
 		<div class="project-detail__overview">
 			<div class="project-detail__overview-content">
 				<h3>Project Overview</h3>
-				<p>Create a redesigned website to allow multiple users to modify content in pages.</p>
+				<p>Implemented a content management system to allow multiple users to create, read, update and delete content.</p>
 				<h4>Role</h4>
 				<p>FE Developer</p>
 				<h4>Team</h4>
@@ -148,8 +148,8 @@ const projectDetails = [
 				<h4>Tools</h4>
 				<p>CMS Magnolia, VEAMS, ES5/ES6, VanillaJS, SASS, Handlebars, Webpack, Sketch, Zeplin, Jira, Jenkins</p>
 				<h4>Solutions</h4>
-				<p>Build a design system for the client with full responsive documented components.</p>
-				<p>Developed and documented components and into a design system. Work together with other FE devs, UI/UX Designers, and BE Developers to translate designs</p>
+				<p>Built, documented and implemented components into the product design system.</p>
+				<p>Worked together with other FE devs, UI/UX Designers, and BE Developers to translate UI designs into code and conducted device and browser test, user test and UI test to make sure designs were properly implemented.</p>
 			</div>
 			<img src="./images/bta.svg">
 		</div>
@@ -177,7 +177,7 @@ const projectDetails = [
 		<div class="project-detail__overview">
 			<div class="project-detail__overview-content">
 				<h3>Project Overview</h3>
-				<p>Build a website for the German Chamber of Commerce and allow admins to modify content.</p>
+				<p>Implemented the UI designs into a website for the German Chamber of Commerce, this was a content management system to allow admin users to create, read, update and delete content.</p>
 				<h4>Role</h4>
 				<p>FE Developer</p>
 				<h4>Team</h4>
@@ -185,7 +185,7 @@ const projectDetails = [
 				<h4>Tools</h4>
 				<p>CoreMedia CMS, VEAMS, ES5/ES6, VanillaJS, SASS, Handlebars, Webpack, Sketch, Zeplin, Jira, Jenkins</p>
 				<h4>Solutions</h4>
-				<p>Build high standard and accessible documented components and ensure scalability for future new featured modules needed.</p>
+				<p>Implemented high  accessibility standard and documented components and ensured scalability for "new featured" modules needed in the future, conducted device and browser test, user test and UI test to make sure designs were properly implemented.</p>
 			</div>
 			<img src="./images/dk.svg">
 		</div>
@@ -213,7 +213,7 @@ const projectDetails = [
 		<div class="project-detail__overview">
 			<div class="project-detail__overview-content">
 				<h3>Project Overview</h3>
-				<p>Create a landing page about an open source library that stitches pre-transcoded VOD assets into a linear video stream.</p>
+				<p>Designed and implemented a landing page about an open source library that stitches pre-transcoded VOD assets into a linear video stream.</p>
 				<h4>Role</h4>
 				<p>FE Developer</p>
 				<h4>Team</h4>
@@ -221,9 +221,9 @@ const projectDetails = [
 				<h4>Tools</h4>
 				<p>React, NextJS, CSS3, Webpack, NodeJS, Docker, MongoDB, Figma, Material-UI</p>
 				<h4>Solutions</h4>
-				<p>Create logo that represents Product.</p>
-				<p>Create a consistency style across landing page, documentation and intranet portal.</p>
-				<p>Build a form component to request to intranet's portal.</p>
+				<p>Created the product logo.</p>
+				<p>Enhanced and ensured design consistency and styles across the site, documentation and B2B portal.</p>
+				<p>Created and developed a form to request a trial.</p>
 			</div>
 			<img src="./images/cso.png">
 		</div>
@@ -251,7 +251,7 @@ const projectDetails = [
 		<div class="project-detail__overview">
 			<div class="project-detail__overview-content">
 				<h3>Project Overview</h3>
-				<p>Redesign and Rebuild Company's Webpage while ensuring scalability and future features and improve the SEO.</p>
+				<p>Redesigned and Rebuilt Company's Webpage while ensuring scalability of the site and implemented analytics to improve SEO.</p>
 				<h4>Role</h4>
 				<p>UI Designer / FE Developer</p>
 				<h4>Team</h4>
@@ -259,9 +259,9 @@ const projectDetails = [
 				<h4>Tools</h4>
 				<p>jQuery, HTML5, CSS3, Bootstrap, Illustrator, Antetype, Google Sheets</p>
 				<h4>Solutions</h4>
-				<p>Together with the Consulting team created a plan and strategy.</p>
-				<p>Create Logos for Services being provided.</p>
-				<p>Include Google Analytics to improve SEO, site architecture map. Translate Design into a full developed site.</p>
+				<p>Together with the Signum Consulting team created a plan and strategy to redesign the site.</p>
+				<p>Designed UI and different elements (logos, images, etc) and coded the full site.</p>
+				<p>Included Google Analytics to improve SEO, created information architecture, navigation, site map. Translated designs into a full developed responsive website.</p>
 			</div>
 			<img src="./images/sgnum.svg">
 		</div>
@@ -289,7 +289,7 @@ const projectDetails = [
 		<div class="project-detail__overview">
 			<div class="project-detail__overview-content">
 				<h3>Project Overview</h3>
-				<p>Create new pages and insights to an existing real estate page</p>
+				<p>Implemented new pages to highlight insights in the real state existing pages</p>
 				<h4>Role</h4>
 				<p>FE Developer</p>
 				<h4>Team</h4>
@@ -297,7 +297,7 @@ const projectDetails = [
 				<h4>Tools</h4>
 				<p>VEAMS, ES5/ES6, VanillaJS, SASS, Handlebars, PHP, Webpack, Docker, WordPress CMS, Themify, Trello Board</p>
 				<h4>Solutions</h4>
-				<p>Build new themify components to CMS and update already existing themify components to new design together with UI/UX Designers</p>
+				<p>Built and updated themify components into a content management system in close collaboration with UI/UX Designers</p>
 			</div>
 			<img src="./images/csus.svg">
 		</div>
@@ -325,7 +325,7 @@ const projectDetails = [
 		<div class="project-detail__overview">
 			<div class="project-detail__overview-content">
 				<h3>Project Overview</h3>
-				<p>Create a digitized process to do inspections for the Health & Safety department for Germany and a dashboard for admins to view and review inspections that employees perform on site.</p>
+				<p>Digitized a manual process to do inspections on client sites and cement trucks for the Cemex Health & Safety department in Germany, designed and implemented a dashboard for admins users to view, edit, upload and delete conducted inspections that employees performed on field site.</p>
 				<h4>Role</h4>
 				<p>UI/UX Designer and FE Developer</p>
 				<h4>Team</h4>
@@ -333,8 +333,8 @@ const projectDetails = [
 				<h4>Tools</h4>
 				<p>Adobe Illustrator, HTML5, CSS3, jQuery, PHP, </p>
 				<h4>Solutions</h4>
-				<p>Worked closely with BE Developer and PO to develop apps and dashboard.</p>
-				<p>Create user flows and site map navigation, icons to describe actions, and build mobile app logos.</p>
+				<p>Worked closely with BE Developer and PO to develop the apps and dashboard.</p>
+				<p>Created user flows and site map navigation, icons to describe actions, and built mobile app and logos.</p>
 				<p>Designed and developed iteratively layouts for Admin Dashboards and hybrid apps.</p>
 			</div>
 			<img src="./images/cemx.svg">
@@ -367,7 +367,7 @@ const projectDetails = [
 		<div class="project-detail__overview">
 			<div class="project-detail__overview-content">
 				<h3>Project Overview</h3>
-				<p>Design and build products for various clients, Rebuild and redesign the company's website to provide all services.</p>
+				<p>Designed and built products for various clients, Rebuilt and redesigned the company's website to offer company services.</p>
 				<h4>Role</h4>
 				<p>UI Designer / FE Developer</p>
 				<h4>Team</h4>
@@ -375,8 +375,8 @@ const projectDetails = [
 				<h4>Tools</h4>
 				<p>jQuery, HTML5, CSS3, Bootstrap, Illustrator, Antetype</p>
 				<h4>Solutions</h4>
-				<p>Together with the CEO created site map and components needed to add to web page.</p>
-				<p>Rebuild company logo and stage image, designed responsive webpage.</p>
+				<p>Together with the CEO created site map and components needed to develop into the web page.</p>
+				<p>Redesigned company's logo and drew stage image, designed the responsive webpage.</p>
 			</div>
 			<img src="./images/qlmty.svg">
 		</div>
