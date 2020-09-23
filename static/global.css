@@ -1,0 +1,85 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+ul[class],
+ol[class] {
+	padding: 0;
+	list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+	margin: 0;
+}
+
+html,
+body {
+	height: 100%;
+}
+body {
+	min-height: 100vh;
+	scroll-behavior: smooth;
+	text-rendering: optimizeSpeed;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Source Code Pro', monospace;
+	font-weight: normal;
+}
+
+p {
+	line-height: 30px;
+}
+
+img {
+	max-width: 100%;
+	display: block;
+}
+
+a {
+	color: inherit;
+}
+
+a:not([class]) {
+	text-decoration-skip-ink: auto;
+}
+
+code {
+	font-family: menlo, inconsolata, monospace;
+	font-size: calc(1em - 2px);
+	color: #555;
+	background-color: #f0f0f0;
+	padding: 0.2em 0.4em;
+	border-radius: 2px;
+}
+
+#sapper {
+	height: 100%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	* {
+		animation-duration: 0.01ms !important;
+		animation-iteration-count: 1 !important;
+		transition-duration: 0.01ms !important;
+		scroll-behavior: auto !important;
+	}
+}
