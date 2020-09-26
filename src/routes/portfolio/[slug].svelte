@@ -30,44 +30,67 @@
     .project-detail__content {
         padding: 52px 18px 18px;
     }
-
 	.project-detail__content :global(h3) {
 		font-size: 2em;
 		padding-bottom: 32px;
 	}
-
     .project-detail__content :global(h4) {
         font-size: 1.36em;
         padding-bottom: 18px;
     }
-
     .project-detail__content :global(p) {
         font-size: 1em;
 	    padding-bottom: 20px;
     }
-
     .project-detail__content :global(.project-detail__overview) {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
         gap: 2.5em;
     }
-
     .project-detail__content :global(.project-detail__content-imgs) {
 	    padding: 2em 0 2em;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
         gap: 2.5em;
     }
-
     .project-detail__content :global(figcaption) {
 	    text-align: center;
-        padding: 0.5em 0;
+        padding: 1em 0;
     }
-
-    .project-detail__content :global(figcaption a:hover) {
-        color: #02FEA3;
+    .project-detail__content :global(.project-detail__content-controls) {
+        text-align: center;
+        padding: 2em 0;
+        display: flex;
     }
-
+    .project-detail__content :global(.content-controls__right),
+    .project-detail__content :global(.content-controls__left) {
+        display: flex;
+        flex-direction: column;
+	    width: 49%;
+    }
+    .project-detail__content :global(.content-controls__left) {
+        text-align: left;
+    }
+    .project-detail__content :global(.content-controls__right) {
+        text-align: right;
+    }
+    .project-detail__content :global(.content-controls__right .content-controls__right-title),
+    .project-detail__content :global(.content-controls__left .content-controls__left-title){
+	    font-size: 1em;
+        padding-bottom: 1em;
+    }
+    @media (min-width: 480px) {
+        .project-detail__content :global(.content-controls__right .content-controls__right-title),
+        .project-detail__content :global(.content-controls__left .content-controls__left-title){
+            font-size: 1.36em;
+            padding-bottom: 1em;
+        }
+    }
+    .project-detail__content :global(figcaption a:hover),
+    .project-detail__content :global(.project-detail__content-controls a:hover) {
+        color: #018857;
+	    text-decoration: none;
+    }
     .project-detail__headline {
         font-family: 'Source Code Pro', monospace;
         font-size: 2.6em;

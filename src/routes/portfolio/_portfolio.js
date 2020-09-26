@@ -47,6 +47,13 @@ const projectDetails = [
 					<img src="./images/staatd-web.png" alt="Desktop UI & UX for Dashboard">
 			</figure>
 		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left"></div>
+			<div class="content-controls__right">
+				<span class="content-controls__right-title"><strong>Next Project</strong></span>
+				<a href="portfolio/video-dev-team">Eyevinn - Video Dev Team</a>
+			</div>
+		</div>
 		`
 	},
 	{
@@ -84,6 +91,16 @@ const projectDetails = [
 					<img src="./images/eyvn-web.png" alt="Responsive Web and Mobile Site">
 			</figure>
 		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left">
+				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
+				<a href="portfolio/ibmix-aperto">IBMiX/Aperto</a>
+			</div>
+			<div class="content-controls__right">
+				<span class="content-controls__right-title"><strong>Next Project</strong></span>
+				<a href="portfolio/corruptor">Stream Corruptor</a>
+			</div>
+		</div>
 		`
 	},
 	{
@@ -118,18 +135,28 @@ const projectDetails = [
 					<img src="./images/corupt-web.png" alt="Corruptor Desktop Website">
 			</figure>
 			<figure>
-					<img src="./images/corupt-web-2.png" alt="Corruptor Desktop Registration">
 					<figcaption><a href='https://corruptor.io/'>Corruptor</a> - Desktop Registration</figcaption>
+					<img src="./images/corupt-web-2.png" alt="Corruptor Desktop Registration">
 			</figure>
 			<figure>
 					<figcaption><a href='https://corruptor.io/'>Corruptor</a> - Mobile Login and Logo</figcaption>
 					<img src="./images/corupt-web-3.png" alt="Corruptor Mobile Login and Logo">
 			</figure>
 		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left">
+				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
+				<a href="portfolio/video-dev-team">Video Dev Team</a>
+			</div>
+			<div class="content-controls__right">
+				<span class="content-controls__right-title"><strong>Next Project </strong></span>
+				<a href="portfolio/btv">BTV</a>
+			</div>
+		</div>
 		`
 	},
 	{
-		title: 'BTV',
+		title: 'BTV - Bavarian Tennis Club',
 		slug: 'btv',
 		subtitle: 'Corporate Website',
 		shortDesc: 'An organization for the Bavarian Tennis Clubs in Germany',
@@ -163,10 +190,20 @@ const projectDetails = [
 					<img src="./images/bta-mobile.png" alt="BTV Mobile Website">
 			</figure>
 		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left">
+				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
+				<a href="portfolio/corruptor">Stream Corruptor</a>
+			</div>
+			<div class="content-controls__right">
+				<span class="content-controls__right-title"><strong>Next Project</strong></span>
+				<a href="portfolio/dihk">DIHK</a>
+			</div>
+		</div>
 		`
 	},
 	{
-		title: 'DIHK',
+		title: 'DIHK - Chambers of Industry and Commerce',
 		slug: 'dihk',
 		subtitle: 'Corporate Website',
 		shortDesc: 'Is an organisation for 81 Chambers of Industry and Commerce in Germany',
@@ -199,10 +236,20 @@ const projectDetails = [
 					<img src="./images/dk-web-2.png" alt="DIHK Desktop site">
 			</figure>
 		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left">
+				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
+				<a href="portfolio/btv">BTV</a>
+			</div>
+			<div class="content-controls__right">
+				<span class="content-controls__right-title"><strong>Next Project</strong></span>
+				<a href="portfolio/consuo">Consuo</a>
+			</div>
+		</div>
 		`
 	},
 	{
-		title: 'Consuo',
+		title: 'Eyevinn - Consuo',
 		slug: 'consuo',
 		subtitle: 'A Video Product Landing Page',
 		shortDesc: 'A library that stitches pre-transcoded VOD assets into linear video stream',
@@ -237,10 +284,20 @@ const projectDetails = [
 					<img src="./images/cso-web-2.png" alt="Mobile & Logo">
 			</figure>
 		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left">
+				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
+				<a href="portfolio/dihk">DIHK</a>
+			</div>
+			<div class="content-controls__right">
+				<span class="content-controls__right-title"><strong>Next Project</strong></span>
+				<a href="portfolio/signum-consulting">Signum</a>
+			</div>
+		</div>
 		`
 	},
 	{
-		title: 'Signum',
+		title: 'Signum Consulting',
 		slug: 'signum-consulting',
 		subtitle: 'Corporate Website',
 		shortDesc: 'Services provider in Pre-Employment Screening, Risk Management and Compliance in Germany.',
@@ -274,6 +331,16 @@ const projectDetails = [
 					<figcaption><a href='https://www.signum-consult.com/index.html'>Signum-Consult</a> -Service Logos</figcaption>
 					<img src="./images/sgnum-web-2.png" alt="Service Logos">
 			</figure>
+		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left">
+				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
+				<a href="portfolio/consuo">Consuo</a>
+			</div>
+			<div class="content-controls__right">
+				<span class="content-controls__right-title"><strong>Next Project</strong></span>
+				<a href="portfolio/consus">Consus</a>
+			</div>
 		</div>
 		`
 	},
@@ -311,6 +378,16 @@ const projectDetails = [
 					<img src="./images/csus-web-2.png" alt="Consus Mobile">
 			</figure>
 		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left">
+				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
+				<a href="portfolio/signum-consulting">Signum</a>
+			</div>
+			<div class="content-controls__right">
+				<span class="content-controls__right-title"><strong>Next Project </strong></span>
+				<a href="portfolio/cemex">Cemex</a>
+			</div>
+		</div>
 		`
 	},
 	{
@@ -341,8 +418,8 @@ const projectDetails = [
 		</div>
 		<div class="project-detail__content-imgs">
 			<figure>
-					<img src="./images/cx-web.png" alt="Cemex Web App">
 					<figcaption>Desktop Dashboard for admins</figcaption>
+					<img src="./images/cx-web.png" alt="Cemex Web App">
 			</figure>
 			<figure>
 					<figcaption>iOS & Android Logos and Mobile App for H&S Employees</figcaption>
@@ -352,6 +429,16 @@ const projectDetails = [
 					<figcaption>Logistic Logo and Department Icons</figcaption>
 					<img src="./images/cx-logos.png" alt='Cemex Logos'>
 			</figure>
+		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left">
+				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
+				<a href="portfolio/consus">Consus</a>
+			</div>
+			<div class="content-controls__right">
+				<span class="content-controls__right-title"><strong>Next Project </strong></span>
+				<a href="portfolio/qualmity">Qualmity</a>
+			</div>
 		</div>
 		`
 	},
@@ -385,6 +472,12 @@ const projectDetails = [
 					<figcaption><a href='https://www.qualmity.com/'>Qualmity</a> - Responsive Website</figcaption>
 					<img src="./images/qlmy-web.png" alt="Desktop Website">
 			</figure>
+		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left">
+				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
+				<a href="portfolio/cemex">Cemex</a>
+			</div>
 		</div>
 		`
 	},
