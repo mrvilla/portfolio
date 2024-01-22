@@ -88,7 +88,7 @@
     }
     .project-detail__content :global(figcaption a:hover),
     .project-detail__content :global(.project-detail__content-controls a:hover) {
-        color: #018857;
+        color: #2196f3;
 	    text-decoration: none;
     }
     .project-detail__headline {

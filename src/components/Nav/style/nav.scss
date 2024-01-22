@@ -5,6 +5,8 @@ nav {
   color: $white;
   font-weight: 300;
   padding: 0 1em;
+  display: flex;
+  justify-content: space-between;
 }
 
 ul {
@@ -13,7 +15,7 @@ ul {
 }
 
 /* clearfix */
-ul::after {
+ul::after{
   content: '';
   display: block;
   clear: both;
@@ -44,3 +46,12 @@ a {
   padding: 1em 0.5em;
   display: block;
 }
+
+.social-icon {
+  position: relative;
+}
+
+.icon {
+  height: 1.5rem;
+}
+

@@ -1,8 +1,29 @@
-import projectDetails from '../portfolio/_portfolio';
-
 const companies = [
 	{
-		src: './images/ix.svg',
+		src: './projects/so.svg',
+		companyName: 'Sembo - Stena Line Travel Group AB',
+		title: 'FE Developer',
+		location: 'Remote: Sweden, Berlin, Palma',
+		beginEnd: 'Jan2022-Current',
+		details: 'Currently rebuilding main website.\n' +
+			'Collaborating closely with UI/UX team to establish and shape a design system.\n' +
+			'Updating new fresh corporate colors, typography, spacing and other variables across legacy sites and laying the base foundation of the new theme to the main site and project' +
+			"And also work close with Marketing and UI/UX team to enhance the traveler's experience, while contributing daily with team mates building components and updating them to add to the project.",
+		href: 'https://www.sembo.se/'
+	},
+	{
+		src: './projects/revised-signum.svg',
+		companyName: 'Signum',
+		title: 'UI/UX Designer / FE Developer',
+		location: 'Hybrid: Berlin/Sweden',
+		beginEnd: 'Oct2020-Dec2022',
+		details: "Developed and implemented Design System for both the company's Web apps and corporate website.\n" +
+			'Facilitated collaborative team sessions, introducing the Design System to external teams, and provide coaching to employees to effectively work on the CMS and internal applications.\n' +
+			'Conducted research, reviewed customer feedback, and conducted employee interview to drive improvement to the internal web applications to efficiently and effectively employing faster processing and workflows to increase productivity.',
+		href: 'https://www.signum-consult.com/'
+	},
+	{
+		src: './projects/ix.svg',
 		companyName: 'IBM iX/Aperto',
 		title: 'FE Developer',
 		location: 'Berlin',
@@ -13,18 +34,18 @@ const companies = [
 		href: 'https://www.aperto.com/en'
 	},
 	{
-		src: './images/eyen.svg',
+		src: './projects/eyen.svg',
 		companyName: 'Eyevinn Technologies',
 		title: 'Consultant Video Developer',
 		location: 'Stockholm',
-		beginEnd: 'May2020-Present',
+		beginEnd: 'May2020-Oct2020',
 		details: 'Specializing in video technology and media distribution, working closely with small teams, learning new technologies, tools, and best practices. \n' +
 			'Contributing to/and Improving UI/UX on various video projects in the frontend: Cloud Software Component to generate Virtual linear channels, B2B Admin Management Portals, and a Video Stream Corruptor to simulate traffic issues.\n' +
 			'Designing and building Landing pages for various video web applications with the latest tools and frameworks. ',
 		href: 'https://www.eyevinntechnology.se'
 	},
 	{
-		src: './images/qlmy.svg',
+		src: './projects/qlmy.svg',
 		companyName: 'Qualmity',
 		title: 'UI Designer / FE Developer',
 		location: 'Berlin',
@@ -33,7 +54,7 @@ const companies = [
 		href: 'https://www.qualmity.com/'
 	},
 	{
-		src: './images/sgum.svg',
+		src: './projects/sgum.svg',
 		companyName: 'Signum',
 		title: 'UI Designer / FE Developer',
 		location: 'Berlin',

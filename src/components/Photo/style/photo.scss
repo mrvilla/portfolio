@@ -1,0 +1,19 @@
+@import "src/styles/vars";
+
+.photo {
+  padding: $spacing * 4 $spacing $spacing * 3;
+  position: relative;
+  background-color: $primary-color;
+  color: $white;
+
+  .photo__headline {
+    font-size: 2.6em;
+    margin: 0 0 1.5em 0;
+  }
+
+  .photo__photo-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+    gap: 1rem;
+  }
+}

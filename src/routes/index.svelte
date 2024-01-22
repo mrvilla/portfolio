@@ -1,6 +1,5 @@
 <script>
   import Stage from '../components/Stage/Stage.svelte';
-  import SocialLinks from '../components/SocialLinks/SocialLinks.svelte';
 </script>
 
 <style>
@@ -18,5 +17,4 @@
 
 <div class='content'>
 	<Stage />
-	<SocialLinks />
 </div>

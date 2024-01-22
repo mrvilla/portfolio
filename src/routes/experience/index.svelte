@@ -34,7 +34,7 @@
     }
     a>img:hover {
 	    border-radius: 20px;
-	    border: 3px solid #02FEA3;
+	    border: 3px solid #2196f3;
     }
     .company__title {
         font-size: 1.36em;
