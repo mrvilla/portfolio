@@ -9,6 +9,50 @@
 
 const projectDetails = [
 	{
+		title: 'Sembo',
+		slug: 'sembo',
+		subtitle: 'Marketplace',
+		shortDesc: 'Best for flexible travel, car holidays, flights, hotels and holiday homes.',
+		link: 'View Project',
+		projectHref: 'https://www.sembo.se/',
+		projectLink: "Visit Site",
+		html: `
+		<div class="project-detail__overview">
+			<div class="project-detail__overview-content">
+				<h3>Project Overview</h3>
+				<p>Develop and implement a new marketplace for the main company's website.</p>
+				<h4>Role</h4>
+				<p>Senior FE Developer</p>
+				<h4>Team</h4>
+				<p>Product manager, Software developers, Frontend, Marketing, Devops, UI/UX Designers</p>
+				<h4>Tools</h4>
+				<p>Next.js, React, Sanity(CMS), HTML5, CSS3, CSSinJS, Figma</p>
+				<h4>Solutions</h4>
+				<p>Building a marketplace with a CMS and using a framework, create base foundation, compose reusable components, create storybook, build end 2 end test,
+				collaborating with marketing and UX to enhance the user experience and shape a design system.</p>
+			</div>
+			<img src="./projects/so.png">
+		</div>
+		<div class="project-detail__content-imgs">
+			<figure>
+					<figcaption><a href='https://www.sembo.se'>Sembo</a> - Mobile</figcaption>
+					<img src="./projects/sem-mobile.png" alt="Mobile">
+			</figure>
+			<figure>
+					<figcaption><a href='https://www.sembo.se'>Sembo</a> - Desktop</figcaption>
+					<img src="./projects/sem-web.png" alt="Desktop">
+			</figure>
+		</div>
+		<div class="project-detail__content-controls">
+			<div class="content-controls__left"></div>
+			<div class="content-controls__right">
+				<span class="content-controls__right-title"><strong>Next Project</strong></span>
+				<a href="portfolio/signum">Signum Consulting</a>
+			</div>
+		</div>
+		`
+	},
+	{
 		title: 'Signum Consulting',
 		slug: 'signum',
 		subtitle: 'Design System',

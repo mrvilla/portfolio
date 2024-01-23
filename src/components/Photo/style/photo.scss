@@ -13,7 +13,7 @@
 
   .photo__photo-items {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(48%, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
     gap: 1rem;
   }
 }

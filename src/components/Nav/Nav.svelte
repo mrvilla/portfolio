@@ -19,6 +19,7 @@
 		<li><a rel=prefetch href="https://github.com/mrvilla" class="social-icon"><img alt="GitHub" src="./social-icons/gh_icon.svg" class="icon" /></a></li>
 		<li><a rel=prefetch href="https://www.linkedin.com/in/henryvilla/" class="social-icon"><img alt="LinkedIn" src="./social-icons/li_icon.svg" class="icon" /></a></li>
 		<li><a rel=prefetch href="https://www.instagram.com/iammrvilla/" class="social-icon"><img alt="Instagram" src="./social-icons/ig_icon.svg" class="icon" /></a></li>
-		<li><a href='mailto:iammrvilla@gmail.com'><img alt="Instagram" src="./social-icons/mail_icon.svg" class="icon" /></a></li>
+		<li><a rel=prefetch href="https://youtube.com/@iammrvilla?si=lAbW5MgHVpmZW5uh"><img alt="YouTube" src="./social-icons/yt_icon.svg" class="icon" /></a></li>
+		<li><a href='mailto:iammrvilla@gmail.com'><img alt="Mail" src="./social-icons/mail_icon.svg" class="icon" /></a></li>
 	</ul>
 </nav>

@@ -30,7 +30,7 @@
 	    width: 100%;
     }
     img {
-        border: 3px solid #fff;
+        border: 1px solid #fff;
     }
 </style>
 

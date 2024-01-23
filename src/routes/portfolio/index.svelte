@@ -27,10 +27,11 @@
 		justify-content: space-between;
 	}
 	a:hover {
-		color: #2196f3;
+		color: #FFBE98;
 	}
 	h4 {
         font-size: 2em;
+        font-weight: bold;
 	}
 	p {
 		padding-bottom: 4em;
