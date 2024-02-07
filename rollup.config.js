@@ -31,7 +31,11 @@ export default {
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
 			svelte({
-				preprocess,
+				preprocess: sveltePreprocess({
+					scss: {
+						includePaths: ['src', 'node_modules'],
+					},
+				}),
 				dev,
 				hydratable: true,
 				emitCss: true
@@ -77,7 +81,11 @@ export default {
 				'process.env.NODE_ENV': JSON.stringify(mode)
 			}),
 			svelte({
-				preprocess,
+				preprocess: sveltePreprocess({
+					scss: {
+						includePaths: ['src', 'node_modules'],
+					},
+				}),
 				generate: 'ssr',
 				hydratable: true,
 				dev

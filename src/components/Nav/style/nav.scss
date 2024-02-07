@@ -55,12 +55,14 @@ nav {
         stroke-dasharray: var(--array-1, 1.625rem) var(--array-2, 6.25rem);
         stroke-dashoffset: var(--offset, 7.875rem);
         transform: translateZ(0);
+
         &:nth-child(2) {
           --duration: .7s;
           --easing: ease-in;
           --offset: 6.25rem;
           --array-2: 3.813rem;
         }
+
         &:nth-child(3) {
           --offset: 8.313rem;
           --array-2: 6.688rem;
