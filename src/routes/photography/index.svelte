@@ -15,7 +15,7 @@
 
 <style>
     .photo__photo-item {
-        padding-bottom: 24px;
+        padding-bottom: 1.5rem;
     }
     .photo__item {
         display: flex;
@@ -23,14 +23,14 @@
         flex-direction: column;
     }
     .photo__item-place {
-        font-size: 0.6em;
-        letter-spacing: 1px;
+        font-size: 0.6rem;
+        letter-spacing: 0.063rem;
 	    display: flex;
 	    justify-content: space-between;
 	    width: 100%;
     }
     img {
-        border: 1px solid #fff;
+        border: 0.063rem solid #fff;
     }
 </style>
 

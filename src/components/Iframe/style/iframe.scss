@@ -1,7 +1,7 @@
 @import 'src/styles/vars.scss';
 
 .iframe {
-  padding:  $spacing * 4 $spacing $spacing * 4;
+  padding:  $spacing-16 * 4 $spacing-16 $spacing-16 * 4;
   position: relative;
   background-color: $primary-color;
   color: $white;
@@ -17,7 +17,7 @@
 
     iframe {
       background: $secondary-color;
-      border-radius: 10px;
+      border-radius: 0.625rem;
       width: 100%;
     }
   }

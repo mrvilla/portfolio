@@ -1,7 +1,7 @@
 @import "src/styles/vars";
 
 .photo {
-  padding: $spacing * 4 $spacing $spacing * 3;
+  padding: $spacing-16 * 4 $spacing-16 $spacing-16 * 3;
   position: relative;
   background-color: $primary-color;
   color: $white;

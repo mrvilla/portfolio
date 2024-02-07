@@ -14,7 +14,8 @@
   "dependencies": {
     "compression": "^1.7.1",
     "polka": "next",
-    "sirv": "^1.0.0"
+    "sirv": "^1.0.0",
+    "svelte-spa-router": "^4.0.1"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",

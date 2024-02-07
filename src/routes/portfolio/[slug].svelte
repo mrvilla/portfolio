@@ -28,38 +28,38 @@
 		all elements inside .content
 	*/
     .project-detail__content {
-        padding: 52px 18px 18px;
+        padding: 3.25rem 1.125rem 1.125rem;
     }
 	.project-detail__content :global(h3) {
-		font-size: 2em;
-		padding-bottom: 32px;
+		font-size: 2rem;
+		padding-bottom: 2rem;
 	}
     .project-detail__content :global(h4) {
-        font-size: 1.36em;
-        padding-bottom: 18px;
+        font-size: 1.36rem;
+        padding-bottom: 1.125rem;
     }
     .project-detail__content :global(p) {
-        font-size: 1em;
-	    padding-bottom: 20px;
+        font-size: 1rem;
+	    padding-bottom: 1.25rem;
     }
     .project-detail__content :global(.project-detail__overview) {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-        gap: 2.5em;
+        gap: 2.5rem;
     }
     .project-detail__content :global(.project-detail__content-imgs) {
-	    padding: 2em 0 2em;
+	    padding: 2rem 0 2rem;
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-        gap: 2.5em;
+        gap: 2.5rem;
     }
     .project-detail__content :global(figcaption) {
 	    text-align: center;
-        padding: 1em 0;
+        padding: 1rem 0;
     }
     .project-detail__content :global(.project-detail__content-controls) {
         text-align: center;
-        padding: 2em 0;
+        padding: 2rem 0;
         display: flex;
     }
     .project-detail__content :global(.content-controls__right),
@@ -76,14 +76,14 @@
     }
     .project-detail__content :global(.content-controls__right .content-controls__right-title),
     .project-detail__content :global(.content-controls__left .content-controls__left-title){
-	    font-size: 1em;
-        padding-bottom: 1em;
+	    font-size: 1rem;
+        padding-bottom: 1rem;
     }
     @media (min-width: 480px) {
         .project-detail__content :global(.content-controls__right .content-controls__right-title),
         .project-detail__content :global(.content-controls__left .content-controls__left-title){
-            font-size: 1.36em;
-            padding-bottom: 1em;
+            font-size: 1.36rem;
+            padding-bottom: 1rem;
         }
     }
     .project-detail__content :global(figcaption a:hover),
@@ -93,8 +93,8 @@
     }
     .project-detail__headline {
         font-family: 'Source Code Pro', monospace;
-        font-size: 2.6em;
-	    padding: 72px 18px 18px;
+        font-size: 2.6rem;
+	    padding: 4.5rem 1.125rem 1.125rem;
         color: #fff;
 	    background-color: #000;
     }

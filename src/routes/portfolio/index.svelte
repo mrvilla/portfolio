@@ -17,8 +17,8 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
-        border-radius: 20px;
-        padding: 1em;
+        border-radius: 1.25rem;
+        padding: 1rem;
         background-color: #000;
         color: #fff;
 	}
@@ -30,17 +30,17 @@
 		color: #FFBE98;
 	}
 	h4 {
-        font-size: 2em;
+        font-size: 2rem;
         font-weight: bold;
 	}
 	p {
-		padding-bottom: 4em;
+		padding-bottom: 4rem;
 	}
 	span {
-        font-size: 0.9em;
-		letter-spacing: 1px;
+        font-size: 0.9rem;
+		letter-spacing: 0.063rem;
 		display: block;
-        padding-bottom: 1em;
+        padding-bottom: 0.063rem;
 	}
 </style>
 

@@ -1,8 +1,9 @@
 @import 'src/styles/vars.scss';
 
 .project-case {
-  padding:  $spacing * 4 $spacing $spacing * 4;
+  padding:  $spacing-16 * 4 $spacing-16 $spacing-16 * 4;
   position: relative;
+  background-color: $white;
 
   .project-case__headline {
     font-size: 2.6em;

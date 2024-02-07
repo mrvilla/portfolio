@@ -15,30 +15,30 @@
 
 <style>
     .company__company-item {
-	    padding-bottom: 72px;
+	    padding-bottom: 4.5rem;
     }
     .company__item {
         display: flex;
         align-items: end;
     }
     .company__item-place {
-	    font-size: 0.9em;
-	    letter-spacing: 1px;
-		padding-left: 18px;
+	    font-size: 0.9rem;
+	    letter-spacing: 0.063rem;
+		padding-left: 1.125rem;
         display: flex;
 	    flex-direction: column;
     }
     img {
-        border: 3px solid #000;
-        border-radius: 20px;
+        border: 0.188rem solid #000;
+        border-radius: 1.25rem;
     }
     a>img:hover {
-	    border-radius: 20px;
-	    border: 3px solid #FFBE98;
+	    border-radius: 1.25rem;
+	    border: 0.188rem solid #FFBE98;
     }
     .company__title {
-        font-size: 1.36em;
-	    margin: 32px 0 1em;
+        font-size: 1.36rem;
+	    margin: 2rem 0 1rem;
     }
     .company__item-date {
         font-family: 'Source Code Pro', monospace;

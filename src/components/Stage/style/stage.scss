@@ -1,7 +1,7 @@
 @import "src/styles/vars";
 
 .stage {
-  padding: $spacing * 4 $spacing $spacing;
+  padding: $spacing-16 * 4 $spacing-16 $spacing-16;
   background-color: $primary-color;
   height: 100%;
 
@@ -12,20 +12,13 @@
       background: $colorful;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
+      width: 100%;
+      white-space: nowrap;
     }
 
     h1,
     h2, h3, h4 {
-      font-size: 10.6vw;
-    }
-  }
-
-  @media (min-width: 480px) {
-    hgroup {
-      h1,
-      h2, h3, h4 {
-        font-size:5.6vw
-      }
+      font-size: clamp(1.5rem, 9vw, 12vw);
     }
   }
 }
