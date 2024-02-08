@@ -30,18 +30,26 @@ nav {
 
   .menu-button-container {
     display: none;
-    height: auto;
-    width: 1.875rem;
+    height: 3rem;
+    width: 3rem;
     cursor: pointer;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    background: none;
+    border: 0;
+    outline: none;
+    border: none;
+    top: 0.3rem;
+    -webkit-appearence: none;
+    -webkit-tap-highlight-color: transparent;
 
     svg {
-      width: 4rem;
+      width: 3rem;
       height: 3rem;
-      top: 0.438rem;
-      left: -1.063rem;
+      top: 0;
+      left: 0;
       stroke: $white;
       stroke-width: 0.125rem;
       stroke-linecap: square;
@@ -52,20 +60,20 @@ nav {
 
       path {
         transition: stroke-dasharray var(--duration, .85s) var(--easing, ease) var(--delay, 0s), stroke-dashoffset var(--duration, .85s) var(--easing, ease) var(--delay, 0s);
-        stroke-dasharray: var(--array-1, 1.625rem) var(--array-2, 6.25rem);
-        stroke-dashoffset: var(--offset, 7.875rem);
+        stroke-dasharray: var(--array-1, 26px) var(--array-2, 100px);
+        stroke-dashoffset: var(--offset, 126px);
         transform: translateZ(0);
 
         &:nth-child(2) {
           --duration: .7s;
           --easing: ease-in;
-          --offset: 6.25rem;
-          --array-2: 3.813rem;
+          --offset: 100px;
+          --array-2: 61px;
         }
 
         &:nth-child(3) {
-          --offset: 8.313rem;
-          --array-2: 6.688rem;
+          --offset: 133px;
+          --array-2: 107px;
         }
       }
     }
@@ -76,7 +84,7 @@ nav {
     svg {
       stroke: $secondary-color;
       path {
-        --offset: 3.563rem;
+        --offset: 57px;
         &:nth-child(1),
         &:nth-child(3) {
           --delay: .15s;
@@ -84,11 +92,11 @@ nav {
         }
         &:nth-child(2) {
           --duration: .4s;
-          --offset: 0.125rem;
-          --array-1: 0.063rem;
+          --offset: 2px;
+          --array-1: 1px;
         }
         &:nth-child(3) {
-          --offset: 3.625rem;
+          --offset: 58px;
         }
       }
     }
