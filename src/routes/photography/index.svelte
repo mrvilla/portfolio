@@ -34,10 +34,10 @@
     .photo__item-background {
         background: repeating-linear-gradient(
                 45deg,
-                #ccc,
-                #ccc 10px,
-                #eee 10px,
-                #eee 20px
+                #373737,
+                #373737 10px,
+                #696969 10px,
+                #696969 20px
         );
         display: flex; /* Ensures the child img covers the area */
         justify-content: center;
