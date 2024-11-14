@@ -18,12 +18,6 @@ const photos = [
 		year: 2023,
 	},
 	{
-		src: './images/2023/foto04-2023-min.jpg',
-		alt: 'Berlin',
-		location: 'Location: Berlin',
-		year: 2023,
-	},
-	{
 		src: './images/2023/foto05-2023-min.jpg',
 		alt: 'Berlin',
 		location: 'Location: Berlin',
@@ -54,12 +48,6 @@ const photos = [
 		year: 2023,
 	},
 	{
-		src: './images/2023/foto10-2023-min.jpg',
-		alt: 'Berlin',
-		location: 'Location: Berlin',
-		year: 2023,
-	},
-	{
 		src: './images/2023/foto11-2023-min.jpg',
 		alt: 'Berlin',
 		location: 'Location: Berlin',
@@ -84,12 +72,6 @@ const photos = [
 		year: 2024,
 	},
 	{
-		src: './images/2024/foto02-2024-min.jpg',
-		alt: 'Berlin',
-		location: 'Location: Berlin',
-		year: 2024,
-	},
-	{
 		src: './images/2024/foto03-2024-min.jpg',
 		alt: 'Berlin',
 		location: 'Location: Berlin',
@@ -102,25 +84,7 @@ const photos = [
 		year: 2024,
 	},
 	{
-		src: './images/2024/foto05-2024-min.jpg',
-		alt: 'Berlin',
-		location: 'Location: Berlin',
-		year: 2024,
-	},
-	{
-		src: './images/2024/foto06-2024-min.jpg',
-		alt: 'Berlin',
-		location: 'Location: Berlin',
-		year: 2024,
-	},
-	{
 		src: './images/2024/foto07-2024-min.jpg',
-		alt: 'Berlin',
-		location: 'Location: Berlin',
-		year: 2024,
-	},
-	{
-		src: './images/2024/foto08-2024-min.jpg',
 		alt: 'Berlin',
 		location: 'Location: Berlin',
 		year: 2024,

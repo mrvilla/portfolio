@@ -4,7 +4,7 @@ const companies = [
 		companyName: 'Sembo - Stena Line Travel Group AB',
 		title: 'FE Developer',
 		location: 'Remote: Sweden, Berlin, Palma',
-		beginEnd: 'Jan2022-Current',
+		beginEnd: 'Jan2023-May2024',
 		details: 'Currently rebuilding main website.\n' +
 			'Collaborating closely with UI/UX team to establish and shape a design system.\n' +
 			'Updating new fresh corporate colors, typography, spacing and other variables across legacy sites and laying the base foundation of the new theme to the main site and project. ' +
