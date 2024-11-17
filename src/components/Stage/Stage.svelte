@@ -69,7 +69,7 @@
 		<div class="stage__cta_wrapper">
 			<div class="stage__cta_text">
 				<h2 class="stage__cta_headline">Ready to elevate your digital presence or see how my unique skills can benefit you?</h2>
-				<button class="stage__cta_button">Let's Connect</button>
+				<a href="mailto:evilla@iammrvilla.com" class="stage__cta_button">Let's Connect</a>
 			</div>
 			<div class="stage__cta_image">
 				<img src="./images/laptop_working.jpg" alt="Me working on a laptop">
