@@ -5,10 +5,10 @@ const companies = [
 		title: 'FE Developer',
 		location: 'Remote: Sweden, Berlin, Palma',
 		beginEnd: 'Jan2023-May2024',
-		details: 'Currently rebuilding main website.\n' +
-			'Collaborating closely with UI/UX team to establish and shape a design system.\n' +
-			'Updating new fresh corporate colors, typography, spacing and other variables across legacy sites and laying the base foundation of the new theme to the main site and project. ' +
-			"And also work close with Marketing and UI/UX team to enhance the traveler's experience, while contributing daily with team mates building components and updating them to add to the project.",
+		details: 'Rebuilt main website.\n' +
+			'Collaborating closely with other Engineers, UI/UX team to establish and shape a design system.\n' +
+			'Updated new fresh corporate colors, typography, spacing and other variables across legacy sites and laying the base foundation of the new theme to the main site and project. ' +
+			"Worked closely with Marketing and UI/UX team to enhance the traveler's experience, while contributing daily with team mates building components and updating them to add to the project.",
 		href: 'https://www.sembo.se/'
 	},
 	{

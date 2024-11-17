@@ -30,7 +30,7 @@
 			</li>
 		</ul>
 		<ul>
-			<li><a rel=prefetch href="http://codepen.io/iammrvilla/" class="social-icon"><img alt="CodePen"
+			<li><a rel=prefetch href="https://codepen.io/iammrvilla/" class="social-icon"><img alt="CodePen"
 			                                                                                  src="./social-icons/cp_icon.svg"
 			                                                                                  class="icon"/></a></li>
 			<li><a rel=prefetch href="https://github.com/mrvilla" class="social-icon"><img alt="GitHub"
