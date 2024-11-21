@@ -1,0 +1,17 @@
+.company {
+  padding: $spacing-16 * 4 $spacing-16 $spacing-16 * 3;
+  position: relative;
+  background-color: $primary-color;
+  color: $white;
+
+  .company__headline {
+    font-size: 2.6em;
+    margin: 0 0 1.5em 0;
+  }
+
+  .company__company-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    gap: 4em;
+  }
+}

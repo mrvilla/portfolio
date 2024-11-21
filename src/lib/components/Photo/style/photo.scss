@@ -1,0 +1,29 @@
+.photo {
+  padding: $spacing-16 * 4 $spacing-16 $spacing-16 * 3;
+  position: relative;
+  background-color: $primary-color;
+  color: $white;
+
+  .photo__headline {
+    font-size: 2.6em;
+    margin: 0 0 1.5em 0;
+  }
+
+  .photo__photo-items {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  @media (min-width: 768px) {
+    .photo__photo-items {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .photo__photo-items {
+      grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    }
+  }
+}
