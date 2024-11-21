@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="825b61cb-1fde-408f-98d0-cd94fb6f9894" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +79,7 @@
       <workItem from="1731888520700" duration="123000" />
       <workItem from="1731888663527" duration="252000" />
       <workItem from="1731888927376" duration="24550000" />
-      <workItem from="1732140145802" duration="2980000" />
+      <workItem from="1732140145802" duration="3133000" />
     </task>
     <servers />
   </component>
