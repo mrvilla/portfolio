@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="825b61cb-1fde-408f-98d0-cd94fb6f9894" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.netlify/functions-internal/sveltekit-render.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/functions-internal/sveltekit-render.mjs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.netlify/server/chunks/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/chunks/internal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.netlify/server/manifest-full.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/manifest-full.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.netlify/server/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/manifest.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/1.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.npmrc" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +79,7 @@
       <workItem from="1731888520700" duration="123000" />
       <workItem from="1731888663527" duration="252000" />
       <workItem from="1731888927376" duration="24550000" />
-      <workItem from="1732140145802" duration="2832000" />
+      <workItem from="1732140145802" duration="2980000" />
     </task>
     <servers />
   </component>
