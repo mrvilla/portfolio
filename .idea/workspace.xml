@@ -5,59 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="825b61cb-1fde-408f-98d0-cd94fb6f9894" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/routes/about/+page.svelte" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/routes/portfolio/+server.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/fixtures/example.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/integration/spec.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/plugins/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/commands.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/support/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rollup.config.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/client.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Article/Article.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Article/Article.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Article/style/article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Article/style/article.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Company/Company.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Company/Company.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Company/style/company.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Company/style/company.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Iframe/Iframe.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Iframe/Iframe.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Iframe/style/iframe.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Iframe/style/iframe.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav/Nav.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Nav/Nav.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Nav/style/nav.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Nav/style/nav.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Photo/Photo.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Photo/Photo.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Photo/style/photo.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Photo/style/photo.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectCase/ProjectCase.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ProjectCase/ProjectCase.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectCase/style/project-case.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ProjectCase/style/project-case.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDetail/ProjectDetail.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ProjectDetail/ProjectDetail.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ProjectDetail/style/project-detail.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/ProjectDetail/style/project-detail.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SocialLinks/SocialLinks.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/SocialLinks/SocialLinks.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SocialLinks/style/social-links.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/SocialLinks/style/social-links.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stage/Stage.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Stage/Stage.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Stage/style/stage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/components/Stage/style/stage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/_error.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/_layout.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/about.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/experience/index.json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/experience/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/experience/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/index.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/photography/index.json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/photography/+server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/photography/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/photography/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/portfolio/[slug].json.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/portfolio/[slug]/+page.server.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/portfolio/[slug].svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/portfolio/[slug]/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/portfolio/_portfolio.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/portfolio/_portfolio.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/portfolio/index.json.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/portfolio/index.svelte" beforeDir="false" afterPath="$PROJECT_DIR$/src/routes/portfolio/+page.svelte" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/routes/workshop.svelte" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/server.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/service-worker.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/vars.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/styles/vars.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/template.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/global.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/styles/global.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/manifest.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/functions-internal/sveltekit-render.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/functions-internal/sveltekit-render.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/chunks/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/chunks/internal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/manifest-full.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/manifest-full.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/manifest.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/5.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +89,7 @@
       <workItem from="1731888520700" duration="123000" />
       <workItem from="1731888663527" duration="252000" />
       <workItem from="1731888927376" duration="24550000" />
-      <workItem from="1732140145802" duration="2153000" />
+      <workItem from="1732140145802" duration="2832000" />
     </task>
     <servers />
   </component>
