@@ -3,8 +3,7 @@
     publish = "build"
 
 [functions]
-    directory = "functions"
-    node_bundler = "esbuild"
+    directory = "netlify/functions"
 
 [build.environment]
     NODE_VERSION = "20"
