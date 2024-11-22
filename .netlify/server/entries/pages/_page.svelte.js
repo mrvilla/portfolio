@@ -1,4 +1,4 @@
-import { R as pop, P as push, X as head } from "../../chunks/index.js";
+import { P as push, R as pop, Y as head } from "../../chunks/index.js";
 import { a as attr } from "../../chunks/attributes.js";
 import { g as getTranslationFunctions } from "../../chunks/index4.js";
 function Stage($$payload, $$props) {

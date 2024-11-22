@@ -1,5 +1,5 @@
 import { a as attr } from "../../../chunks/attributes.js";
-import { R as pop, P as push } from "../../../chunks/index.js";
+import { P as push, R as pop } from "../../../chunks/index.js";
 import { g as getTranslationFunctions } from "../../../chunks/index4.js";
 function _page($$payload, $$props) {
   push();

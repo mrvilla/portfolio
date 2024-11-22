@@ -1,4 +1,4 @@
-import { Y as slot, X as head, S as bind_props, R as pop, V as ensure_array_like, P as push } from "../../../chunks/index.js";
+import { Z as slot, P as push, Y as head, S as bind_props, R as pop, V as ensure_array_like } from "../../../chunks/index.js";
 import { g as getTranslationFunctions } from "../../../chunks/index4.js";
 import { a as attr } from "../../../chunks/attributes.js";
 import { e as escape_html } from "../../../chunks/escaping.js";

@@ -9,8 +9,8 @@ const config = {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
 		adapter: adapter({
 			edge: false,
-			split: false
-		})
+			split: true
+		}),
 	},
 
 	preprocess: [mdsvex()],

@@ -1,4 +1,4 @@
-import { Y as slot, X as head, S as bind_props } from "../../../../chunks/index.js";
+import { Z as slot, Y as head, S as bind_props } from "../../../../chunks/index.js";
 import { e as escape_html } from "../../../../chunks/escaping.js";
 function html(value) {
   var html2 = String(value ?? "");

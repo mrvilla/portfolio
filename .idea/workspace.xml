@@ -6,16 +6,37 @@
   <component name="ChangeListManager">
     <list default="true" id="825b61cb-1fde-408f-98d0-cd94fb6f9894" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.netlify/functions-internal/sveltekit-render.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.netlify/functions-internal/sveltekit-render.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/.vite/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/.vite/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/chunks/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/chunks/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/chunks/index3.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/chunks/index3.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.netlify/server/chunks/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/chunks/internal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/entries/fallbacks/error.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/entries/fallbacks/error.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/entries/pages/_layout.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/entries/pages/_layout.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/entries/pages/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/entries/pages/_page.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/entries/pages/about/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/entries/pages/about/_page.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/entries/pages/demo/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/entries/pages/demo/_page.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/entries/pages/demo/paraglide/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/entries/pages/demo/paraglide/_page.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/entries/pages/experience/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/entries/pages/experience/_page.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/entries/pages/photography/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/entries/pages/photography/_page.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/entries/pages/portfolio/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/entries/pages/portfolio/_page.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/entries/pages/portfolio/_slug_/_page.svelte.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/entries/pages/portfolio/_slug_/_page.svelte.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/internal.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/internal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.netlify/server/manifest-full.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/manifest-full.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.netlify/server/manifest.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/manifest.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/0.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/1.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/1.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/2.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/2.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/3.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/3.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/4.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/5.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/5.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/.nvmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/6.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/6.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/7.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/7.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/8.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/8.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.netlify/server/nodes/9.js" beforeDir="false" afterPath="$PROJECT_DIR$/.netlify/server/nodes/9.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/netlify.toml" beforeDir="false" afterPath="$PROJECT_DIR$/netlify.toml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pnpm-lock.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pnpm-lock.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/svelte.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/svelte.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,10 +82,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/routes/portfolio/[slug]" />
       <recent name="$PROJECT_DIR$/src/routes/about" />
       <recent name="$PROJECT_DIR$/src/lib" />
-      <recent name="$PROJECT_DIR$/src/styles" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -90,7 +112,7 @@
       <workItem from="1731888520700" duration="123000" />
       <workItem from="1731888663527" duration="252000" />
       <workItem from="1731888927376" duration="24550000" />
-      <workItem from="1732140145802" duration="3975000" />
+      <workItem from="1732140145802" duration="6638000" />
     </task>
     <servers />
   </component>

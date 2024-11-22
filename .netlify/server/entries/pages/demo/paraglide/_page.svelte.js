@@ -1,5 +1,5 @@
 import { e as escape_html } from "../../../../chunks/escaping.js";
-import { R as pop, P as push } from "../../../../chunks/index.js";
+import { P as push, R as pop } from "../../../../chunks/index.js";
 import { l as languageTag } from "../../../../chunks/i18n.js";
 import "../../../../chunks/stores.js";
 const hello_world$3 = /* @__NO_SIDE_EFFECTS__ */ (params) => `Hello, ${params.name} from en!`;

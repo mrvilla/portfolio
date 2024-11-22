@@ -1,4 +1,4 @@
-import { S as bind_props, R as pop, P as push, T as store_get, V as ensure_array_like, W as unsubscribe_stores, X as head, Y as slot, Z as fallback } from "../../chunks/index.js";
+import { P as push, S as bind_props, R as pop, T as store_get, V as ensure_array_like, W as unsubscribe_stores, X as fallback, Y as head, Z as slot } from "../../chunks/index.js";
 import { g as getTranslationFunctions, s as setParaglideContext } from "../../chunks/index4.js";
 import { a as attr } from "../../chunks/attributes.js";
 import { n as normaliseBase, p as parseRoute, s as serializeRoute, g as getHrefBetween, i as i18n } from "../../chunks/i18n.js";

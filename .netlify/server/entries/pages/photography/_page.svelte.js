@@ -1,4 +1,4 @@
-import { Y as slot, X as head, S as bind_props, V as ensure_array_like } from "../../../chunks/index.js";
+import { Z as slot, Y as head, S as bind_props, V as ensure_array_like } from "../../../chunks/index.js";
 import { a as attr } from "../../../chunks/attributes.js";
 import { e as escape_html } from "../../../chunks/escaping.js";
 function Photo($$payload, $$props) {
