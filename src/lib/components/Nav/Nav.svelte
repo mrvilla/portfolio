@@ -1,6 +1,9 @@
 <script>
-  export let segment;
+	import { page } from '$app/stores';
+  // export let segment;
   let menuOpen = false;
+
+	$: currentPath = $page.url.pathname;
 </script>
 
 <style lang="scss">
@@ -8,7 +11,7 @@
 </style>
 
 <nav>
-	<a aria-current="{segment === undefined ? 'page' : undefined}" href=".." on:click={() => menuOpen = false}>iammrvilla</a>
+	<a aria-current="{currentPath === '/' ? 'page' : undefined}" href="/" on:click={() => menuOpen = false}>iammrvilla</a>
 	<input id="menu-toggle" type="checkbox" bind:checked={menuOpen}/>
 	<label class='menu-button-container' for="menu-toggle">
 		<svg viewBox="0 0 64 48">
@@ -19,13 +22,13 @@
 	</label>
 	<div class="nav-ul">
 		<ul>
-			<li><a aria-current="{segment === 'about' ? 'page' : undefined}" href="about"
+			<li><a aria-current="{currentPath === '/about' ? 'page' : undefined}" href="about"
 			       on:click={() => menuOpen = false}>About</a></li>
-			<li><a aria-current="{segment === 'experience' ? 'page' : undefined}" href="experience"
+			<li><a aria-current="{currentPath === '/experience' ? 'page' : undefined}" href="experience"
 			       on:click={() => menuOpen = false}>Experience</a></li>
-			<li><a rel=prefetch aria-current="{segment === 'portfolio' ? 'page' : undefined}" href="portfolio"
+			<li><a rel=prefetch aria-current="{currentPath === '/portfolio' ? 'page' : undefined}" href="portfolio"
 			       on:click={() => menuOpen = false}>Portfolio</a></li>
-			<li><a rel=prefetch aria-current="{segment === 'photography' ? 'page' : undefined}" href="photography"
+			<li><a rel=prefetch aria-current="{currentPath === '/photography' ? 'page' : undefined}" href="photography"
 			       on:click={() => menuOpen = false}>Photography</a></li>
 			<li><a rel=prefetch
 			       href="https://docs.google.com/document/d/1gPTRULnIaw_Hbmz1fvxFgRsUXxs3eiLBxNI8V10WYBA/edit?usp=sharing">CV</a>

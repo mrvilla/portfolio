@@ -1,8 +1,6 @@
 <script>
 	import '../lib/styles/global.css';
 	import Nav from '$lib/components/Nav/Nav.svelte';
-	import { i18n } from '$lib/i18n';
-	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
 	import { onMount } from 'svelte';
 	let { children } = $props();
 
@@ -31,9 +29,9 @@
     }
 </style>
 
-<ParaglideJS {i18n}>
+<div>
 	<Nav />
 	<main>
 		{@render children()}
 	</main>
-</ParaglideJS>
+</div>
