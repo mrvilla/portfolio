@@ -1,6 +1,7 @@
 <script>
     import Photo from '$lib/components/Photo/Photo.svelte';
 
+		export const prerender = true;
 		export async function load({ fetch }) {
 			const response = await fetch('_photo.js');
 			const photos = await response.json();

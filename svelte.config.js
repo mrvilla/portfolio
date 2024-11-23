@@ -17,25 +17,7 @@ const config = {
 			strict: true
 		}),
 		prerender: {
-			entries: [
-				'/', // Home page
-				'/about',
-				'/photography',
-				'/experience',
-				'/portfolio/sembo',
-				'/portfolio/signum',
-				'/portfolio/ibmix-aperto',
-				'/portfolio/video-dev-team',
-				'/portfolio/corruptor',
-				'/portfolio/btv',
-				'/portfolio/dihk',
-				'/portfolio/consuo',
-				'/portfolio/ibmix-aperto',
-				'/portfolio/signum-consulting',
-				'/portfolio/consus',
-				'/portfolio/cemex',
-				'/portfolio/qualmity',
-			]
+			entries: ['*'],
 		}
 	},
 

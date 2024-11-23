@@ -1,6 +1,7 @@
 <script>
 	import Company from '$lib/components/Company/Company.svelte';
 
+	export const prerender = true;
 	export async function load({ fetch }) {
 		const response = await fetch('_company.js');
 		const companies = await response.json();
