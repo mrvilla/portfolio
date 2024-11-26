@@ -2,7 +2,6 @@
 	import '../lib/styles/global.css';
 	import Nav from '$lib/components/Nav/Nav.svelte';
 	import { onMount } from 'svelte';
-	let { children } = $props();
 
 	// Firefox-specific workaround for prefetch
 	onMount(() => {
@@ -32,6 +31,6 @@
 <div>
 	<Nav />
 	<main>
-		{@render children()}
+		<slot />
 	</main>
 </div>

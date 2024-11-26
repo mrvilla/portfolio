@@ -82,14 +82,23 @@
     }
 </style>
 
+
 <svelte:head>
 	<title>{project.title}</title>
 </svelte:head>
 
-<ProjectDetail>
-	<h2 class="project-detail__headline">{project.title}</h2>
+{#if project}
+	<ProjectDetail>
+		<h2 class="project-detail__headline">{project.title}</h2>
 
-	<div class='project-detail__content'>
-		{@html project.html}
-	</div>
-</ProjectDetail>
+		<div class='project-detail__content'>
+			{@html project.html}
+		</div>
+	</ProjectDetail>
+{:else}
+	<p>Loading project details...</p>
+{/if}
+
+
+
+

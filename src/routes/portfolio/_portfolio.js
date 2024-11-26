@@ -38,7 +38,7 @@ const projectDetails = [
 			<div class="content-controls__left"></div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="portfolio/signum">Signum Consulting</a>
+				<a href="/portfolio/signum">Signum Consulting</a>
 			</div>
 		</div>
 		`
@@ -80,10 +80,13 @@ const projectDetails = [
 			</figure>
 		</div>
 		<div class="project-detail__content-controls">
-			<div class="content-controls__left"></div>
+			<div class="content-controls__left">
+				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
+				<a href="/portfolio/sembo">Sembo</a>
+			</div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="portfolio/ibmix-aperto">IBMiX/Aperto</a>
+				<a href="/portfolio/ibmix-aperto">IBMiX/Aperto</a>
 			</div>
 		</div>
 		`
@@ -130,11 +133,11 @@ const projectDetails = [
 		<div class="project-detail__content-controls">
 			<div class="content-controls__left">
 				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="portfolio/signum">Signum Consulting</a>
+				<a href="/portfolio/signum">Signum Consulting</a>
 			</div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="portfolio/video-dev-tea">Eyevinn - Video Dev Team</a>
+				<a href="/portfolio/video-dev-team">Eyevinn - Video Dev Team</a>
 			</div>
 		</div>
 		`
@@ -177,11 +180,11 @@ const projectDetails = [
 		<div class="project-detail__content-controls">
 			<div class="content-controls__left">
 				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="portfolio/ibmix-aperto">IBMiX/Aperto</a>
+				<a href="/portfolio/ibmix-aperto">IBMiX/Aperto</a>
 			</div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="portfolio/corruptor">Stream Corruptor</a>
+				<a href="/portfolio/corruptor">Stream Corruptor</a>
 			</div>
 		</div>
 		`
@@ -229,11 +232,11 @@ const projectDetails = [
 		<div class="project-detail__content-controls">
 			<div class="content-controls__left">
 				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="portfolio/video-dev-team">Video Dev Team</a>
+				<a href="/portfolio/video-dev-team">Video Dev Team</a>
 			</div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project </strong></span>
-				<a href="portfolio/btv">BTV</a>
+				<a href="/portfolio/btv">BTV</a>
 			</div>
 		</div>
 		`
@@ -276,11 +279,11 @@ const projectDetails = [
 		<div class="project-detail__content-controls">
 			<div class="content-controls__left">
 				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="portfolio/corruptor">Stream Corruptor</a>
+				<a href="/portfolio/corruptor">Stream Corruptor</a>
 			</div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="portfolio/dihk">DIHK</a>
+				<a href="/portfolio/dihk">DIHK</a>
 			</div>
 		</div>
 		`
@@ -322,11 +325,11 @@ const projectDetails = [
 		<div class="project-detail__content-controls">
 			<div class="content-controls__left">
 				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="portfolio/btv">BTV</a>
+				<a href="/portfolio/btv">BTV</a>
 			</div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="portfolio/consuo">Consuo</a>
+				<a href="/portfolio/consuo">Consuo</a>
 			</div>
 		</div>
 		`
@@ -370,11 +373,11 @@ const projectDetails = [
 		<div class="project-detail__content-controls">
 			<div class="content-controls__left">
 				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="portfolio/dihk">DIHK</a>
+				<a href="/portfolio/dihk">DIHK</a>
 			</div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="portfolio/signum-consulting">Signum</a>
+				<a href="/portfolio/signum-consulting">Signum</a>
 			</div>
 		</div>
 		`
@@ -418,11 +421,11 @@ const projectDetails = [
 		<div class="project-detail__content-controls">
 			<div class="content-controls__left">
 				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="portfolio/consuo">Consuo</a>
+				<a href="/portfolio/consuo">Consuo</a>
 			</div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="portfolio/consus">Consus</a>
+				<a href="/portfolio/consus">Consus</a>
 			</div>
 		</div>
 		`
@@ -464,11 +467,11 @@ const projectDetails = [
 		<div class="project-detail__content-controls">
 			<div class="content-controls__left">
 				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="portfolio/signum-consulting">Signum</a>
+				<a href="/portfolio/signum-consulting">Signum</a>
 			</div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project </strong></span>
-				<a href="portfolio/cemex">Cemex</a>
+				<a href="/portfolio/cemex">Cemex</a>
 			</div>
 		</div>
 		`
@@ -516,11 +519,11 @@ const projectDetails = [
 		<div class="project-detail__content-controls">
 			<div class="content-controls__left">
 				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="portfolio/consus">Consus</a>
+				<a href="/portfolio/consus">Consus</a>
 			</div>
 			<div class="content-controls__right">
 				<span class="content-controls__right-title"><strong>Next Project </strong></span>
-				<a href="portfolio/qualmity">Qualmity</a>
+				<a href="/portfolio/qualmity">Qualmity</a>
 			</div>
 		</div>
 		`
@@ -559,7 +562,7 @@ const projectDetails = [
 		<div class="project-detail__content-controls">
 			<div class="content-controls__left">
 				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="portfolio/cemex">Cemex</a>
+				<a href="/portfolio/cemex">Cemex</a>
 			</div>
 		</div>
 		`

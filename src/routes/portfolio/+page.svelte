@@ -44,7 +44,7 @@
 
 
 <ProjectCase>
-	{#each portfolios as portfolio}
+	{#each portfolios as portfolio (portfolio.slug)}
 		<div class='project-case__item'>
 			<div class='project-case__item-details'>
 				<h4>{portfolio.title}</h4>
