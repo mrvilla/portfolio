@@ -4,9 +4,9 @@
 
 <svelte:head>
 	<title>iammrvilla</title>
-		<link rel="prefetch" href="./videos/dji_fly_video_clip.mp4" as="video" type="video/mp4" />
-		<link rel="prefetch" href="./images/profile.jpg" as="image" />
-		<link rel="prefetch" href="./images/laptop_working.jpg" as="image" />
+		<link rel="prefetch" href="/videos/dji_fly_video_clip.mp4" as="video" type="video/mp4" />
+		<link rel="prefetch" href="/images/profile.jpg" as="image" />
+		<link rel="prefetch" href="/images/laptop_working.jpg" as="image" />
 </svelte:head>
 
 <style>

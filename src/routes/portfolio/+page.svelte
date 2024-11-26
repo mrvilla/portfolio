@@ -1,12 +1,12 @@
 <script>
   import ProjectCase from '$lib/components/ProjectCase/ProjectCase.svelte';
 
-	export const prerender = true;
 	export let data;
 	const { portfolios } = data;
+	// console.log('portfolios: ', portfolios);
 </script>
 
-<style>
+<style lang="scss">
 	.project-case__item {
 		display: flex;
 		flex-direction: column;
@@ -52,7 +52,7 @@
 				<p>{portfolio.shortDesc}</p>
 			</div>
 			<div class='project-case__item-links'>
-				<a rel='prefetch' href='portfolio/{portfolio.slug}'>
+				<a rel="prefetch" href="portfolio/{portfolio.slug}">
 					{portfolio.link}
 				</a>
 				{#if portfolio.projectLink}

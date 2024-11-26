@@ -23,7 +23,7 @@ const companies = [
 		href: 'https://www.signum-consult.com/'
 	},
 	{
-		src: './projects/ix.svg',
+		src: '/projects/ix.svg',
 		companyName: 'IBM iX/Aperto',
 		title: 'FE Developer',
 		location: 'Berlin',
@@ -34,7 +34,7 @@ const companies = [
 		href: 'https://www.aperto.com/en'
 	},
 	{
-		src: './projects/eyen.svg',
+		src: '/projects/eyen.svg',
 		companyName: 'Eyevinn Technologies',
 		title: 'Consultant Video Developer',
 		location: 'Stockholm',
@@ -45,7 +45,7 @@ const companies = [
 		href: 'https://www.eyevinntechnology.se'
 	},
 	{
-		src: './projects/qlmy.svg',
+		src: '/projects/qlmy.svg',
 		companyName: 'Qualmity',
 		title: 'UI Designer / FE Developer',
 		location: 'Berlin',
@@ -54,7 +54,7 @@ const companies = [
 		href: 'https://www.qualmity.com/'
 	},
 	{
-		src: './projects/sgum.svg',
+		src: '/projects/sgum.svg',
 		companyName: 'Signum',
 		title: 'UI Designer / FE Developer',
 		location: 'Berlin',

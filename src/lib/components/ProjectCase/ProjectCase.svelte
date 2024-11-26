@@ -1,4 +1,4 @@
-<style>
+<style lang="scss">
 	@import './style/project-case.scss';
 </style>
 

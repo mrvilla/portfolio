@@ -14,7 +14,7 @@
 		</div>
 	</div>
 	<div class="stage__content_about">
-		<img class="stage__profile_photo" alt="profile_pic" src="./images/profile.jpg"/>
+		<img class="stage__profile_photo" alt="profile_pic" src="/images/profile.jpg"/>
 		<p class="stage__about_text">Henry here, your Frontend Developer and Visual Storyteller. I help businesses and individuals transform their ideas into digital experiences. Whether you're in the heart of the city or in a remote corner of the world, together we‘ll ensure you to stay connected and visible online.</p>
 	</div>
 	<section class="stage__content_key_offering">
@@ -74,7 +74,7 @@
 				<a href="mailto:evilla@iammrvilla.com" class="stage__cta_button">Let's Connect</a>
 			</div>
 			<div class="stage__cta_image">
-				<img src="./images/laptop_working.jpg" alt="Me working on a laptop">
+				<img src="/images/laptop_working.jpg" alt="Me working on a laptop">
 			</div>
 		</div>
 		<div class="stage__social_icons">

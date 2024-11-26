@@ -1,5 +1,6 @@
 import { mdsvex } from 'mdsvex';
 import adapter from '@sveltejs/adapter-static';
+import projectDetails from './src/routes/portfolio/_portfolio.js';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -17,7 +18,26 @@ const config = {
 			strict: true
 		}),
 		prerender: {
-			entries: ['*'],
+			entries: [
+				'/',
+				'/about',
+				'/experience',
+				'/photography',
+				'/portfolio',
+				'/portfolio/sembo',
+				'/portfolio/signum',
+				'/portfolio/ibmix-aperto',
+				'/portfolio/video-dev-team',
+				'/portfolio/corruptor',
+				'/portfolio/btv',
+				'/portfolio/dihk',
+				'/portfolio/consuo',
+				'/portfolio/ibmix-aperto',
+				'/portfolio/signum-consulting',
+				'/portfolio/consus',
+				'/portfolio/cemex',
+				'/portfolio/qualmity',
+			]
 		}
 	},
 

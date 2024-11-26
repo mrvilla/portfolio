@@ -1,9 +1,7 @@
-export async function load({ fetch }) {
-	const response = await fetch('/experience'); // Fetch data from the +server.js endpoint
-	if (!response.ok) {
-		throw new Error('Failed to fetch companies data');
-	}
+import companies from './_company.js';
 
-	const companies = await response.json();
+export const prerender = true;
+
+export function load(){
 	return { companies };
 }

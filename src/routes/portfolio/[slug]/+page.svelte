@@ -1,8 +1,11 @@
 <script>
 	import ProjectDetail from '$lib/components/ProjectDetail/ProjectDetail.svelte';
 
+	/** @type {{ data: import('./$types').PageData }} */
 	export let data;
 	const { project } = data;
+
+	// console.log('project: ', project);
 </script>
 
 <style>

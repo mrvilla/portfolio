@@ -3,7 +3,9 @@
   export let src
 </script>
 
-<style src="./style/iframe.scss"></style>
+<style lang="scss">
+	@import './style/iframe.scss';
+</style>
 
 <div class="iframe">
 	<h2 class="iframe__headline">{headline}</h2>

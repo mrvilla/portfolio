@@ -1,6 +1,8 @@
 import projectDetails from './_portfolio.js';
 
-export const load = async () => {
+export const prerender = true;
+
+export function load() {
 	return {
 			portfolios: projectDetails
 	};
