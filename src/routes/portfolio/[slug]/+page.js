@@ -5,7 +5,7 @@ export const prerender = true;
 /** @type {import('./$types').PageLoad} */
 export async function load({ params }){
 	const { slug } = params;
-	console.log('Slug received:', slug);
+	// console.log('Slug received:', slug);
 
 	const project = projectDetails.find((p)=> p.slug === params.slug);
 

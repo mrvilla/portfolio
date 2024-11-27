@@ -17,6 +17,10 @@ const config = {
 			strict: true,
 			prerender: {
 				entries: [
+					'/about',
+					'/experience',
+					'/photography',
+					'/portfolio',
 					'/portfolio/sembo',
 					'/portfolio/signum',
 					'/portfolio/ibmix-aperto',
