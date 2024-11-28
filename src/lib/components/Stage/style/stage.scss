@@ -1,5 +1,5 @@
 .stage {
-  margin: $spacing-16 * 2 $spacing-16 0;
+  margin: $spacing-16 * 2 $spacing-16 $spacing-16 * 2;
   background-color: $primary-color;
   height: 100%;
   color: $white;
@@ -14,19 +14,19 @@
 
   .stage__headline {
     width: 100%;
-    font-size: 4.5vw;
-    line-height: 1.6;
+    font-size: 2rem;
+    line-height: 1.4;
     margin-bottom: $spacing-16 * 2;
 
     @media (min-width: 768px) {
       width: 100%;
-      font-size: 4.5vw;
+      font-size: 2.6rem;
       line-height: 1.6;
     }
 
     @media (min-width: 1024px) {
       width: 80%;
-      font-size: 4.5vw;
+      font-size: 4rem;
       line-height: 1.6;
       margin-bottom: $spacing-16 * 6;
     }
@@ -53,20 +53,20 @@
   }
 
   .stage__hero_text {
-    font-size: 3vw;
-    line-height: 1.4;
+    font-size: 1rem;
+    line-height: 1.6;
     width: 100%;
     margin-right: 0;
     margin-top: $spacing-16;
 
     @media (min-width: 768px) {
       width: 100%;
-      font-size: 2vw;
+      font-size: 1.2rem;
       line-height: 1.4;
     }
 
     @media (min-width: 1024px) {
-      font-size: 2vw;
+      font-size: 1.6rem;
       line-height: 1.6;
       width: 20%;
     }
@@ -127,12 +127,12 @@
     }
 
     .stage__profile_photo {
-     height: fit-content;
+      width: 100%;
     }
   }
 
   .stage__about_text {
-    font-size: 3vw;
+    font-size: 1.2rem;
     line-height: 1.4;
     padding: 0;
     width: 100%;
@@ -153,8 +153,10 @@
     }
 
     &::first-letter {
-      initial-letter: 2;
-      margin-right: $spacing-16 * 0.3;
+      @supports (initial-letter: 1) {
+        initial-letter: 2;
+        margin: 0 $spacing-16 * 0.4 0;
+      }
     }
   }
 
@@ -325,7 +327,6 @@
 
       @media (min-width: 1024px) {
         flex-direction: row;
-        margin-bottom: $spacing-16 * 10;
         padding: 0;
       }
     }
