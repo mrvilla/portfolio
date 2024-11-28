@@ -7,7 +7,7 @@
 	<div class="stage__content_hero">
 		<p class="stage__hero_text">Combining <strong>Web Development,</strong> breathtaking <strong> Drone Photography,</strong> and user-centric <strong> UI Designs</strong> to bring your unique needs—to life.</p>
 		<div class="stage__video_wrapper">
-			<video class="stage__video" autoplay muted loop playsinline>
+			<video class="stage__video" autoplay muted loop playsinline preload="auto" poster="/images/dji_fly_video_clip.jpg">
 				<source src="/videos/dji_fly_video_clip.mp4" type="video/mp4">
 				<!-- Fallback content for browsers that don't support the video tag -->
 			</video>
