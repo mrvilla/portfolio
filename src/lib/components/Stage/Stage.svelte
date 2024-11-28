@@ -5,7 +5,7 @@
 <div class="stage">
 	<h1 class="stage__headline">Create Your Digital Presence, Anywhere in the World.</h1>
 	<div class="stage__content_hero">
-		<p class="stage__hero_text">Combining <strong>Web Development, </strong>breathtaking <strong>Drone Photography, </strong>and user-centric <strong>UI Designs</strong> to bring your unique needs—to life.</p>
+		<p class="stage__hero_text">Combining <strong>Web Development,</strong> breathtaking <strong> Drone Photography,</strong> and user-centric <strong> UI Designs</strong> to bring your unique needs—to life.</p>
 		<div class="stage__video_wrapper">
 			<video class="stage__video" autoplay muted loop playsinline>
 				<source src="/videos/dji_fly_video_clip.mp4" type="video/mp4">
@@ -14,7 +14,9 @@
 		</div>
 	</div>
 	<div class="stage__content_about">
-		<img class="stage__profile_photo" alt="profile_pic" src="/images/profile.jpg"/>
+		<div class="stage__profile_photo_container">
+			<img class="stage__profile_photo" alt="profile_pic" src="/images/profile.jpg"/>
+		</div>
 		<p class="stage__about_text">Henry here, your Frontend Developer and Visual Storyteller. I help businesses and individuals transform their ideas into digital experiences. Whether you're in the heart of the city or in a remote corner of the world, together we‘ll ensure you to stay connected and visible online.</p>
 	</div>
 	<section class="stage__content_key_offering">
