@@ -30,6 +30,8 @@
 			       on:click={() => menuOpen = false}>Portfolio</a></li>
 			<li><a rel=prefetch aria-current="{currentPath === '/photography' ? 'page' : undefined}" href="/photography"
 			       on:click={() => menuOpen = false}>Photography</a></li>
+			<li><a rel=prefetch aria-current="{currentPath === '/aerial' ? 'page' : undefined}" href="/aerial"
+			       on:click={() => menuOpen = false}>Drone</a></li>
 			<li><a rel=prefetch
 			       href="https://docs.google.com/document/d/1gPTRULnIaw_Hbmz1fvxFgRsUXxs3eiLBxNI8V10WYBA/edit?usp=sharing">CV</a>
 			</li>

@@ -65,7 +65,7 @@
 				</div>
 				<div class="photo__item-place">
 					<span class="photo__item-location">{photo.location}</span>
-					<span class="photo__item-year">{photo.year}</span>
+					<span class="photo__item-device">{photo.device}</span>
 				</div>
 			</div>
 		</div>

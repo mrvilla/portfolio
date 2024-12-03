@@ -1,28 +1,24 @@
-.photo {
+.aerial {
   padding: $spacing-16 * 4 $spacing-16 $spacing-16 * 3;
   position: relative;
-  background-color: $primary-color;
-  color: $white;
+  background-color: $white;
+  color: $primary-color-text;
 
-  .photo__headline {
+  .aerial__headline {
     font-size: 2.6em;
     margin: 0 0 1.5em 0;
   }
 
-  .photo__photo-items {
+  .aerial__aerial-items {
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(1, 1fr);
-  }
 
-  @media (min-width: 768px) {
-    .photo__photo-items {
-      grid-template-columns: repeat(3, 1fr);
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
     }
-  }
 
-  @media (min-width: 1024px) {
-    .photo__photo-items {
+    @media (min-width: 1024px) {
       grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
     }
   }
