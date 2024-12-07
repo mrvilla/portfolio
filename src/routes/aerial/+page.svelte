@@ -97,7 +97,7 @@
 
     .progress-circle .progress {
       fill: none;
-      stroke: #ffbe98;
+      stroke: #A47764;
       stroke-width: 5;
       stroke-linecap: butt;
       stroke-dasharray: 100;

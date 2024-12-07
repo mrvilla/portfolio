@@ -21,7 +21,7 @@
 		justify-content: space-between;
 	}
 	a:hover {
-		color: #FFBE98;
+		color: #A47764;
 	}
 	h4 {
         font-size: 2rem;
