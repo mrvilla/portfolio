@@ -1,5 +1,5 @@
 import companies from './_company.js';
 
-export function load(){
+export function load() {
 	return { companies };
 }

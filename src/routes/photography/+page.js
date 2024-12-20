@@ -1,5 +1,5 @@
 import photos from './_photo.js';
 
-export function load(){
+export function load() {
 	return { photos };
 }

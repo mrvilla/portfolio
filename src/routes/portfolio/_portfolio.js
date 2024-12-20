@@ -1,576 +1,360 @@
+import * as m from '$lib/paraglide/messages';
+
 const projectDetails = [
 	{
-		title: 'Sembo',
+		title: m.project1_title(),
 		slug: 'sembo',
-		subtitle: 'Marketplace',
-		shortDesc: 'Best for flexible travel, car holidays, flights, hotels and holiday homes.',
-		link: 'View Project',
+		subtitle: m.project1_subtitle(),
+		shortDesc: m.project1_shortDesc(),
+		link: m.project1_link(),
 		projectHref: 'https://www.sembo.se/',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Develop and implement a new marketplace for the main company's website.</p>
-				<h4>Role</h4>
-				<p>Senior FE Developer</p>
-				<h4>Team</h4>
-				<p>Product manager, Software developers, Frontend, Marketing, Devops, UI/UX Designers</p>
-				<h4>Tools</h4>
-				<p>Next.js, React, Sanity(CMS), HTML5, CSS3, CSSinJS, Figma</p>
-				<h4>Solutions</h4>
-				<p>Building a marketplace with a CMS and using a framework, create base foundation, compose reusable components, create storybook, build end 2 end test,
-				collaborating with marketing and UX to enhance the user experience and shape a design system.</p>
-			</div>
-			<img src="/projects/so.png" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://www.sembo.se'>Sembo</a> - Mobile</figcaption>
-					<img src="/projects/sem-mobile.png" alt="Mobile">
-			</figure>
-			<figure>
-					<figcaption><a href='https://www.sembo.se'>Sembo</a> - Desktop</figcaption>
-					<img src="/projects/sem-web.png" alt="Desktop">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left"></div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="/portfolio/signum">Signum Consulting</a>
-			</div>
-		</div>
-		`
+		projectLink: m.project1_projectLink(),
+		overviewHeadlineText: m.project1_overviewHeadlineText(),
+		overview: m.project1_overview(),
+		roleHeadlineText: m.project1_roleHeadlineText(),
+		role: m.project1_role(),
+		teamHeadlineText: m.project1_teamHeadlineText(),
+		team: m.project1_team(),
+		toolsHeadlineText: m.project1_toolsHeadlineText(),
+		tools: m.project1_tools(),
+		solutionsHeadlineText: m.project1_solutionsHeadlineText(),
+		solutions: m.project1_solutions(),
+		companyLogo: m.project1_companyLogo(),
+		figcaption: m.project1_figcaption(),
+		figcaptionImg: m.project1_figcaptionImg(),
+		figcaption2: m.project1_figcaption2(),
+		figcaption2img: m.project1_figcaption2img(),
+		previousProjectControlTitle: m.project1_previousProjectControlTitle(),
+		nextProjectControlTitle: m.project1_nextProjectControlTitle(),
+		nextLink: m.project1_nextLink(),
+		nextProjectName: m.project1_nextProjectName(),
 	},
 	{
-		title: 'Signum Consulting',
+		title: m.project2_title(),
 		slug: 'signum',
-		subtitle: 'Design System',
-		shortDesc: 'Pre-Employment Screening, Risk Management and Compliance in Germany.',
-		link: 'View Project',
+		subtitle: m.project2_subtitle(),
+		shortDesc: m.project2_shortDesc(),
+		link: m.project2_link(),
 		projectHref: 'https://www.signum-consult.com/',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Develop and implement a comprehensive Design System for the company's web applications and corporate website.</p>
-				<h4>Role</h4>
-				<p>UI/UX Designer / FE Developer</p>
-				<h4>Team</h4>
-				<p>Managing Director, Various Departments, Marketing, DevOps</p>
-				<h4>Tools</h4>
-				<p>Django, WordPress, HTML5, SASS, CSS3, Bootstrap, TailwindCSS, Figma</p>
-				<h4>Solutions</h4>
-				<p>Together with the Signum Consulting team created a plan and strategy to build a design system.</p>
-				<p>Redesigned the UI and different elements (logos, images, etc) and implemented.</p>
-				<p>Facilitating collaborative team sessions, introducing the Design System to external teams, and providing coaching to employees to use the CMS and internal applications.</p>
-			</div>
-			<img src="/projects/revised-sig.svg" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://www.signum-consult.com/index.html'>Signum-Consult</a> - Design System</figcaption>
-					<img src="/projects/sig-ds.png" alt="Design System">
-			</figure>
-			<figure>
-					<figcaption><a href='https://www.signum-consult.com/index.html'>Signum-Consult</a> - Responsive Web and Mobile Site</figcaption>
-					<img src="/projects/signum-website.png" alt="Responsive Web and Mobile Site">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/sembo">Sembo</a>
-			</div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="/portfolio/ibmix-aperto">IBMiX/Aperto</a>
-			</div>
-		</div>
-		`
-	},
-	{
-		title: 'IBMiX/Aperto',
-		slug: 'ibmix-aperto',
-		subtitle: 'Corporate Website',
-		shortDesc: 'A leading digital agency at the intersection of strategy, creativity and technology.',
-		link: 'View Project',
-		projectHref: 'https://www.aperto.com/en',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Projects Overview</h3>
-				<p>Created Web Apps and Webpages with documented components and design system for various clients.</p>
-				<h4>Role</h4>
-				<p>FE Developer</p>
-				<h4>Team</h4>
-				<p>POs, TPMs, UI/UX Designers, BE Devs, QAs, FE Devs, DevOps, Marketing, Content Strategists</p>
-				<h4>Tools</h4>
-				<p>ReactJS, VueJS, VEAMS, Nikita, ES5/ES6, VanillaJS, SASS, Handlebars, Grunt, Webpack, GitHub, Gitlab, Sketch, Zeplin, Jira, Trello Board</p>
-				<h4>Solutions</h4>
-				<p>Worked closely together with UI/UX designers and BE Developers to translate designs into code, ensuring that the usability worked well in different browsers while keeping in mind the maintainability, scalability and reliability of the products or projects.</p>
-				<p>Developed and documented components and into a design system for each project and product. Components being fully responsive, ensuring accessibility standards optimized for mobile, and optimized for performance, later to be tested across devices and browsers to deliver the best user experience to users.</p>
-			</div>
-			<img src="/projects/aptoix.svg" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://www.aperto.com/en'>Aperto/IBM iX</a> - Responsive Mobile and Desktop Website</figcaption>
-					<img src="/projects/apert-web.png" alt="Desktop UI & UX for Dashboard">
-			</figure>
-			<figure>
-					<figcaption>2017 <a href='https://www.vw.co.za/en/volkswagen-experience/spirit-of-amarok.html'>Spirit of Amarok</a> - VW Rally Desktop</figcaption>
-					<img src="/projects/samarok-web.png" alt="iOS Logo, Icons, UI Mobile Experience">
-			</figure>
-			<figure>
-					<figcaption><a href='https://www.staat-digital.de/de'>Staat Digital</a> - Responsive Mobile and Desktop Website</figcaption>
-					<img src="/projects/staatd-web.png" alt="Desktop UI & UX for Dashboard">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/signum">Signum Consulting</a>
-			</div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="/portfolio/video-dev-team">Eyevinn - Video Dev Team</a>
-			</div>
-		</div>
-		`
-	},
-	{
-		title: 'Eyevinn - Video Dev Team',
-		slug: 'video-dev-team',
-		subtitle: 'Company Team Website',
-		shortDesc: 'A video development team with experience on building streaming services',
-		link: 'View Project',
-		projectHref: 'https://video-dev.team/',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Created a video dev team landing page to present video streaming services offer.</p>
-				<h4>Role</h4>
-				<p>UI Designer / FE Developer</p>
-				<h4>Team</h4>
-				<p>Media Consultant, Solution Architect, Media Solution Consultant</p>
-				<h4>Tools</h4>
-				<p>React, Next.js, CSS3, Webpack, Figma, Material-UI, GitHub</p>
-				<h4>Solutions</h4>
-				<p>Designed a complete landing page with sections about the team, services they provide, client work, process of contributing to open source, tech stacks and tools used.</p>
-				<p>Created a product logo. Translated designs into coded components and built a responsive landing page.</p>
-			</div>
-			<img src="/projects/eyevn.svg" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://video-dev.team/'>Eyevinn - Video Dev Team</a> - Figma Design Screens Mobile/Desktop</figcaption>
-					<img src="/projects/eyvn-design.png" alt="Figma Design Screens Mobile/Desktop">
-			</figure>
-			<figure>
-					<figcaption><a href='https://video-dev.team/'>Eyevinn - Video Dev Team</a> - Responsive Web and Mobile Site</figcaption>
-					<img src="/projects/eyvn-web.png" alt="Responsive Web and Mobile Site">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/ibmix-aperto">IBMiX/Aperto</a>
-			</div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="/portfolio/corruptor">Stream Corruptor</a>
-			</div>
-		</div>
-		`
-	},
-	{
-		title: 'Stream Corruptor',
-		slug: 'corruptor',
-		subtitle: 'Video Product',
-		shortDesc: 'A digitized simulator that corrupts video streams effectively',
-		link: 'View Project',
-		projectHref: 'https://corruptor.io/',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Built a product landing page that explains use cases about simulating corrupted video streams.</p>
-				<h4>Role</h4>
-				<p>UI Designer / FE Developer</p>
-				<h4>Team</h4>
-				<p>Media Consultant, Solution Architect, FE Developer, PM</p>
-				<h4>Tools</h4>
-				<p>React, Next.js, CSS3, Webpack, Node.js, Docker, Figma, Material-UI, GitHub</p>
-				<h4>Solutions</h4>
-				<p>Created a user flow between the site page and product page. Designed a logo that represents the product.</p>
-				<p>Translated designs into coded components and built the responsive website.</p>
-				<p>Built reusable components to build the responsive landing page. Login and registration. And collaborated with BE to implement login and registration.</p>
-			</div>
-			<img src="/projects/crupt.png" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://corruptor.io/'>Corruptor</a> - Desktop Landing Page</figcaption>
-					<img src="/projects/corupt-web.png" alt="Corruptor Desktop Website">
-			</figure>
-			<figure>
-					<figcaption><a href='https://corruptor.io/'>Corruptor</a> - Desktop Registration</figcaption>
-					<img src="/projects/corupt-web-2.png" alt="Corruptor Desktop Registration">
-			</figure>
-			<figure>
-					<figcaption><a href='https://corruptor.io/'>Corruptor</a> - Mobile Login and Logo</figcaption>
-					<img src="/projects/corupt-web-3.png" alt="Corruptor Mobile Login and Logo">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/video-dev-team">Video Dev Team</a>
-			</div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project </strong></span>
-				<a href="/portfolio/btv">BTV</a>
-			</div>
-		</div>
-		`
-	},
-	{
-		title: 'BTV - Bavarian Tennis Club',
-		slug: 'btv',
-		subtitle: 'Corporate Website',
-		shortDesc: 'An organization for the Bavarian Tennis Clubs in Germany',
-		link: 'View Project',
-		projectHref: 'https://btv.de',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Implemented a content management system to allow multiple users to create, read, update and delete content.</p>
-				<h4>Role</h4>
-				<p>FE Developer</p>
-				<h4>Team</h4>
-				<p>POs, TPMs, UI/UX Designers, BE Devs, QAs, FE Devs, DevOps</p>
-				<h4>Tools</h4>
-				<p>CMS Magnolia, VEAMS, ES5/ES6, VanillaJS, SASS, Handlebars, Webpack, Sketch, Zeplin, Jira, Jenkins</p>
-				<h4>Solutions</h4>
-				<p>Built, documented and implemented components into the product design system.</p>
-				<p>Worked together with other FE Developers, UI/UX Designers, and BE Developers to translate UI designs into code and conducted device and browser test, user test and UI test to make sure designs were properly implemented.</p>
-			</div>
-			<img src="/projects/bta.svg" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://www.btv.de/de'>BTV</a> - Desktop Website</figcaption>
-					<img src="/projects/bta-web.png" alt="BTV Desktop Website">
-			</figure>
-			<figure>
-					<figcaption><a href='https://www.btv.de/de'>BTV</a> - Mobile Website</figcaption>
-					<img src="/projects/bta-mobile.png" alt="BTV Mobile Website">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/corruptor">Stream Corruptor</a>
-			</div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="/portfolio/dihk">DIHK</a>
-			</div>
-		</div>
-		`
-	},
-	{
-		title: 'DIHK - Chambers of Industry and Commerce',
-		slug: 'dihk',
-		subtitle: 'Corporate Website',
-		shortDesc: 'Is an organisation for 81 Chambers of Industry and Commerce in Germany',
-		link: 'View Project',
-		projectHref: 'https://www.dihk.de/de',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Implemented the UI designs into a website for the German Chamber of Commerce, this was a content management system to allow admin users to create, read, update and delete content.</p>
-				<h4>Role</h4>
-				<p>FE Developer</p>
-				<h4>Team</h4>
-				<p>POs, TPMs, UI/UX Designers, BE Devs, QAs, FE Devs, DevOps</p>
-				<h4>Tools</h4>
-				<p>CoreMedia CMS, VEAMS, ES5/ES6, VanillaJS, SASS, Handlebars, Webpack, Sketch, Zeplin, Jira, Jenkins</p>
-				<h4>Solutions</h4>
-				<p>Implemented high  accessibility standard and documented components and ensured scalability for "new featured" modules needed in the future, conducted device and browser test, user test and UI test to make sure designs were properly implemented.</p>
-			</div>
-			<img src="/projects/dk.svg" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://www.dihk.de/de'>DIHK</a> - Mobile Screens</figcaption>
-					<img src="/projects/dk-web.png" alt="DIHK Mobile site">
-			</figure>
-			<figure>
-					<figcaption><a href='https://www.dihk.de/de'>DIHK</a> - Desktop Site</figcaption>
-					<img src="/projects/dk-web-2.png" alt="DIHK Desktop site">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/btv">BTV</a>
-			</div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="/portfolio/consuo">Consuo</a>
-			</div>
-		</div>
-		`
-	},
-	{
-		title: 'Eyevinn - Consuo',
-		slug: 'consuo',
-		subtitle: 'A Video Product Landing Page',
-		shortDesc: 'A library that stitches pre-transcoded VOD assets into linear video stream',
-		link: 'View Project',
-		projectHref: 'https://consuo.tv/',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Designed and implemented a landing page about an open source library that stitches pre-transcoded VOD assets into a linear video stream.</p>
-				<h4>Role</h4>
-				<p>FE Developer</p>
-				<h4>Team</h4>
-				<p>Media Consultant, Solution Architect, FE Developer, PM</p>
-				<h4>Tools</h4>
-				<p>React, NextJS, CSS3, Webpack, NodeJS, Docker, MongoDB, Figma, Material-UI</p>
-				<h4>Solutions</h4>
-				<p>Created the product logo.</p>
-				<p>Enhanced and ensured design consistency and styles across the site, documentation and B2B portal.</p>
-				<p>Created and developed a form to request a trial.</p>
-			</div>
-			<img src="/projects/cso.png" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://consuo.tv/'>Consuo TV</a> - Desktop Site</figcaption>
-					<img src="/projects/cso-web.png" alt="Desktop Site">
-			</figure>
-			<figure>
-					<figcaption><a href='https://consuo.tv/'>Consuo TV</a> - Mobile Site & Logo</figcaption>
-					<img src="/projects/cso-web-2.png" alt="Mobile & Logo">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/dihk">DIHK</a>
-			</div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="/portfolio/signum-consulting">Signum</a>
-			</div>
-		</div>
-		`
-	},
-	{
-		title: 'Signum Consulting',
-		slug: 'signum-consulting',
-		subtitle: 'Corporate Website',
-		shortDesc: 'Services provider in Pre-Employment Screening, Risk Management and Compliance in Germany.',
-		link: 'View Project',
-		projectHref: 'https://www.signum-consult.com/index.html',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Redesigned and Rebuilt Company's Webpage while ensuring scalability of the site and implemented analytics to improve SEO.</p>
-				<h4>Role</h4>
-				<p>UI Designer / FE Developer</p>
-				<h4>Team</h4>
-				<p>Founder, Managing Director, Pre-Employment Analyst, Risk Compliance Analyst, Pre-Business Analyst</p>
-				<h4>Tools</h4>
-				<p>jQuery, HTML5, CSS3, Bootstrap, Illustrator, Antetype, Google Sheets</p>
-				<h4>Solutions</h4>
-				<p>Together with the Signum Consulting team created a plan and strategy to redesign the site.</p>
-				<p>Designed UI and different elements (logos, projects, etc) and coded the full site.</p>
-				<p>Included Google Analytics to improve SEO, created information architecture, navigation, site map. Translated designs into a full developed responsive website.</p>
-			</div>
-			<img src="/projects/sgnum.svg" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://www.signum-consult.com/index.html'>Signum-Consult</a> - Responsive Web and Mobile Site</figcaption>
-					<img src="/projects/sgnum-web.png" alt="Responsive Web and Mobile Site">
-			</figure>
-			<figure>
-					<figcaption><a href='https://www.signum-consult.com/index.html'>Signum-Consult</a> -Service Logos</figcaption>
-					<img src="/projects/sgnum-web-2.png" alt="Service Logos">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/consuo">Consuo</a>
-			</div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project</strong></span>
-				<a href="/portfolio/consus">Consus</a>
-			</div>
-		</div>
-		`
-	},
-	{
-		title: 'Consus',
-		slug: 'consus',
-		subtitle: 'Corporate Website',
-		shortDesc: 'A German Real Estate with a focus on Residential properties.',
-		link: 'View Project',
-		projectHref: 'https://www.consus.ag/consus-investment-highlights',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Implemented new pages to highlight insights in the real state existing pages</p>
-				<h4>Role</h4>
-				<p>FE Developer</p>
-				<h4>Team</h4>
-				<p>POs, TPMs, UI/UX Designers, BE Devs, QAs, FE Devs, DevOps, Marketing, Content Strategists</p>
-				<h4>Tools</h4>
-				<p>VEAMS, ES5/ES6, VanillaJS, SASS, Handlebars, PHP, Webpack, Docker, WordPress CMS, Themify, Trello Board</p>
-				<h4>Solutions</h4>
-				<p>Built and updated themify components into a content management system in close collaboration with UI/UX Designers</p>
-			</div>
-			<img src="/projects/csus.svg" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://www.consus.ag/consus-investment-highlights'>Consus AG</a> - Desktop Website</figcaption>
-					<img src="/projects/csus-web.png" alt="Consus Desktop">
-			</figure>
-			<figure>
-					<figcaption><a href='https://www.consus.ag/consus-investment-highlights'>Consus AG</a> - Mobile Website</figcaption>
-					<img src="/projects/csus-web-2.png" alt="Consus Mobile">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/signum-consulting">Signum</a>
-			</div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project </strong></span>
-				<a href="/portfolio/cemex">Cemex</a>
-			</div>
-		</div>
-		`
-	},
-	{
-		title: 'Cemex',
-		slug: 'cemex',
-		subtitle: 'Web Dashboard & IOS Hybrid App',
-		shortDesc: 'A provider of building ready-mix concrete for exterior in Germany.',
-		link: 'View Project',
-		projectHref: 'https://www.cemex.de/',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Digitized a manual process to do inspections on client sites and cement trucks for the Cemex Health & Safety department in Germany, designed and implemented a dashboard for admins users to view, edit, upload and delete conducted inspections that employees performed on field site.</p>
-				<h4>Role</h4>
-				<p>UI/UX Designer and FE Developer</p>
-				<h4>Team</h4>
-				<p>PO, UI/UX Designer, FE Developer, BE Developer</p>
-				<h4>Tools</h4>
-				<p>Adobe Illustrator, HTML5, CSS3, jQuery, PHP, </p>
-				<h4>Solutions</h4>
-				<p>Worked closely with BE Developer and PO to develop the apps and dashboard.</p>
-				<p>Created user flows and site map navigation, icons to describe actions, and built mobile app and logos.</p>
-				<p>Designed and developed iteratively layouts for Admin Dashboards and hybrid apps.</p>
-			</div>
-			<img src="/projects/cemx.svg" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption>Desktop Dashboard for admins</figcaption>
-					<img src="/projects/cx-web.png" alt="Cemex Web App">
-			</figure>
-			<figure>
-					<figcaption>iOS & Android Logos and Mobile App for H&S Employees</figcaption>
-					<img src="/projects/cx-mobile.png" alt="Cemex Mobile Apps">
-			</figure>
-			<figure>
-					<figcaption>Logistic Logo and Department Icons</figcaption>
-					<img src="/projects/cx-logos.png" alt='Cemex Logos'>
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/consus">Consus</a>
-			</div>
-			<div class="content-controls__right">
-				<span class="content-controls__right-title"><strong>Next Project </strong></span>
-				<a href="/portfolio/qualmity">Qualmity</a>
-			</div>
-		</div>
-		`
-	},
-	{
-		title: 'Qualmity',
-		slug: 'qualmity',
-		subtitle: 'Company Website',
-		shortDesc: 'Develops software, mobile apps, IT security, consultation, and technical support.',
-		link: 'View Project',
-		projectHref: 'https://www.qualmity.com/',
-		projectLink: "Visit Site",
-		html: `
-		<div class="project-detail__overview">
-			<div class="project-detail__overview-content">
-				<h3>Project Overview</h3>
-				<p>Designed and built products for various clients, Rebuilt and redesigned the company's website to offer company services.</p>
-				<h4>Role</h4>
-				<p>UI Designer / FE Developer</p>
-				<h4>Team</h4>
-				<p>CEO, UI Designer, FE Developer, BE Developer</p>
-				<h4>Tools</h4>
-				<p>jQuery, HTML5, CSS3, Bootstrap, Illustrator, Antetype</p>
-				<h4>Solutions</h4>
-				<p>Together with the CEO created site map and components needed to develop into the web page.</p>
-				<p>Redesigned company's logo and drew stage image, designed the responsive webpage.</p>
-			</div>
-			<img src="/projects/qlmty.svg" alt="Logo of Company">
-		</div>
-		<div class="project-detail__content-imgs">
-			<figure>
-					<figcaption><a href='https://www.qualmity.com/'>Qualmity</a> - Responsive Website</figcaption>
-					<img src="/projects/qlmy-web.png" alt="Desktop Website">
-			</figure>
-		</div>
-		<div class="project-detail__content-controls">
-			<div class="content-controls__left">
-				<span class="content-controls__left-title"><strong>Previous Project</strong></span>
-				<a href="/portfolio/cemex">Cemex</a>
-			</div>
-		</div>
-		`
-	},
-];
+		projectLink: m.project2_projectLink(),
+		overviewHeadlineText: m.project2_overviewHeadlineText(),
+		overview: m.project2_overview(),
+		roleHeadlineText: m.project2_roleHeadlineText(),
+		role: m.project2_role(),
+		teamHeadlineText: m.project2_teamHeadlineText(),
+		team: m.project2_team(),
+		toolsHeadlineText: m.project2_toolsHeadlineText(),
+		tools: m.project2_tools(),
+		solutionsHeadlineText: m.project2_solutionsHeadlineText(),
+		solutions: m.project2_solutions(),
+		companyLogo: m.project2_companyLogo(),
+		figcaption: m.project2_figcaption(),
+		figcaptionImg: m.project2_figcaptionImg(),
+		figcaption2: m.project2_figcaption2(),
+		figcaption2img: m.project2_figcaption2img(),
+		previousProjectControlTitle: m.project2_previousProjectControlTitle(),
+		previousProjectName: m.project2_previousProjectName(),
+		previousLink: m.project2_previousLink(),
+		nextProjectControlTitle: m.project2_nextProjectControlTitle(),
+		nextLink: m.project2_nextLink(),
+		nextProjectName: m.project2_nextProjectName(),
 
-projectDetails.forEach(project => {
-	project.html = project.html.replace(/^\t{3}/gm, '');
-});
+	},
+	{
+		title: m.project3_title(),
+		slug: 'ibmix-aperto',
+		subtitle: m.project3_subtitle(),
+		shortDesc: m.project3_shortDesc(),
+		link: m.project3_link(),
+		projectHref: 'https://www.aperto.com/en',
+		projectLink: m.project3_projectLink(),
+		overviewHeadlineText: m.project3_overviewHeadlineText(),
+		overview: m.project3_overview(),
+		roleHeadlineText: m.project3_roleHeadlineText(),
+		role: m.project3_role(),
+		teamHeadlineText: m.project3_teamHeadlineText(),
+		team: m.project3_team(),
+		toolsHeadlineText: m.project3_toolsHeadlineText(),
+		tools: m.project3_tools(),
+		solutionsHeadlineText: m.project3_solutionsHeadlineText(),
+		solutions: m.project3_solutions(),
+		companyLogo: m.project3_companyLogo(),
+		figcaption: m.project3_figcaption(),
+		figcaptionImg: m.project3_figcaptionImg(),
+		figcaption2: m.project3_figcaption2(),
+		figcaption2img: m.project3_figcaption2img(),
+		previousProjectControlTitle: m.project3_previousProjectControlTitle(),
+		previousProjectName: m.project3_previousProjectName(),
+		previousLink: m.project3_previousLink(),
+		nextProjectControlTitle: m.project3_nextProjectControlTitle(),
+		nextLink: m.project3_nextLink(),
+		nextProjectName: m.project3_nextProjectName(),
+	},
+	{
+		title: m.project4_title(),
+		slug: 'video-dev-team',
+		subtitle: m.project4_subtitle(),
+		shortDesc: m.project4_shortDesc(),
+		link: m.project4_link(),
+		projectHref: 'https://video-dev.team/',
+		projectLink: m.project4_projectLink(),
+		overviewHeadlineText: m.project4_overviewHeadlineText(),
+		overview: m.project4_overview(),
+		roleHeadlineText: m.project4_roleHeadlineText(),
+		role: m.project4_role(),
+		teamHeadlineText: m.project4_teamHeadlineText(),
+		team: m.project4_team(),
+		toolsHeadlineText: m.project4_toolsHeadlineText(),
+		tools: m.project4_tools(),
+		solutionsHeadlineText: m.project4_solutionsHeadlineText(),
+		solutions: m.project4_solutions(),
+		companyLogo: m.project4_companyLogo(),
+		figcaption: m.project4_figcaption(),
+		figcaptionImg: m.project4_figcaptionImg(),
+		figcaption2: m.project4_figcaption2(),
+		figcaption2img: m.project4_figcaption2img(),
+		previousProjectControlTitle: m.project4_previousProjectControlTitle(),
+		previousProjectName: m.project4_previousProjectName(),
+		previousLink: m.project4_previousLink(),
+		nextProjectControlTitle: m.project4_nextProjectControlTitle(),
+		nextLink: m.project4_nextLink(),
+		nextProjectName: m.project4_nextProjectName(),
+	},
+	{
+		title: m.project5_title(),
+		slug: 'corruptor',
+		subtitle: m.project5_subtitle(),
+		shortDesc: m.project5_shortDesc(),
+		link: m.project5_link(),
+		projectHref: 'https://corruptor.io/',
+		projectLink: m.project5_projectLink(),
+		overviewHeadlineText: m.project5_overviewHeadlineText(),
+		overview: m.project5_overview(),
+		roleHeadlineText: m.project5_roleHeadlineText(),
+		role: m.project5_role(),
+		teamHeadlineText: m.project5_teamHeadlineText(),
+		team: m.project5_team(),
+		toolsHeadlineText: m.project5_toolsHeadlineText(),
+		tools: m.project5_tools(),
+		solutionsHeadlineText: m.project5_solutionsHeadlineText(),
+		solutions: m.project5_solutions(),
+		companyLogo: m.project5_companyLogo(),
+		figcaption: m.project5_figcaption(),
+		figcaptionImg: m.project5_figcaptionImg(),
+		figcaption2: m.project5_figcaption2(),
+		figcaption2img: m.project5_figcaption2img(),
+		previousProjectControlTitle: m.project5_previousProjectControlTitle(),
+		previousProjectName: m.project5_previousProjectName(),
+		previousLink: m.project5_previousLink(),
+		nextProjectControlTitle: m.project5_nextProjectControlTitle(),
+		nextLink: m.project5_nextLink(),
+		nextProjectName: m.project5_nextProjectName(),
+	},
+	{
+		title: m.project6_title(),
+		slug: 'btv',
+		subtitle: m.project6_subtitle(),
+		shortDesc: m.project6_shortDesc(),
+		link: m.project6_link(),
+		projectHref: 'https://btv.de',
+		projectLink: m.project6_projectLink(),
+		overviewHeadlineText: m.project6_overviewHeadlineText(),
+		overview: m.project6_overview(),
+		roleHeadlineText: m.project6_roleHeadlineText(),
+		role: m.project6_role(),
+		teamHeadlineText: m.project6_teamHeadlineText(),
+		team: m.project6_team(),
+		toolsHeadlineText: m.project6_toolsHeadlineText(),
+		tools: m.project6_tools(),
+		solutionsHeadlineText: m.project6_solutionsHeadlineText(),
+		solutions: m.project6_solutions(),
+		companyLogo: m.project6_companyLogo(),
+		figcaption: m.project6_figcaption(),
+		figcaptionImg: m.project6_figcaptionImg(),
+		figcaption2: m.project6_figcaption2(),
+		figcaption2img: m.project6_figcaption2img(),
+		previousProjectControlTitle: m.project6_previousProjectControlTitle(),
+		previousProjectName: m.project6_previousProjectName(),
+		previousLink: m.project6_previousLink(),
+		nextProjectControlTitle: m.project6_nextProjectControlTitle(),
+		nextLink: m.project6_nextLink(),
+		nextProjectName: m.project6_nextProjectName(),
+	},
+	{
+		title: m.project7_title(),
+		slug: 'dihk',
+		subtitle: m.project7_subtitle(),
+		shortDesc: m.project7_shortDesc(),
+		link: m.project7_link(),
+		projectHref: 'https://www.dihk.de/de',
+		projectLink: m.project7_projectLink(),
+		overviewHeadlineText: m.project7_overviewHeadlineText(),
+		overview: m.project7_overview(),
+		roleHeadlineText: m.project7_roleHeadlineText(),
+		role: m.project7_role(),
+		teamHeadlineText: m.project7_teamHeadlineText(),
+		team: m.project7_team(),
+		toolsHeadlineText: m.project7_toolsHeadlineText(),
+		tools: m.project7_tools(),
+		solutionsHeadlineText: m.project7_solutionsHeadlineText(),
+		solutions: m.project7_solutions(),
+		companyLogo: m.project7_companyLogo(),
+		figcaption: m.project7_figcaption(),
+		figcaptionImg: m.project7_figcaptionImg(),
+		figcaption2: m.project7_figcaption2(),
+		figcaption2img: m.project7_figcaption2img(),
+		previousProjectControlTitle: m.project7_previousProjectControlTitle(),
+		previousProjectName: m.project7_previousProjectName(),
+		previousLink: m.project7_previousLink(),
+		nextProjectControlTitle: m.project7_nextProjectControlTitle(),
+		nextLink: m.project7_nextLink(),
+		nextProjectName: m.project7_nextProjectName(),
+	},
+	{
+		title: m.project8_title(),
+		slug: 'consuo',
+		subtitle: m.project8_subtitle(),
+		shortDesc: m.project8_shortDesc(),
+		link: m.project8_link(),
+		projectHref: 'https://consuo.tv/',
+		projectLink: m.project8_projectLink(),
+		overviewHeadlineText: m.project8_overviewHeadlineText(),
+		overview: m.project8_overview(),
+		roleHeadlineText: m.project8_roleHeadlineText(),
+		role: m.project8_role(),
+		teamHeadlineText: m.project8_teamHeadlineText(),
+		team: m.project8_team(),
+		toolsHeadlineText: m.project8_toolsHeadlineText(),
+		tools: m.project8_tools(),
+		solutionsHeadlineText: m.project8_solutionsHeadlineText(),
+		solutions: m.project8_solutions(),
+		companyLogo: m.project8_companyLogo(),
+		figcaption: m.project8_figcaption(),
+		figcaptionImg: m.project8_figcaptionImg(),
+		figcaption2: m.project8_figcaption2(),
+		figcaption2img: m.project8_figcaption2img(),
+		previousProjectControlTitle: m.project8_previousProjectControlTitle(),
+		previousProjectName: m.project8_previousProjectName(),
+		previousLink: m.project8_previousLink(),
+		nextProjectControlTitle: m.project8_nextProjectControlTitle(),
+		nextLink: m.project8_nextLink(),
+		nextProjectName: m.project8_nextProjectName(),
+	},
+	{
+		title: m.project9_title(),
+		slug: 'signum-consulting',
+		subtitle: m.project9_subtitle(),
+		shortDesc: m.project9_shortDesc(),
+		link: m.project9_link(),
+		projectHref: 'https://www.signum-consult.com/index.html',
+		projectLink: m.project9_projectLink(),
+		overviewHeadlineText: m.project9_overviewHeadlineText(),
+		overview: m.project9_overview(),
+		roleHeadlineText: m.project9_roleHeadlineText(),
+		role: m.project9_role(),
+		teamHeadlineText: m.project9_teamHeadlineText(),
+		team: m.project9_team(),
+		toolsHeadlineText: m.project9_toolsHeadlineText(),
+		tools: m.project9_tools(),
+		solutionsHeadlineText: m.project9_solutionsHeadlineText(),
+		solutions: m.project9_solutions(),
+		companyLogo: m.project9_companyLogo(),
+		figcaption: m.project9_figcaption(),
+		figcaptionImg: m.project9_figcaptionImg(),
+		figcaption2: m.project9_figcaption2(),
+		figcaption2img: m.project9_figcaption2img(),
+		previousProjectControlTitle: m.project9_previousProjectControlTitle(),
+		previousProjectName: m.project9_previousProjectName(),
+		previousLink: m.project9_previousLink(),
+		nextProjectControlTitle: m.project9_nextProjectControlTitle(),
+		nextLink: m.project9_nextLink(),
+		nextProjectName: m.project9_nextProjectName(),
+	},
+	{
+		title: m.project10_title(),
+		slug: 'consus',
+		subtitle: m.project10_subtitle(),
+		shortDesc: m.project10_shortDesc(),
+		link: m.project10_link(),
+		projectHref: 'https://www.consus.ag/consus-investment-highlights',
+		projectLink: m.project10_projectLink(),
+		overviewHeadlineText: m.project10_overviewHeadlineText(),
+		overview: m.project10_overview(),
+		roleHeadlineText: m.project10_roleHeadlineText(),
+		role: m.project10_role(),
+		teamHeadlineText: m.project10_teamHeadlineText(),
+		team: m.project10_team(),
+		toolsHeadlineText: m.project10_toolsHeadlineText(),
+		tools: m.project10_tools(),
+		solutionsHeadlineText: m.project10_solutionsHeadlineText(),
+		solutions: m.project10_solutions(),
+		companyLogo: m.project10_companyLogo(),
+		figcaption: m.project10_figcaption(),
+		figcaptionImg: m.project10_figcaptionImg(),
+		figcaption2: m.project10_figcaption2(),
+		figcaption2img: m.project10_figcaption2img(),
+		previousProjectControlTitle: m.project10_previousProjectControlTitle(),
+		previousProjectName: m.project10_previousProjectName(),
+		previousLink: m.project10_previousLink(),
+		nextProjectControlTitle: m.project10_nextProjectControlTitle(),
+		nextLink: m.project10_nextLink(),
+		nextProjectName: m.project10_nextProjectName(),
+	},
+	{
+		title: m.project11_title(),
+		slug: 'cemex',
+		subtitle: m.project11_subtitle(),
+		shortDesc: m.project11_shortDesc(),
+		link: m.project11_link(),
+		projectHref: 'https://www.cemex.de/',
+		projectLink: m.project11_projectLink(),
+		overviewHeadlineText: m.project11_overviewHeadlineText(),
+		overview: m.project11_overview(),
+		roleHeadlineText: m.project11_roleHeadlineText(),
+		role: m.project11_role(),
+		teamHeadlineText: m.project11_teamHeadlineText(),
+		team: m.project11_team(),
+		toolsHeadlineText: m.project11_toolsHeadlineText(),
+		tools: m.project11_tools(),
+		solutionsHeadlineText: m.project11_solutionsHeadlineText(),
+		solutions: m.project11_solutions(),
+		companyLogo: m.project11_companyLogo(),
+		figcaption: m.project11_figcaption(),
+		figcaptionImg: m.project11_figcaptionImg(),
+		figcaption2: m.project11_figcaption2(),
+		figcaption2img: m.project11_figcaption2img(),
+		previousProjectControlTitle: m.project11_previousProjectControlTitle(),
+		previousProjectName: m.project11_previousProjectName(),
+		previousLink: m.project11_previousLink(),
+		nextProjectControlTitle: m.project11_nextProjectControlTitle(),
+		nextLink: m.project11_nextLink(),
+		nextProjectName: m.project11_nextProjectName(),
+	},
+	{
+		title: m.project12_title(),
+		slug: 'qualmity',
+		subtitle: m.project12_subtitle(),
+		shortDesc: m.project12_shortDesc(),
+		link: m.project12_link(),
+		projectHref: 'https://www.qualmity.com/',
+		projectLink: m.project12_projectLink(),
+		overviewHeadlineText: m.project12_overviewHeadlineText(),
+		overview: m.project12_overview(),
+		roleHeadlineText: m.project12_roleHeadlineText(),
+		role: m.project12_role(),
+		teamHeadlineText: m.project12_teamHeadlineText(),
+		team: m.project12_team(),
+		toolsHeadlineText: m.project12_toolsHeadlineText(),
+		tools: m.project12_tools(),
+		solutionsHeadlineText: m.project12_solutionsHeadlineText(),
+		solutions: m.project12_solutions(),
+		companyLogo: m.project12_companyLogo(),
+		figcaption: m.project12_figcaption(),
+		figcaptionImg: m.project12_figcaptionImg(),
+		previousProjectControlTitle: m.project12_previousProjectControlTitle(),
+		previousProjectName: m.project12_previousProjectName(),
+		previousLink: m.project12_previousLink(),
+	}
+];
 
 export default projectDetails;

@@ -16,6 +16,8 @@ const config = {
 			precompress: false,
 			strict: true,
 			prerender: {
+				hydrate: true,
+				router: true,
 				entries: [
 					'/about',
 					'/experience',
@@ -33,11 +35,11 @@ const config = {
 					'/portfolio/signum-consulting',
 					'/portfolio/consus',
 					'/portfolio/cemex',
-					'/portfolio/qualmity',
+					'/portfolio/qualmity'
 				],
 				handleHttpError: 'ignore'
 			}
-		}),
+		})
 	},
 
 	preprocess: [mdsvex()],

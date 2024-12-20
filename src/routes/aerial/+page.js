@@ -1,5 +1,5 @@
 import aerials from './_aerial.js';
 
-export function load(){
+export function load() {
 	return { aerials };
 }

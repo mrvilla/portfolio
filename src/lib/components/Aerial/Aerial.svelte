@@ -1,10 +1,14 @@
-<style lang="scss">
-	@import "./style/aerial.scss";
-</style>
+<script>
+	import * as m from '$lib/paraglide/messages';
+</script>
 
 <div class="aerial">
-	<h2 class="aerial__headline">Drone Footage</h2>
+	<h2 class="aerial__headline">{m.aerial_headline()}</h2>
 	<div class="aerial__aerial-items">
-		<slot/>
+		<slot />
 	</div>
 </div>
+
+<style lang="scss">
+	@import './style/aerial.scss';
+</style>
