@@ -43,6 +43,10 @@
 	.company__item {
 		display: flex;
 		align-items: end;
+
+		a {
+			padding-bottom: 0;
+		}
 	}
 	.company__item-place {
 		font-size: 0.9rem;
@@ -52,16 +56,18 @@
 		flex-direction: column;
 	}
 	img {
-		border: 0.188rem solid #000;
+		border: 0.25rem solid #000;
 		border-radius: 1.25rem;
 	}
 	a > img:hover {
 		border-radius: 1.25rem;
-		border: 0.188rem solid #a47764;
+		border: 0.25rem solid #a47764;
 	}
 	.company__title {
 		font-size: 1.36rem;
 		margin: 2rem 0 1rem;
+    font-weight: bold;
+		color: #a47764;
 	}
 	.company__item-date {
 		font-family: 'Source Code Pro', monospace;

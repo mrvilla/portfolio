@@ -67,8 +67,27 @@
 		display: flex;
 		justify-content: space-between;
 	}
-	a:hover {
-		color: #a47764;
+
+	a {
+    display: block;
+    text-decoration: none;
+		position: relative;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: calc(100% - 1rem);
+      height: 0.438rem;
+      background-color: #a47764;
+      display: block;
+      bottom: 0.563rem;
+    }
+
+    &:hover {
+      &::after {
+        background-color: transparent;
+      }
+    }
 	}
 	h4 {
 		font-size: 2rem;

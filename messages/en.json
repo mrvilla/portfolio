@@ -6,9 +6,11 @@
 	"nav_portfolio": "Portfolio",
 	"nav_photography": "Photography",
 	"nav_drone": "Drone",
+
 	"stage_headline": "Bringing Your Stories to Life with Custom Websites, UI Design, and Aerial Views.",
 	"stage_heroText": "Combining <span class='bold'>Web Development,</span> breathtaking <span class='bold'>Drone Photography,</span> and user-centric <span class='bold'>UI Designs</span> to bring your unique needs—to life.",
 	"stage_aboutText": "Henry here, your Frontend Developer and Visual Storyteller. I help businesses and individuals transform their ideas into digital experiences. Whether you're in the heart of the city or in a remote corner of the world, together we‘ll ensure you to stay connected and visible online.",
+
 	"stage_key_offering_headline": "Discover Professional Creative Services to Elevate Your Vision",
 	"stage_keyOfferings_userInterface": "User-Centric UI Designs",
 	"stage_keyOfferings_userInterfaceDescription": "User-friendly interfaces crafted with a decade of design expertise.",
@@ -16,6 +18,7 @@
 	"stage_keyOfferings_webDevelopmentDescription": "Custom, responsive websites designed to engage and convert.",
 	"stage_keyOfferings_drone": "Drone Photography & Videography",
 	"stage_keyOfferings_droneDescription": "Captivating visuals that make your brand unforgettable.",
+
 	"stage_whyMe_headline": "Trust Your Partner for Flexible, Remote-Ready Solutions",
 	"stage_whyMe_provenExperience": "Proven Experience",
 	"stage_whyMe_provenExperienceDescription": "Trusted by brands and individuals for delivering quality, on-time results.",
@@ -23,8 +26,10 @@
 	"stage_whyMe_remoteExpertiseDescription": "Specializing in assisting clients in hard-to-reach locations or without access to in-person tech solutions.",
 	"stage_whyMe_flexibleAdaptive": "Flexible & Adaptive",
 	"stage_whyMe_flexibleAdaptiveDescription": "Offering both part-time project commitments and/or full-scale support to fit your needs.",
+
 	"stage_ctaHeadline": "Ready to elevate your digital presence or see how my unique skills can benefit you?",
 	"stage_ctaBtn": "Let's Connect",
+
 	"article_headline": "A bit of history",
 	"article_paragraphs_p1": "My family named me Enrique, but people call me Henry.",
 	"article_paragraphs_p2": "I'm international; parents from Colombian, but I was born in Caracas, been fortunate to live in various places, like NY, BPT, Caracas, Madrid, Berlin, and Stockholm.",
@@ -32,7 +37,8 @@
 	"article_paragraphs_p4": "10 years ago, I started as a UI Designer, which later led me to be a Front-end Developer. Throughout this career, I have worked on multiple projects and products with great people in different teams within various industries.",
 	"article_paragraphs_p5": "Beyond this, I'm passionate about staying creative and continue to explore my artistic skills. In my free time, I enjoy taking Black & White Photography and capture the world from above with my drone creating some photography and short videos.",
 	"article_paragraphs_p6": "My curiosity to know how something works helps me discover and learn more which broadens my perspectives.",
-	"article_paragraphs_p7": "Today I continue to collaborate with teams to build amazing things with them and continue to have fun with my own hobbies, while listening to some good music, drinking hell of a lot coffee and enjoy eating pizza.",
+	"article_paragraphs_p7": "Today I continue to collaborate with teams and entrepreneurs to build amazing things with them and continue to have fun with my own hobbies, while listening to some good music, drinking hell of a lot coffee and enjoy eating pizza.",
+
 	"company1_name": "Sembo - Stena Line Travel Group AB",
 	"company1_title": "FE Developer",
 	"company1_location": "Remote: Sweden, Berlin, Palma",
@@ -61,13 +67,13 @@
 	"company5_title": "UI Designer / FE Developer",
 	"company5_location": "Berlin",
 	"company5_beginEnd": "Mar2014-Jul2017",
-	"company5_details": "Designed and developed iteratively on Websites and Mobile Hybrid applications, Worked closely with IT team and Back-End Developers to improve and build better user interfaces and user experiences. Created and built user flow wireframes, designed high-quality mockups, and built live Prototypes, websites using CSS frameworks.",
+	"company5_details": "Designed and developed iteratively on Websites and Mobile Hybrid applications, Worked closely with IT team and Back-End Developers to improve and build better user interfaces and user experiences. Created and built user flows, wireframes, designed high-quality mockups, and built live Prototypes, and websites using CSS frameworks: Bootstrap, Foundation, and jQuery tools: jQuery UI, jQuery Mobile...",
 
 	"company6_name": "Signum",
 	"company6_title": "UI Designer / FE Developer",
 	"company6_location": "Berlin",
 	"company6_beginEnd": "Sep2015-Nov2016",
-	"company6_details": "Responsible to create a Responsive Web Design for their corporate website and build the Website according to the Designs as well as a Wordpress website for one of their Services.\nCreated new logos for their services. Worked together with team members within each department to improve SEO performance.\nCoached employers in how to work with Wordpress",
+	"company6_details": "Responsible to create a Responsive Web Design for their corporate website and build the Website according to the Designs as well as a Wordpress website for one of their Services.\nCreated new logos for their services. Worked together with team members within each department to improve SEO performance.\nCoached employers in how to work with Wordpress.",
 
 	"project_loading_details": "Loading project details...",
 	"project_headline": "Projects I worked on",
