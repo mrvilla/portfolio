@@ -75,7 +75,7 @@
 		<div class="project-detail__content">
 			<div class="project-detail__overview">
 				<div class="project-detail__overview-content">
-					<h3>{translatedProject.overviewHeadlineText}</h3>
+					<h3 class="overview-content__headline">{translatedProject.overviewHeadlineText}</h3>
 					<p>{translatedProject.overview}</p>
 					<h4>{translatedProject.roleHeadlineText}</h4>
 					<p>{translatedProject.role}</p>
@@ -138,56 +138,56 @@
 
 <style>
 	.project-detail__content {
-		padding: 3.25rem 1.125rem 1.125rem;
+			padding: 3.25rem 1.125rem 1.125rem;
 	}
 	.project-detail__content :global(h3) {
-		font-size: 2rem;
-		padding-bottom: 2rem;
+			font-size: 2rem;
+			padding-bottom: 2rem;
 	}
 	.project-detail__content :global(h4) {
-		font-size: 1.36rem;
-		padding-bottom: 1.125rem;
+			font-size: 1.36rem;
+			padding-bottom: 1.125rem;
 	}
 	.project-detail__content :global(p) {
-		font-size: 1rem;
-		padding-bottom: 1.25rem;
+			font-size: 1rem;
+			padding-bottom: 1.25rem;
 	}
 	.project-detail__content :global(.project-detail__overview) {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-		gap: 2.5rem;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+			gap: 2.5rem;
 	}
 	.project-detail__content :global(.project-detail__content-imgs) {
-		padding: 2rem 0 2rem;
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-		gap: 2.5rem;
+			padding: 2rem 0 2rem;
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+			gap: 2.5rem;
 	}
 	.project-detail__content :global(figcaption) {
-		text-align: center;
-		padding: 1rem 0;
+			text-align: center;
+			padding: 1rem 0;
 	}
 	.project-detail__content :global(.project-detail__content-controls) {
-		text-align: center;
-		padding: 2rem 0;
-		display: flex;
+			text-align: center;
+			padding: 2rem 0;
+			display: flex;
 	}
 	.project-detail__content :global(.content-controls__right),
 	.project-detail__content :global(.content-controls__left) {
-		display: flex;
-		flex-direction: column;
-		width: 49%;
+			display: flex;
+			flex-direction: column;
+			width: 49%;
 	}
 	.project-detail__content :global(.content-controls__left) {
-		text-align: left;
+			text-align: left;
 	}
 	.project-detail__content :global(.content-controls__right) {
-		text-align: right;
+			text-align: right;
 	}
 	.project-detail__content :global(.content-controls__right .content-controls__right-title),
 	.project-detail__content :global(.content-controls__left .content-controls__left-title) {
-		font-size: 1rem;
-		padding-bottom: 1rem;
+			font-size: 1rem;
+			padding-bottom: 1rem;
 	}
 	@media (min-width: 480px) {
 		.project-detail__content :global(.content-controls__right .content-controls__right-title),
@@ -198,14 +198,19 @@
 	}
 	.project-detail__content :global(figcaption a:hover),
 	.project-detail__content :global(.project-detail__content-controls a:hover) {
-		color: #a47764;
-		text-decoration: none;
+			color: #a47764;
+			text-decoration: none;
 	}
 	.project-detail__headline {
-		font-family: 'Source Code Pro', monospace;
-		font-size: 2.6rem;
-		padding: 4.5rem 1.125rem 1.125rem;
-		color: #fff;
-		background-color: #000;
+			font-family: 'Source Code Pro', monospace;
+			font-weight: bold;
+			font-size: 2.6rem;
+			padding: 4.5rem 1.125rem 1.125rem;
+			color: #fff;
+			background-color: #000;
+	}
+	.overview-content__headline {
+      font-weight: bold;
+      color: #a47764;
 	}
 </style>
