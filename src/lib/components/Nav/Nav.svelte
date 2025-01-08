@@ -70,8 +70,10 @@
 	<a
 		aria-current={$page.url.pathname === '/' || $page.url.pathname === '/de' || $page.url.pathname === '/es' ? 'page' : undefined}
 		href="/"
-		on:click={() => (menuOpen = false)}>iammrvilla</a
-	>
+		on:click={() => (menuOpen = false)}>
+		iammrvilla
+	</a>
+	<div class="nav__menu">
 	<input bind:checked={menuOpen} id="menu-toggle" type="checkbox" />
 	<label class="menu-button-container" for="menu-toggle">
 		<svg viewBox="0 0 64 48">
@@ -258,5 +260,6 @@
 		</ul>
 	</div>
 	<LangSwitcher />
+	</div>
 </nav>
 
