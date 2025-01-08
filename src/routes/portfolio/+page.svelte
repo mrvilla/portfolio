@@ -35,8 +35,8 @@
 	{#each translatedPortfolios as { title, subtitle, shortDesc, slug, link, projectLink, projectHref }}
 		<div class="project-case__item">
 			<div class="project-case__item-details">
+				<span class="item-details__subtitle">{subtitle}</span>
 				<h4>{title}</h4>
-				<span>{subtitle}</span>
 				<p>{shortDesc}</p>
 			</div>
 			<div class="project-case__item-links">
@@ -54,6 +54,14 @@
 </ProjectCase>
 
 <style lang="scss">
+  .item-details__subtitle {
+	  background-color: #a47764;
+	  color: #fff;
+    display: inline-block;
+    border-radius: 4px;
+    padding: 0 0.5rem;
+    margin: 0.5rem 0;
+  }
 	.project-case__item {
 		display: flex;
 		flex-direction: column;

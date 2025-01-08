@@ -72,6 +72,7 @@
 		}
 
 		.bold {
+			color: #a47764;
 			font-weight: bold;
 		}
 
@@ -159,6 +160,7 @@
 			@supports (initial-letter: 1) {
 				initial-letter: 2;
 				margin: 0 $spacing-16 * 0.4 0;
+				color: $secondary-color;
 			}
 		}
 	}
@@ -274,8 +276,10 @@
 
 	.stage__offering_headline {
 		font-size: 1.5rem;
+		font-weight: bold;
 		line-height: 1.4;
 		padding-bottom: 1rem;
+		color: $secondary-color;
 
 		@media (min-width: 1024px) {
 			padding-bottom: 2rem;
@@ -464,11 +468,11 @@
 			border-radius: 1.25rem;
 			background-color: rgba(255, 255, 255, 0.1);
 			color: $white;
-			border: 0.375rem solid transparent;
+			border: 0.375rem solid $secondary-color;
 			text-decoration: none;
 
 			&:hover {
-				border: 0.375rem Solid $secondary-color;
+				border: 0.375rem solid $white;
 			}
 		}
 	}
