@@ -58,7 +58,7 @@
 	  background-color: #a47764;
 	  color: #fff;
     display: inline-block;
-    border-radius: 4px;
+    border-radius: 0.25rem;
     padding: 0 0.5rem;
     margin: 0.5rem 0;
   }
@@ -68,32 +68,28 @@
 		justify-content: space-between;
 		border-radius: 1.25rem;
 		padding: 1rem;
-		background-color: #000;
-		color: #fff;
+		background-color: #fff;
+		color: #000;
 	}
 	.project-case__item-links {
 		display: flex;
 		justify-content: space-between;
-	}
 
-	a {
-    display: block;
-    text-decoration: none;
-		position: relative;
-
-    &::after {
-      position: absolute;
-      content: '';
-      width: calc(100% - 1rem);
-      height: 0.438rem;
-      background-color: #a47764;
+    a {
       display: block;
-      bottom: 0.563rem;
-    }
+      text-decoration: none;
+      position: relative;
+      margin-bottom: 0.5rem;
 
-    &:hover {
       &::after {
-        background-color: transparent;
+        position: absolute;
+        content: '';
+        width: 100%;
+        height: 0.438rem;
+        background-color: #a47764;
+	      border-radius: 0.25rem;
+        display: block;
+        bottom: -0.563rem;
       }
     }
 	}

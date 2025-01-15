@@ -1,13 +1,13 @@
 .project-case {
 	padding: $spacing-16 * 4 $spacing-16 $spacing-16 * 4;
 	position: relative;
-	background-color: $white;
+	background-color: $primary-color;
 
 	.project-case__headline {
 		font-size: 2.6em;
 		font-weight: bold;
 		margin: 0 0 1.5em 0;
-		color: $secondary-color;
+		color: $white;
 	}
 
 	.project-case__content {
