@@ -271,7 +271,7 @@
     .service__headline {
         font-size: 2.6em;
         font-weight: bold;
-        margin: 0 0 1.5em 0;
+        margin: 0 0 1.5rem 0;
         color: #a47764;
     }
 
@@ -293,11 +293,13 @@
     }
 
     .service__industries {
+      margin: 4rem 1rem 1.5rem;
+
 	    h3 {
 		    font-size: 1.8rem;
         font-weight: bold;
 		    color: #fff;
-		    margin: 4rem 1rem 1.5rem;
+		    margin: 4rem 0 2rem;
 	    }
     }
 
@@ -365,7 +367,7 @@
 
 	    .key-offering__items {
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+        grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
         gap: 2.5em;
 	    }
 
