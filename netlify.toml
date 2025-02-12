@@ -2,3 +2,12 @@
     command = "pnpm install && pnpm build"
     publish = "build"
 
+[[redirects]]
+    from = "/de"
+    to = "/index.html"
+    status = 200
+
+[[redirects]]
+    from = "/es"
+    to = "/index.html"
+    status = 200
