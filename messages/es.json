@@ -11,7 +11,14 @@
 
 	"stage_headline": "Dé vida a sus historias con sitios web personalizados, diseño de interfaz de usuario y vistas aéreas.",
 	"stage_heroText": "Combinando <span class='bold'>Desarrollo Web,</span> impresionante <span class='bold'>Fotografía de Drones,</span> y <span class='bold'>Diseños de Interfaz de Usuario</span> centrados en el usuario para dar vida a tus necesidades únicas.",
-	"stage_aboutText": "Henri, tu desarrollador frontend y narrador visual. Ayudo a empresas y particulares a transformar sus ideas en experiencias digitales. Ya sea que estés en el corazón de la ciudad o en un rincón remoto del mundo, juntos nos aseguraremos de que permanezcas conectado y visible online.",
+	"stage_aboutText": "Henry Villa, Ingeniero Frontend con visión para el diseño y la creación de experiencias accesibles y perfectas al píxel.",
+	"stage_aboutText2": "Desarrollo diseños responsivos y aplicaciones de alto rendimiento. Ya sea creando nuevos proyectos desde cero, refinando bases de código existentes u optimizando interfaces.",
+	"stage_aboutText3": "Mi enfoque:",
+	"stage_aboutListItem1": "Código limpio y mantenible para la escalabilidad",
+	"stage_aboutListItem2": "Desarrollo accesible garantizando el cumplimiento de WCAG",
+	"stage_aboutListItem3": "Optimización del rendimiento para tiempos de carga rápidos",
+	"stage_aboutListItem4": "Mejores prácticas y estándares de la industria",
+	"stage_aboutListItem5": "Principios de diseño centrados en el usuario que impulsan la participación",
 
 	"stage_key_offering_headline": "Descubre servicios creativos profesionales para elevar su visión",
 	"stage_keyOfferings_userInterface": "Diseños de Interfaz de Usuario Centrados en el Usuario",
@@ -30,7 +37,8 @@
 	"stage_whyMe_flexibleAdaptiveDescription": "Ofreciendo proyectos a tiempo parcial y/o proyectos de gran escala para adaptarse a tus necesidades.",
 
 	"stage_ctaHeadline": "¿Listo para elevar tu presencia digital o ver cómo mis habilidades únicas pueden beneficiarte?",
-	"stage_ctaBtn": "Conectémonos",
+	"stage_ctaHeadlineConnect": "Construyamos algo juntos.",
+	"stage_ctaBtn": "Contacto",
 
 	"article_headline": "Un poco de historia",
 	"article_paragraphs_p1": "Mi familia me llamó Enrique, pero la gente me llama Henry.",

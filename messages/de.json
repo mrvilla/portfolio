@@ -11,7 +11,15 @@
 
 	"stage_headline": "Bringen Sie Ihre Geschichten mit maßgeschneiderten Websites, UI-Design und Luftaufnahmen zum Leben.",
 	"stage_heroText": "Kombinieren von <span class='bold'>Webentwicklung,</span> beeindruckender <span class='bold'>Drohnenfotografie</span> und benutzerzentriertem <span class='bold'>UI-Design</span>, um Ihre einzigartigen Bedürfnisse zum Leben zu erwecken.",
-	"stage_aboutText": "Hier ist Henry, Ihr Frontend-Entwickler und visueller Geschichtenerzähler. Ich helfe Unternehmen und Einzelpersonen, ihre Ideen in digitale Erlebnisse zu verwandeln. Egal ob im Herzen der Stadt oder an einem abgelegenen Ort – gemeinsam sorgen wir dafür, dass Sie online verbunden und sichtbar bleiben.",
+	"stage_aboutText": "Henry Villa, Frontend-Entwickler mit Blick für Design und Erstellung von pixelgenauen, barrierefreien Erlebnissen.",
+	"stage_aboutText2": "Ich entwickle responsive Designs und leistungsstarke Anwendungen. Ob beim Aufbau neuer Projekte von Grund auf, der Verbesserung bestehender Codebases oder der Optimierung von Benutzeroberflächen.",
+	"stage_aboutText3": "Mein Ansatz:",
+	"stage_aboutListItem1": "Sauberer, wartbarer Code für Skalierbarkeit",
+	"stage_aboutListItem2": "Barrierefreie Entwicklung mit WCAG-Konformität",
+	"stage_aboutListItem3": "Leistungsoptimierung für schnelle Ladezeiten",
+	"stage_aboutListItem4": "Bewährte Methoden und Standards der Branche",
+	"stage_aboutListItem5": "Nutzerzentrierte Designprinzipien, die Engagement fördern",
+
 	"stage_key_offering_headline": "Entdecken Sie professionelle kreative Dienstleistungen, um Ihre Vision zu verwirklichen",
 	"stage_keyOfferings_userInterface": "Benutzerzentriertes UI-Design",
 	"stage_keyOfferings_userInterfaceDescription": "Benutzerfreundliche Schnittstellen, erstellt mit einem Jahrzehnt Designexpertise.",
@@ -27,7 +35,8 @@
 	"stage_whyMe_flexibleAdaptive": "Flexibel und Anpassungsfähig",
 	"stage_whyMe_flexibleAdaptiveDescription": "Bietet sowohl Teilzeit-Projektengagements als auch umfassenden Support, um Ihre Bedürfnisse zu erfüllen.",
 	"stage_ctaHeadline": "Bereit, Ihre digitale Präsenz zu verbessern oder zu sehen, wie meine einzigartigen Fähigkeiten Ihnen zugutekommen können?",
-	"stage_ctaBtn": "Lassen Sie uns verbinden",
+	"stage_ctaHeadlineConnect": "Lassen Sie uns gemeinsam etwas erschaffen.",
+	"stage_ctaBtn": "Kontakt",
 
 	"article_headline": "Ein bisschen Geschichte",
 	"article_paragraphs_p1": "Meine Familie nannte mich Enrique, aber die Leute nennen mich Henry.",

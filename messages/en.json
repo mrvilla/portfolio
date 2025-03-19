@@ -11,7 +11,14 @@
 
 	"stage_headline": "Bringing Your Stories to Life with Custom Websites, UI Design, and Aerial Views.",
 	"stage_heroText": "Combining <span class='bold'>Web Development,</span> breathtaking <span class='bold'>Drone Photography,</span> and user-centric <span class='bold'>UI Designs</span> to bring your unique needs—to life.",
-	"stage_aboutText": "Henry here, your Frontend Developer and Visual Storyteller. I help businesses and individuals transform their ideas into digital experiences. Whether you're in the heart of the city or in a remote corner of the world, together we‘ll ensure you to stay connected and visible online.",
+	"stage_aboutText": "Henry Villa, Frontend Engineer with an eye for design, and building pixel perfect, accessible experiences.",
+	"stage_aboutText2": "I build responsive designs, high-performance applications. Whether building new ones from scratch, refining existing codebases, or optimizing interfaces.",
+	"stage_aboutText3": "My approach:",
+	"stage_aboutListItem1": "Clean, maintainable code for scalability",
+	"stage_aboutListItem2": "Accessibility development ensuring WCAG compliance",
+	"stage_aboutListItem3": "Performance optimization fast load times",
+	"stage_aboutListItem4": "Industry best practices and standards",
+	"stage_aboutListItem5": "User-centered design principles that drive engagement",
 
 	"stage_key_offering_headline": "Discover Professional Creative Services to Elevate Your Vision",
 	"stage_keyOfferings_userInterface": "User-Centric UI Designs",
@@ -30,7 +37,8 @@
 	"stage_whyMe_flexibleAdaptiveDescription": "Offering both part-time project commitments and/or full-scale support to fit your needs.",
 
 	"stage_ctaHeadline": "Ready to elevate your digital presence or see how my unique skills can benefit you?",
-	"stage_ctaBtn": "Let's Connect",
+	"stage_ctaHeadlineConnect": "Let's build something together.",
+	"stage_ctaBtn": "Contact",
 
 	"article_headline": "A bit of history",
 	"article_paragraphs_p1": "My family named me Enrique, but people call me Henry.",
