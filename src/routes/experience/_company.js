@@ -46,15 +46,15 @@ const companies = [
 		details: m.company5_details(),
 		href: 'https://www.qualmity.com/'
 	},
-	{
-		src: '/projects/sgum.svg',
-		companyName: m.company6_name(),
-		title: m.company6_title(),
-		location: m.company6_location(),
-		beginEnd: m.company6_beginEnd(),
-		details: m.company6_details(),
-		href: 'https://www.signum-consult.com/index.html'
-	}
+	// {
+	// 	src: '/projects/sgum.svg',
+	// 	companyName: m.company6_name(),
+	// 	title: m.company6_title(),
+	// 	location: m.company6_location(),
+	// 	beginEnd: m.company6_beginEnd(),
+	// 	details: m.company6_details(),
+	// 	href: 'https://www.signum-consult.com/index.html'
+	// }
 ];
 
 export default companies;
