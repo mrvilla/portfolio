@@ -168,19 +168,7 @@
 			@media (min-width: 1024px) {
 				font-size: 1.5vw;
 				line-height: 1.6;
-				margin: 0 0 0 $spacing-16 * 6;
-			}
-
-			&::before {
-				content: "";
-				position: absolute;
-				left: 0;
-				top: 50%;
-				width: 10px;
-				height: 10px;
-				background: radial-gradient(circle, #a47764, #a47764);
-				border-radius: 50%;
-				transform: translateY(-50%);
+				margin: 0 0 0 $spacing-16 * 4;
 			}
 		}
 	}
@@ -285,8 +273,8 @@
 			}
 
 			@media (min-width: 1024px) {
-				height: 23rem;
-				padding: 0 $spacing-16 * 6;
+				height: 18rem;
+				padding: 0 $spacing-16 * 4;
 			}
 		}
 	}
@@ -314,9 +302,9 @@
 
 			@media (min-width: 1024px) {
 				height: 26rem;
-				margin-top: $spacing-16 * 6;
+				margin-top: $spacing-16 * 4;
 				margin-bottom: 0;
-				padding: 0 $spacing-16 * 6;
+				padding: 0 $spacing-16 * 4;
 			}
 		}
 
@@ -332,8 +320,8 @@
 			}
 
 			@media (min-width: 1024px) {
-				height: 22rem;
-				padding: 0 $spacing-16 * 6;
+				height: 18rem;
+				padding: 0 $spacing-16 * 4;
 				margin-left: -0.375rem;
 				border-left: 0.375rem solid $secondary-color;
 			}
@@ -353,7 +341,7 @@
 	}
 
 	.stage__offering_content_text {
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 
 	.stage__content_why_me {

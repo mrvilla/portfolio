@@ -9,9 +9,7 @@
 		<p>{m.article_paragraphs_p2()}</p>
 		<p>{m.article_paragraphs_p3()}</p>
 		<p>{m.article_paragraphs_p4()}</p>
-		<p>{m.article_paragraphs_p5()}</p>
-		<p>{m.article_paragraphs_p6()}</p>
-		<p>{m.article_paragraphs_p7()}</p>
+
 	</div>
 </article>
 

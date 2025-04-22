@@ -28,24 +28,24 @@ const companies = [
 		details: m.company3_details(),
 		href: 'https://www.aperto.com/en'
 	},
-	// {
-	// 	src: '/projects/eyen.svg',
-	// 	companyName: m.company4_name(),
-	// 	title: m.company4_title(),
-	// 	location: m.company4_location(),
-	// 	beginEnd: m.company4_beginEnd(),
-	// 	details: m.company4_details(),
-	// 	href: 'https://www.eyevinntechnology.se'
-	// },
-	// {
-	// 	src: '/projects/qlmy.svg',
-	// 	companyName: m.company5_name(),
-	// 	title: m.company5_title(),
-	// 	location: m.company5_location(),
-	// 	beginEnd: m.company5_beginEnd(),
-	// 	details: m.company5_details(),
-	// 	href: 'https://www.qualmity.com/'
-	// },
+	{
+		src: '/projects/eyen.svg',
+		companyName: m.company4_name(),
+		title: m.company4_title(),
+		location: m.company4_location(),
+		beginEnd: m.company4_beginEnd(),
+		details: m.company4_details(),
+		href: 'https://www.eyevinntechnology.se'
+	},
+	{
+		src: '/projects/qlmy.svg',
+		companyName: m.company5_name(),
+		title: m.company5_title(),
+		location: m.company5_location(),
+		beginEnd: m.company5_beginEnd(),
+		details: m.company5_details(),
+		href: 'https://www.qualmity.com/'
+	}
 	// {
 	// 	src: '/projects/sgum.svg',
 	// 	companyName: m.company6_name(),
