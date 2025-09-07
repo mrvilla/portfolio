@@ -119,16 +119,6 @@
 						<img alt="GitHub" src="./social-icons/gh_icon.svg" class="icon" />
 					</a>
 				</li>
-				<li>
-					<a rel="prefetch" href="https://www.linkedin.com/in/henryvilla/" class="social-icon">
-						<img alt="LinkedIn" src="./social-icons/li_icon.svg" class="icon" />
-					</a>
-				</li>
-				<li>
-					<a rel="prefetch" href="https://www.instagram.com/iammrvilla/" class="social-icon">
-						<img alt="Instagram" src="./social-icons/ig_icon.svg" class="icon" />
-					</a>
-				</li>
 			</ul>
 		</div>
 	</section>

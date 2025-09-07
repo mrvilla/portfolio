@@ -37,6 +37,7 @@
 	$: translatedProject = {
 		...project,
 		title: m[`project${projectIndex + 1}_title`]?.(),
+		extendedTitle: m[`project${projectIndex + 1}_extendedTitle`]?.(),
 		overviewHeadlineText: m[`project${projectIndex + 1}_overviewHeadlineText`]?.(),
 		overview: m[`project${projectIndex + 1}_overview`]?.(),
 		roleHeadlineText: m[`project${projectIndex + 1}_roleHeadlineText`]?.(),
@@ -48,6 +49,16 @@
 		solutionsHeadlineText: m[`project${projectIndex + 1}_solutionsHeadlineText`]?.(),
 		solutions: m[`project${projectIndex + 1}_solutions`]?.(),
 		companyLogo: m[`project${projectIndex + 1}_companyLogo`]?.(),
+		contributionsHeadlineText: m[`project${projectIndex + 1}_contributionsHeadlineText`]?.(),
+		contributionsSubheadlineText1: m[`project${projectIndex + 1}_contributionsSubheadlineText1`]?.(),
+		contributionsText1: m[`project${projectIndex + 1}_contributionsText1`]?.(),
+		contributionsSubheadlineText2: m[`project${projectIndex + 1}_contributionsSubheadlineText2`]?.(),
+		contributionsText2: m[`project${projectIndex + 1}_contributionsText2`]?.(),
+		keyResultsHeadlineText: m[`project${projectIndex + 1}_keyResultsHeadlineText`]?.(),
+		keyResultsText1: m[`project${projectIndex + 1}_keyResultsText1`]?.(),
+		keyResultsText2: m[`project${projectIndex + 1}_keyResultsText2`]?.(),
+		keyResultsText3: m[`project${projectIndex + 1}_keyResultsText3`]?.(),
+		contentImgsHeadline: m[`project${projectIndex + 1}_contentImgsHeadline`]?.(),
 		figcaption: m[`project${projectIndex + 1}_figcaption`]?.(),
 		figcaptionImg: m[`project${projectIndex + 1}_figcaptionImg`]?.(),
 		figcaption2: m[`project${projectIndex + 1}_figcaption2`]?.(),
@@ -70,7 +81,7 @@
 
 {#if translatedProject}
 	<ProjectDetail>
-		<h2 class="project-detail__headline">{translatedProject.title}</h2>
+		<h2 class="project-detail__headline">{translatedProject.extendedTitle}</h2>
 
 		<div class="project-detail__content">
 			<div class="project-detail__overview">
@@ -88,24 +99,43 @@
 				</div>
 				<img src={translatedProject.companyLogo} alt="Logo of Company">
 			</div>
-
+			<div class="project-detail__contributions">
+				<div class="project-detail__contributions-content">
+					<h3 class="contributions-content__headline">{translatedProject.contributionsHeadlineText}</h3>
+					<h4>{translatedProject.contributionsSubheadlineText1}</h4>
+					<p>{translatedProject.contributionsText1}</p>
+					<h4>{translatedProject.contributionsSubheadlineText2}</h4>
+					<p>{translatedProject.contributionsText2}</p>
+				</div>
+			</div>
+			<div class="project-detail__key-results">
+				<div class="project-detail__key-results-content">
+					<h3 class="key-results-content__headline">{translatedProject.keyResultsHeadlineText}</h3>
+					<p>{translatedProject.keyResultsText1}</p>
+					<p>{translatedProject.keyResultsText2}</p>
+					<p>{translatedProject.keyResultsText3}</p>
+				</div>
+			</div>
 			<div class="project-detail__content-imgs">
-				<figure>
-					<figcaption>{translatedProject.figcaption}</figcaption>
-					<img src={translatedProject.figcaptionImg} alt="Mobile">
-				</figure>
-				<figure>
-				{#if translatedProject.figcaption2 && translatedProject.figcaption2img}
-					<figcaption>{translatedProject.figcaption2}</figcaption>
-					<img src={translatedProject.figcaption2img} alt="Desktop">
-				{/if}
-				</figure>
+				<h3 class="content-imgs__headline">{translatedProject.contentImgsHeadline}</h3>
+				<div class="project-detail__content-imgs-content">
 					<figure>
-				{#if translatedProject.figcaption3 && translatedProject.figcaption3img}
+						<figcaption>{translatedProject.figcaption}</figcaption>
+						<img src={translatedProject.figcaptionImg} alt="Mobile">
+					</figure>
+					{#if translatedProject.figcaption2 && translatedProject.figcaption2img}
+					<figure>
+						<figcaption>{translatedProject.figcaption2}</figcaption>
+						<img src={translatedProject.figcaption2img} alt="Desktop">
+					</figure>
+					{/if}
+					{#if translatedProject.figcaption3 && translatedProject.figcaption3img}
+					<figure>
 						<figcaption>{translatedProject.figcaption3}</figcaption>
 						<img src={translatedProject.figcaption3img} alt="Desktop">
-				{/if}
 					</figure>
+					{/if}
+				</div>
 			</div>
 
 			<div class="project-detail__content-controls">
@@ -131,6 +161,7 @@
 				</div>
 			</div>
 		</div>
+		
 	</ProjectDetail>
 {:else}
 	<p>{m.project_loading_details()}</p>
@@ -153,15 +184,29 @@
 			padding-bottom: 1.25rem;
 	}
 	.project-detail__content :global(.project-detail__overview) {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-			gap: 2.5rem;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+		gap: 2.5rem;
+		justify-items: center;
+    	align-items: center;
 	}
-	.project-detail__content :global(.project-detail__content-imgs) {
-			padding: 2rem 0 2rem;
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-			gap: 2.5rem;
+	.project-detail__content :global(.project-detail__contributions) {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+		gap: 2.5rem;
+		margin: 2rem auto 2rem;
+	}
+	.project-detail__content :global(.project-detail__key-results) {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+		gap: 2.5rem;
+		margin: 0 auto 2rem;
+	}
+	.project-detail__content :global(.project-detail__content-imgs-content) {
+		padding: 0 0 2rem;
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+		gap: 2.5rem;
 	}
 	.project-detail__content :global(figcaption) {
 			text-align: center;
@@ -209,7 +254,10 @@
 			color: #fff;
 			background-color: #000;
 	}
-	.overview-content__headline {
+	.overview-content__headline,	
+	.contributions-content__headline,
+	.key-results-content__headline,
+	.content-imgs__headline {
       font-weight: bold;
       color: #a47764;
 	}

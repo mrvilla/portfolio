@@ -242,14 +242,6 @@
 				<h5>{m.keyOfferingItemDesignSystems()}</h5>
 				<p>{m.keyOfferingItemDesignSystemsDescription()}</p>
 			</div>
-			<div class="key-offering__item">
-				<h5>{m.keyOfferingItemPhotographyServices()}</h5>
-				<p>{m.keyOfferingItemPhotographyServicesDescription()}</p>
-			</div>
-			<div class="key-offering__item">
-				<h5>{m.keyOfferingItemDronePhotography()}</h5>
-				<p>{m.keyOfferingItemDronePhotographyDescription()}</p>
-			</div>
 		</div>
 	</div>
 	<div class="service__cta">
