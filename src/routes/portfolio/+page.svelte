@@ -43,7 +43,7 @@
 				<a rel="prefetch" href={`/portfolio/${slug}`}>
 					{link}
 				</a>
-				{#if projectLink}
+				{#if projectLink && projectHref}
 					<a target="_blank" href={projectHref}>
 						{projectLink}
 					</a>
