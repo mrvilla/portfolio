@@ -3,13 +3,13 @@
 </script>
 
 <div class="stage">
-<h1 class="stage__headline">{m.stage_headline()}</h1>
+<!-- <h1 class="stage__headline">{m.stage_headline()}</h1> -->
 	<div class="stage__content_hero">
-		<p class="stage__hero_text">
+		<!-- <p class="stage__hero_text">
 			{@html m.stage_heroText()}
-		</p>
+		</p> -->
 		<div class="stage__video_wrapper">
-			<video
+			<!-- <video
 				class="stage__video"
 				autoplay
 				muted
@@ -20,12 +20,12 @@
 			>
 				<source src="/videos/dji_fly_video_clip.mp4" type="video/mp4" />
 				Your browser does not support the video tag.
-			</video>
+			</video> -->
 		</div>
 	</div>
 	<div class="stage__content_about">
 		<div class="stage__profile_photo_container">
-			<img class="stage__profile_photo" alt="profile_pic" src="/images/profile.jpg" />
+			<img class="stage__profile_photo" alt="profile_pic" src="/images/profile2.jpg" />
 		</div>
 		<div class="stage__about">
 			<p class="stage__about_text">{m.stage_aboutText()}</p>

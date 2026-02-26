@@ -36,12 +36,12 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		margin-bottom: $spacing-16 * 5;
+		// margin-bottom: $spacing-16 * 5;
 		flex-direction: column-reverse;
 		gap: 1rem;
 
 		@media (min-width: 768px) {
-			margin-bottom: $spacing-16 * 7.5;
+			margin-bottom: 0;
 			gap: 1rem;
 		}
 
@@ -104,12 +104,12 @@
 		justify-content: center;
 		margin-bottom: $spacing-16 * 4;
 		align-items: center;
-		padding: 0 $spacing-16 * 4;
+		padding: 0;
 
 		@media (min-width: 768px) {
 			text-align: left;
 			margin-bottom: $spacing-16 * 4;
-			padding: 0 $spacing-16 * 12;
+			padding: 0 $spacing-16 * 3;
 		}
 
 		@media (min-width: 1024px) {
@@ -122,11 +122,16 @@
 
 	.stage__profile_photo_container {
 		//display: flex;
-		justify-content: center;
+		//justify-content: center;
 		margin-bottom: $spacing-16 * 2;
-		//width: auto;
+		width: 50%;
+
+		@media (min-width: 768px) {
+			width: 30%;
+		}
 
 		@media (min-width: 1024px) {
+			width: 15%;
 			margin-bottom: 0;
 		}
 
