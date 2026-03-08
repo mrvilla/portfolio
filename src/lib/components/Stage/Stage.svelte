@@ -34,6 +34,7 @@
 			<ul class="stage__list">
 				<li class="stage__list-item">{m.stage_aboutListItem1()}</li>
 				<li class="stage__list-item">{m.stage_aboutListItem2()}</li>
+				<li class="stage__list-item">{m.stage_aboutListItem3_ai()}</li>
 				<li class="stage__list-item">{m.stage_aboutListItem3()}</li>
 				<li class="stage__list-item">{m.stage_aboutListItem4()}</li>
 				<li class="stage__list-item">{m.stage_aboutListItem5()}</li>
@@ -83,6 +84,15 @@
 			</div>
 		</div>
 	</section>
+	<section class="stage__content_modern_tools">
+		<h2 class="stage__modern_tools_headline">{m.stage_modernTools_headline()}</h2>
+		<div class="stage__modern_tools_wrapper">
+			<div class="stage__modern_tool">
+				<p class="stage__modern_tool_content_text">{m.stage_modernTools_content_text()}</p>
+				<p class="stage__modern_tool_content_text2">{m.stage_modernTools_content_text2()}</p>
+			</div>
+		</div>
+	</section>
 	<!--	<section class="stage__content_testimonials">-->
 	<!--		<h2 class="stage__testimonials_headline">Real Feedback, Real Results</h2>-->
 	<!--		<div class="stage__testimonials_wrapper">-->
@@ -101,6 +111,7 @@
 		<div class="stage__cta_wrapper">
 			<div class="stage__cta_text">
 				<h2 class="stage__cta_headline">{m.stage_ctaHeadlineConnect()}</h2>
+				<p class="stage__cta_description">{m.stage_ctaHeadlineDescription()}</p>
 				<a href="mailto:evilla@iammrvilla.com" class="stage__cta_button">{m.stage_ctaBtn()}</a>
 			</div>
 			<div class="stage__cta_image">
