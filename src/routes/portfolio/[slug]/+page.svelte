@@ -10,19 +10,12 @@
 	$: slug = $page.url.pathname.split('/').pop();
 	// $: console.log('Updated slug:', slug)
 
+	const hasText = (value) => typeof value === 'string' && value.trim().length > 0;
+
 	const slugToIndex = {
 		sembo: 0,
 		signum: 1,
-		'ibmix-aperto': 2,
-		'video-dev-team': 3,
-		corruptor: 4,
-		btv: 5,
-		dihk: 6,
-		consuo: 7,
-		'signum-consulting': 8,
-		consus: 9,
-		cemex: 10,
-		qualmity: 11
+		'video-dev-team': 2,
 	};
 
 	$: projectIndex = slugToIndex[slug];
@@ -54,10 +47,16 @@
 		contributionsText1: m[`project${projectIndex + 1}_contributionsText1`]?.(),
 		contributionsSubheadlineText2: m[`project${projectIndex + 1}_contributionsSubheadlineText2`]?.(),
 		contributionsText2: m[`project${projectIndex + 1}_contributionsText2`]?.(),
+		contributionsSubheadlineText3: m[`project${projectIndex + 1}_contributionsSubheadlineText3`]?.(),
+		contributionsText3: m[`project${projectIndex + 1}_contributionsText3`]?.(),
+		contributionsSubheadlineText4: m[`project${projectIndex + 1}_contributionsSubheadlineText4`]?.(),
+		contributionsText4: m[`project${projectIndex + 1}_contributionsText4`]?.(),
 		keyResultsHeadlineText: m[`project${projectIndex + 1}_keyResultsHeadlineText`]?.(),
 		keyResultsText1: m[`project${projectIndex + 1}_keyResultsText1`]?.(),
 		keyResultsText2: m[`project${projectIndex + 1}_keyResultsText2`]?.(),
 		keyResultsText3: m[`project${projectIndex + 1}_keyResultsText3`]?.(),
+		keyResultsText4: m[`project${projectIndex + 1}_keyResultsText4`]?.(),
+		keyResultsText5: m[`project${projectIndex + 1}_keyResultsText5`]?.(),
 		contentImgsHeadline: m[`project${projectIndex + 1}_contentImgsHeadline`]?.(),
 		figcaption: m[`project${projectIndex + 1}_figcaption`]?.(),
 		figcaptionImg: m[`project${projectIndex + 1}_figcaptionImg`]?.(),
@@ -65,6 +64,8 @@
 		figcaption2img: m[`project${projectIndex + 1}_figcaption2img`]?.(),
 		figcaption3: m[`project${projectIndex + 1}_figcaption3`]?.(),
 		figcaption3img: m[`project${projectIndex + 1}_figcaption3img`]?.(),
+		figcaption4: m[`project${projectIndex + 1}_figcaption4`]?.(),
+		figcaption4img: m[`project${projectIndex + 1}_figcaption4img`]?.(),
 		previousProjectControlTitle: m[`project${projectIndex + 1}_previousProjectControlTitle`](),
 		previousLink: m[`project${projectIndex + 1}_previousLink`]?.(),
 		previousProjectName: m[`project${projectIndex + 1}_previousProjectName`]?.(),
@@ -87,15 +88,21 @@
 			<div class="project-detail__overview">
 				<div class="project-detail__overview-content">
 					<h3 class="overview-content__headline">{translatedProject.overviewHeadlineText}</h3>
-					<p>{translatedProject.overview}</p>
+					<p class="overview-content__p">{translatedProject.overview}</p>
 					<h4>{translatedProject.roleHeadlineText}</h4>
-					<p>{translatedProject.role}</p>
+					<p class="overview-content__p">{translatedProject.role}</p>
 					<h4>{translatedProject.teamHeadlineText}</h4>
-					<p>{translatedProject.team}</p>
+					<p class="overview-content__p">{translatedProject.team}</p>
 					<h4>{translatedProject.toolsHeadlineText}</h4>
-					<p>{translatedProject.tools}</p>
-					<h4>{translatedProject.solutionsHeadlineText}</h4>
-					<p>{translatedProject.solutions}</p>
+					<p class="overview-content__p">{translatedProject.tools}</p>
+					{#if hasText(translatedProject.solutionsHeadlineText) || hasText(translatedProject.solutions)}
+						{#if hasText(translatedProject.solutionsHeadlineText)}
+							<h4>{translatedProject.solutionsHeadlineText}</h4>
+						{/if}
+						{#if hasText(translatedProject.solutions)}
+							<p class="overview-content__p">{translatedProject.solutions}</p>
+						{/if}
+					{/if}
 				</div>
 				<img src={translatedProject.companyLogo} alt="Logo of Company">
 			</div>
@@ -106,14 +113,22 @@
 					<p>{translatedProject.contributionsText1}</p>
 					<h4>{translatedProject.contributionsSubheadlineText2}</h4>
 					<p>{translatedProject.contributionsText2}</p>
+					<h4>{translatedProject.contributionsSubheadlineText3}</h4>
+					<p>{translatedProject.contributionsText3}</p>
+					<h4>{translatedProject.contributionsSubheadlineText4}</h4>
+					<p>{translatedProject.contributionsText4}</p>
 				</div>
 			</div>
 			<div class="project-detail__key-results">
 				<div class="project-detail__key-results-content">
-					<h3 class="key-results-content__headline">{translatedProject.keyResultsHeadlineText}</h3>
-					<p>{translatedProject.keyResultsText1}</p>
-					<p>{translatedProject.keyResultsText2}</p>
-					<p>{translatedProject.keyResultsText3}</p>
+					{#if hasText(translatedProject.keyResultsHeadlineText)}
+						<h3 class="key-results-content__headline">{translatedProject.keyResultsHeadlineText}</h3>
+					{/if}
+					{#if hasText(translatedProject.keyResultsText1)}<p>{translatedProject.keyResultsText1}</p>{/if}
+					{#if hasText(translatedProject.keyResultsText2)}<p>{translatedProject.keyResultsText2}</p>{/if}
+					{#if hasText(translatedProject.keyResultsText3)}<p>{translatedProject.keyResultsText3}</p>{/if}
+					{#if hasText(translatedProject.keyResultsText4)}<p>{translatedProject.keyResultsText4}</p>{/if}
+					{#if hasText(translatedProject.keyResultsText5)}<p>{translatedProject.keyResultsText5}</p>{/if}
 				</div>
 			</div>
 			<div class="project-detail__content-imgs">
@@ -133,6 +148,12 @@
 					<figure>
 						<figcaption>{translatedProject.figcaption3}</figcaption>
 						<img src={translatedProject.figcaption3img} alt="Desktop">
+					</figure>
+					{/if}
+					{#if translatedProject.figcaption4 && translatedProject.figcaption4img}
+					<figure>
+						<figcaption>{translatedProject.figcaption4}</figcaption>
+						<img src={translatedProject.figcaption4img} alt="Desktop">
 					</figure>
 					{/if}
 				</div>
@@ -260,5 +281,9 @@
 	.content-imgs__headline {
       font-weight: bold;
       color: #a47764;
+	}
+
+	.overview-content__p {
+		white-space: pre-wrap;
 	}
 </style>
