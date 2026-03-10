@@ -10,9 +10,9 @@
 
 	let navItems = [
 		{ href: '/about', label: m.nav_about() },
-		{ href: '/experience', label: m.nav_experience() },
-		{ href: '/services', label: m.nav_services() },
+		// { href: '/experience', label: m.nav_experience() },
 		{ href: '/portfolio', label: m.nav_portfolio() },
+		{ href: '/services', label: m.nav_services() },
 		// { href: '/aerial', label: m.nav_drone() },
 		// { href: '/photography', label: m.nav_photography() },
 	];

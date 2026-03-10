@@ -4,8 +4,8 @@
 
 	"nav_about": "About",
 	"nav_experience": "Experience",
-	"nav_services": "Offers",
-	"nav_portfolio": "Portfolio",
+	"nav_services": "What I Focus On",
+	"nav_portfolio": "Selected Work",
 	"nav_photography": "Photography",
 	"nav_drone": "Drone",
 
@@ -47,7 +47,7 @@
 	"stage_ctaBtn": "Contact",
 
 	"article_headline": "Who I Am",
-	"article_paragraphs_p1": "My path has never been a straight one. It’s moved through art, design, architecture, and technology, but as languages I’ve learned to speak with my hands and heart.\n This background shapes how I approach my frontend engineering today, with attention to detail, structure, and visual clarity.",
+	"article_paragraphs_p1": "My path has never been a straight one. It’s moved through art, design, architecture, and technology, but as languages I’ve learned to speak with my hands and heart.\n This background is how I approach my frontend engineering today, with attention to detail, structure, and visual clarity.",
 	"article_paragraphs_p2": "I love building digital experiences that are clear. I care about design that feels intuitive. I find joy in the process of creating, and in helping others express their ideas that matter.",
 	"article_paragraphs_p3": "These days, I work with people who want to build things that feel real.",
 	"article_paragraphs_p4": "When I’m not creating, I’m probably flying my drone, taking black & white photographs.",
@@ -59,7 +59,7 @@
 	"company1_beginEnd": "Jan2023-May2024",
 	"company1_details": "Rebuilt main website.\nCollaborated closely with other Engineers, UI/UX team to establish and shape a design system.\nUpdated new fresh corporate colors, typography, spacing and other variables across legacy sites and laying the base foundation of the new theme to the main site and project.\nWorked closely with Marketing and UI/UX team to enhance the traveler's experience, while contributing daily with team mates building components and updating them to add to the project.",
 
-	"company2_name": "Signum",
+	"company2_name": "Signum Consulting - DISA",
 	"company2_title": "FE Developer",
 	"company2_location": "Remote: Berlin, Sweden",
 	"company2_beginEnd": "Oct2020-Dec2022",
@@ -440,7 +440,7 @@
 	"photograph_headline": "Black and White Photographs",
 	"aerial_headline": "Drone Recordings",
 
-	"services_headline": "Creative Support I offer",
+	"services_headline": "What I Focus On",
 	"services_description": "Between creativity and technology, I provide tailored solutions to elevate your digital presence. Whether you need a refresh of an existing project, a modern website optimized for desktop and mobile, or a custom design system to streamline your development process, I bring creative and technical expertise to meet your unique needs. With over a decade of experience across industries like travel, real estate, bakery, auto mechanics, sports, and digital media, I am here to help bring your vision to life.",
 	"industries_headline": "Industries I’ve worked with",
 	"services_travelAndTourism": "Travel and Tourism",
@@ -471,21 +471,19 @@
 	"service_facadesArchitectureDescription": "Web projects for elegant facade designs and architectural innovations.",
 	"service_creativeMedia": "Creative Media",
 	"service_creativeMediaDescription": "Services for engaging media experiences and digital creativity.",
+
 	"keyOfferingHeadline": "Custom solutions tailored to your needs",
-	"keyOfferingItemWebsiteProjects": "Website Projects",
-	"keyOfferingItemWebsiteProjectsDescription": "Developing websites that are easy to manage and update, including solutions like WordPress and other tailored platforms, designed to meet your unique business needs.",
-	"keyOfferingItemRestylingProjects": "Restyling Existing Projects",
-	"keyOfferingItemRestylingProjectsDescription": "Transform your projects with a fresh, modern design for both mobile and desktop, integrating other features to your business needs.",
-	"keyOfferingItemLandingPages": "Landing Pages",
-	"keyOfferingItemLandingPagesDescription": "High-converting landing pages designed with custom, user-centric UI to engage your audience. From single-page websites to fully interactive single-page applications.",
-	"keyOfferingItemDashboardSolutions": "Dashboard Solutions",
-	"keyOfferingItemDashboardSolutionsDescription": "Data-driven dashboards that are intuitive and insightful, or integrating new features.",
-	"keyOfferingItemDesignSystems": "Design Systems",
-	"keyOfferingItemDesignSystemsDescription": "Creating scalable design systems for small startups and large enterprises.",
-	"keyOfferingItemPhotographyServices": "Photography Services",
-	"keyOfferingItemPhotographyServicesDescription": "Professional photography of your store, location, or product to showcase your brand.",
-	"keyOfferingItemDronePhotography": "Drone Photography & Videography",
-	"keyOfferingItemDronePhotographyDescription": "Captivating aerial shots for real estate, farms, or unique locations, giving your business a new perspective.",
-	"service_ctaHeadline": "Ready to transform your vision? Whether you need a new website, help refining an existing project, or a custom solution for your industry, I’m here to make it happen. Let’s work together!",
-	"service_ctaHeadlineBtn": "Get in Touch"
+	"keyOfferingItem1Headline": "Design System",
+	"keyOfferingItem1Description": "Building scalable component libraries and UI foundations that help teams move faster and maintain consistency across products.",
+	"keyOfferingItem2Headline": "Frontend Architecture",
+	"keyOfferingItem2Description": "Structuring modern React and TypeScript applications so they remain maintainable as products grow.",
+	"keyOfferingItem3Headline": "Product Interfaces",
+	"keyOfferingItem3Description": "Developing clear, intuitive interfaces that support real workflows and real users.",
+	"keyOfferingItem4Headline": "Performance Optimization",
+	"keyOfferingItem4Description": "Improving loading performance, responsiveness, and usability across complex digital platforms.",
+	"keyOfferingItem5Headline": "Modern Development Workflows",
+	"keyOfferingItem5Description": "Leveraging AI-assisted tools and modern development practices to accelerate iteration while maintaining strong code quality.",
+	"service_ctaHeadline": "Let’s build something meaningful.",
+	"service_ctaDescription": "If you’re working on a product, platform, or digital experience and need strong frontend development, feel free to reach out.",
+	"service_ctaHeadlineBtn": "Contact"
 }

@@ -9,11 +9,11 @@
 <div>
 	<div class="service">
 		<h2 class="service__headline">{m.services_headline()}</h2>
-		<div class="service__content">
+		<!-- <div class="service__content">
 			<p>{m.services_description()}</p>
-		</div>
+		</div> -->
 	</div>
-	<div class="service__industries">
+	<!-- <div class="service__industries">
 		<h3 class="industries__headline">{m.industries_headline()}</h3>
 		<div class="industries__items">
 			<div class="service__item">
@@ -218,35 +218,36 @@
 				<p>{m.service_creativeMediaDescription()}</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div class="service__key-offering">
-		<h3 class="key-offering__headline">{m.keyOfferingHeadline()}</h3>
+		<!-- <h3 class="key-offering__headline">{m.keyOfferingHeadline()}</h3> -->
 		<div class="key-offering__items">
 			<div class="key-offering__item">
-				<h5>{m.keyOfferingItemWebsiteProjects()}</h5>
-				<p>{m.keyOfferingItemWebsiteProjectsDescription()}</p>
+				<h5>{m.keyOfferingItem1Headline()}</h5>
+				<p>{m.keyOfferingItem2Description()}</p>
 			</div>
 			<div class="key-offering__item">
-				<h5>{m.keyOfferingItemRestylingProjects()}</h5>
-				<p>{m.keyOfferingItemRestylingProjectsDescription()}</p>
+				<h5>{m.keyOfferingItem2Headline()}</h5>
+				<p>{m.keyOfferingItem2Description()}</p>
 			</div>
 			<div class="key-offering__item">
-				<h5>{m.keyOfferingItemLandingPages()}</h5>
-				<p>{m.keyOfferingItemLandingPagesDescription()}</p>
+				<h5>{m.keyOfferingItem3Headline()}</h5>
+				<p>{m.keyOfferingItem3Description()}</p>
 			</div>
 			<div class="key-offering__item">
-				<h5>{m.keyOfferingItemDashboardSolutions()}</h5>
-				<p>{m.keyOfferingItemDashboardSolutionsDescription()}</p>
+				<h5>{m.keyOfferingItem4Headline()}</h5>
+				<p>{m.keyOfferingItem4Description()}</p>
 			</div>
 			<div class="key-offering__item">
-				<h5>{m.keyOfferingItemDesignSystems()}</h5>
-				<p>{m.keyOfferingItemDesignSystemsDescription()}</p>
+				<h5>{m.keyOfferingItem5Headline()}</h5>
+				<p>{m.keyOfferingItem5Description()}</p>
 			</div>
 		</div>
 	</div>
 	<div class="service__cta">
 		<div class="cta__content">
-			<p class="content__cta_headline">{m.service_ctaHeadline()}</p>
+			<h3 class="content__cta_headline">{m.service_ctaHeadline()}</h3>
+			<p class="content__cta_description">{m.service_ctaDescription()}</p>
 			<a href="mailto:evilla@iammrvilla.com" class="content__cta-button">{m.service_ctaHeadlineBtn()}</a>
 		</div>
 	</div>
@@ -267,7 +268,7 @@
         color: #a47764;
     }
 
-    .service__content {
+    /* .service__content {
 	    width: 99%;
 	    margin: 0 auto;
 
@@ -275,9 +276,9 @@
 		    padding-bottom: 1rem;
 		    color: #514e4e;
 	    }
-    }
+    } */
 
-    @media (min-width: 480px) {
+    /* @media (min-width: 480px) {
       .service__content {
         width: 46.5%;
         margin: 0 auto;
@@ -293,9 +294,9 @@
 		    color: #fff;
 		    margin: 4rem 0 2rem;
 	    }
-    }
+    } */
 
-    .industries__items {
+    /* .industries__items {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
       gap: 2.5em;
@@ -310,19 +311,19 @@
         gap: 2.5em;
         background-color: #000;
         padding: 4rem 1rem 4rem;
-      }
-    }
+      }*/
+    /* }  */
 
-    .service__item {
+    /* .service__item {
       display: flex;
       flex-direction: column;
       justify-content: flex-start;
       border-radius: 1.25rem;
       padding: 1rem;
       background-color: #fff;
-      color: #514e4e;
+      color: #514e4e; */
 
-      h5 {
+      /* h5 {
         font-size: 1.5rem;
         font-weight: bold;
 	      margin: 0 0 0 0.5rem;
@@ -342,20 +343,20 @@
 			    display: flex;
 			    justify-content: center;
 		    }
-	    }
-    }
+	    } */
+    /* } */
 
     .service__key-offering {
       padding: 4rem 1rem 4rem;
       position: relative;
       background-color: #fff;
 
-      .key-offering__headline {
+      /* .key-offering__headline {
 	      font-size: 1.8rem;
         font-weight: bold;
         margin: 0 0 1.5em 0;
         color: #514e4e;
-      }
+      } */
 
 	    .key-offering__items {
         display: grid;
@@ -420,14 +421,21 @@
       font-size: 2rem;
       line-height: inherit;
       margin-right: 0;
-      margin-bottom: 1.25rem;
+	  color: #fff;
 
       @media (min-width: 480px) {
         font-size: 2rem;
         line-height: 54px;
-        margin-bottom: 3rem;
       }
     }
+
+	.content__cta_description {
+		margin-bottom: 1.25rem;
+
+		@media (min-width: 480px) {
+        margin-bottom: 3rem;
+      }
+	}
 
     .content__cta-button {
       font-family: 'Montserrat', sans-serif;
