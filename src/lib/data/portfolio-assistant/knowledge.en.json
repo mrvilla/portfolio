@@ -1,0 +1,237 @@
+{
+	"profile": {
+		"name": "Enrique Cantillo Villamizar",
+		"title": "Senior Frontend Engineer — React, Next.js, TypeScript, Design Systems, Testing, Agile",
+		"summary": "With over a decade of experience building and maintaining web applications, I have worked through different generations of frontend technology — from hand-coded HTML, CSS, and JavaScript to React, Next.js, TypeScript, and AI-assisted development tools. I focus on accessible user experiences, performance, scalable architecture, and interfaces that align with user needs and business goals.",
+		"contact": {
+			"website": "https://iammrvilla.com",
+			"github": "https://github.com/mrvilla",
+			"email": "evilla@iammrvilla.com",
+			"linkedin": "https://linkedin.com/in/enrique-c"
+		},
+		"languages": ["English (Fluent)", "Spanish (Native)", "German (Conversational)"]
+	},
+	"skills": {
+		"frontend": [
+			"React",
+			"Next.js",
+			"TypeScript",
+			"JavaScript (ES6+)",
+			"HTML5",
+			"CSS3",
+			"Sass/SCSS",
+			"TailwindCSS",
+			"Bootstrap",
+			"Redux",
+			"Context API",
+			"Zustand"
+		],
+		"design": [
+			"Design Systems",
+			"Component Libraries",
+			"MUI",
+			"IBM Carbon Design System",
+			"Figma-to-Code",
+			"Responsive Design",
+			"UI Architecture (SPA, SSR, SSG, PWA)",
+			"Storybook"
+		],
+		"testing": [
+			"Jest",
+			"React Testing Library",
+			"Cypress",
+			"Unit Testing",
+			"Integration Testing",
+			"End-to-End Testing",
+			"Test-Driven Development (TDD)"
+		],
+		"accessibility": ["WCAG 2.1 AA", "Semantic HTML", "Keyboard Navigation", "ARIA", "Inclusive Design"],
+		"performance": [
+			"Core Web Vitals",
+			"Bundle Optimization",
+			"Lazy Loading",
+			"Code Splitting",
+			"Lighthouse"
+		],
+		"backendIntegration": [
+			"REST APIs",
+			"Django REST API",
+			"Node.js",
+			"JWT",
+			"NextAuth",
+			"Authentication Flows"
+		],
+		"practices": [
+			"Agile",
+			"Scrum",
+			"Kanban",
+			"Design Thinking",
+			"Code Reviews",
+			"Cross-Functional Collaboration",
+			"Technical Mentoring"
+		],
+		"tools": [
+			"Git",
+			"GitHub",
+			"GitLab",
+			"Docker",
+			"Sanity CMS",
+			"WordPress",
+			"Vite",
+			"Webpack"
+		]
+	},
+	"industries": [
+		"Travel & Tourism",
+		"Compliance & Risk Management",
+		"Health & Safety",
+		"Pre-Employment Screening",
+		"Enterprise B2B Software",
+		"Video & Media Streaming",
+		"E-commerce"
+	],
+	"companies": [
+		{
+			"id": "qualmity",
+			"name": "Qualmity",
+			"role": "Senior Frontend Developer",
+			"period": "May 2024 – Present",
+			"location": "Berlin, Germany · Remote",
+			"highlights": [
+				"Maintains large-scale B2B apps: Health & Safety, Risk Management, Pre-Employment Screening, and Compliance",
+				"Led frontend for a configurable Health & Safety platform with a reusable design system (~40% faster page loads)",
+				"Modernized compliance and screening apps with Next.js and Django REST APIs",
+				"Built Torque Sphere website and e-commerce experience (reported 10% sales increase)",
+				"Code reviews and mentoring junior developers in React, Next.js, and Material UI"
+			],
+			"keywords": ["qualmity", "current", "present", "health", "safety", "risk", "screening", "compliance", "torque sphere", "django", "material ui", "mui"]
+		},
+		{
+			"id": "sembo",
+			"name": "Sembo (Stena Line Travel Group)",
+			"role": "Senior Frontend Developer",
+			"period": "Jan 2023 – Mar 2024",
+			"location": "Gothenburg, Sweden · Remote",
+			"highlights": [
+				"Led redevelopment of corporate travel platform with Next.js and Sanity CMS",
+				"Improved site performance by 65% and reduced bounce rates by 48%",
+				"Introduced a design system that reduced component development time by 40%",
+				"Implemented Jest and Cypress testing; optimized mobile load times from 3.2s to 1.8s",
+				"Mentored junior developers and conducted code reviews"
+			],
+			"keywords": ["sembo", "travel", "stena", "sanity", "marketplace", "booking"]
+		},
+		{
+			"id": "signum",
+			"name": "SIGNUM Consulting GmbH / DISA",
+			"role": "Senior Frontend Developer / UI Designer",
+			"period": "Aug 2020 – Dec 2022",
+			"location": "Berlin, Germany · Hybrid",
+			"highlights": [
+				"Design system implementation and application modernization (48% increased user engagement)",
+				"Modular design system reduced design-to-development handoff time by 50%",
+				"Migrated monolithic apps toward microservices (quarterly to biweekly releases)",
+				"Responsive component library with Bootstrap and TailwindCSS across 28 client applications"
+			],
+			"keywords": ["signum", "disa", "compliance", "design system", "microservices", "tailwind", "bootstrap"]
+		},
+		{
+			"id": "eyevinn",
+			"name": "Eyevinn Technology",
+			"role": "Frontend Developer",
+			"period": "May 2020 – Oct 2020",
+			"location": "Stockholm, Sweden · Hybrid / Remote",
+			"highlights": [
+				"Video stream monitoring dashboard for major media companies",
+				"Video stream simulation tool for network traffic testing",
+				"Optimized React components for a B2B admin portal",
+				"Reusable data visualization components for real-time media analytics"
+			],
+			"keywords": ["eyevinn", "video", "streaming", "media", "admin portal", "dashboard"]
+		},
+		{
+			"id": "ibm-aperto",
+			"name": "IBM iX / Aperto",
+			"role": "Front-end Developer",
+			"period": "Jul 2017 – Apr 2020",
+			"location": "Berlin, Germany · Onsite",
+			"highlights": [
+				"Delivered 5+ large client projects using React and the in-house VEAMS framework",
+				"Implemented components achieving WCAG 2.1 AA compliance",
+				"Scrum, Kanban, and Design Thinking across multidisciplinary teams",
+				"Mentored a junior colleague transitioning into frontend development"
+			],
+			"keywords": ["ibm", "aperto", "ix", "veams", "enterprise", "wcag", "carbon"]
+		}
+	],
+	"projects": [
+		{
+			"id": "sembo-platform",
+			"name": "Sembo Travel Platform",
+			"company": "Sembo",
+			"period": "2023 – 2024",
+			"summary": "Corporate travel platform rebuild with Next.js and Sanity CMS — major performance and UX improvements for a flexible booking experience.",
+			"technologies": ["Next.js", "React", "TypeScript", "Sanity CMS", "Jest", "Cypress"],
+			"keywords": ["sembo", "travel", "next.js", "sanity", "marketplace"],
+			"caseStudyHref": "/portfolio/sembo"
+		},
+		{
+			"id": "signum-disa",
+			"name": "Signum / DISA Compliance Platform",
+			"company": "SIGNUM Consulting",
+			"period": "2020 – 2022",
+			"summary": "Design system and compliance-focused web applications used across internal tools and the corporate site.",
+			"technologies": ["React", "Bootstrap", "TailwindCSS", "Design Systems"],
+			"keywords": ["signum", "disa", "compliance", "design system"],
+			"caseStudyHref": "/portfolio/signum"
+		},
+		{
+			"id": "video-dev-team",
+			"name": "Video Dev Team / Eyevinn Tools",
+			"company": "Eyevinn Technology",
+			"period": "2020",
+			"summary": "Frontend tools for video streaming — monitoring dashboards, stream simulation, and B2B admin interfaces.",
+			"technologies": ["React", "REST APIs", "Data Visualization"],
+			"keywords": ["video", "streaming", "eyevinn", "media", "admin"],
+			"caseStudyHref": "/portfolio/video-dev-team"
+		}
+	],
+	"topics": [
+		{
+			"id": "profile-summary",
+			"answer": "I'm Enrique Cantillo Villamizar, a Senior Frontend Engineer based in Berlin with over a decade of experience. I work with React, Next.js, TypeScript, design systems, testing, and agile product teams — currently at Qualmity on Health & Safety, compliance, and screening products. Previously at Sembo (travel), Signum/DISA (compliance & design systems), Eyevinn (video/media), and IBM iX/Aperto (enterprise & accessibility).",
+			"categories": ["Frontend Engineering"],
+			"keywords": ["who are you", "about you", "about yourself", "tell me about yourself", "introduce yourself", "introduce", "background", "cv", "resume", "enrique", "profile", "summary"]
+		},
+		{
+			"id": "qualmity-current",
+			"answer": "Since May 2024 at Qualmity (Berlin, remote), I improve and maintain large B2B applications across Health & Safety, Risk Management, Pre-Employment Screening, and Compliance. Recent work includes leading frontend for a configurable Health & Safety platform with a reusable design system (~40% faster page loads), modernizing screening workflows with Next.js and Django REST APIs, and building the Torque Sphere e-commerce site.",
+			"categories": ["Enterprise Projects", "Health & Safety Projects", "Compliance Projects"],
+			"keywords": ["qualmity", "current role", "current job", "what do you do now", "present role", "present", "now", "torque", "screening", "risk management"]
+		},
+		{
+			"id": "mentoring",
+			"answer": "I mentor junior developers through code reviews and hands-on guidance — at Qualmity on React, Next.js, and Material UI; at Sembo on component-based architecture; and at IBM iX/Aperto where I supported a colleague transitioning into frontend development. I focus on clear component boundaries, maintainable patterns, and practical frontend best practices.",
+			"categories": ["Frontend Engineering", "Agile"],
+			"keywords": ["mentor", "mentoring", "code review", "junior", "leadership", "teaching"]
+		},
+		{
+			"id": "agile-practices",
+			"answer": "I've worked in Scrum, Kanban, and Design Thinking environments at IBM iX/Aperto, Eyevinn, Signum, Sembo, and Qualmity — including sprint planning, daily standups, retrospectives, backlog refinement, and design workshops. I write clear tickets, focused PRs, and documentation that supports async collaboration across distributed teams in Germany, Sweden, and international organizations.",
+			"categories": ["Agile"],
+			"keywords": ["scrum", "kanban", "design thinking", "sprint", "standup", "retro", "agile", "workshop"]
+		},
+		{
+			"id": "ibm-aperto",
+			"answer": "At IBM iX/Aperto (2017–2020) I delivered enterprise web applications for multiple clients using React and the in-house VEAMS framework. I implemented WCAG 2.1 AA compliant components, reusable UI patterns, and participated in Design Thinking workshops. I also mentored a junior developer entering frontend engineering.",
+			"categories": ["Enterprise Projects", "Accessibility"],
+			"keywords": ["ibm", "ix", "aperto", "veams", "carbon", "enterprise design thinking"]
+		},
+		{
+			"id": "ai-workflow",
+			"answer": "I use AI-assisted development tools to explore ideas, improve code structure, debug faster, and document decisions — while keeping architectural judgment and code review standards in human hands. It's part of how I work today alongside React, Next.js, and TypeScript, not a replacement for engineering discipline.",
+			"categories": ["Frontend Engineering"],
+			"keywords": ["ai", "cursor", "copilot", "artificial intelligence", "llm", "productivity"]
+		}
+	]
+}

@@ -1,48 +1,38 @@
 <script>
 	import * as m from '$lib/paraglide/messages';
+	import PortfolioAssistant from '$lib/components/PortfolioAssistant/PortfolioAssistant.svelte';
 </script>
 
 <div class="stage">
 <!-- <h1 class="stage__headline">{m.stage_headline()}</h1> -->
-	<div class="stage__content_hero">
-		<!-- <p class="stage__hero_text">
-			{@html m.stage_heroText()}
-		</p> -->
-		<div class="stage__video_wrapper">
-			<!-- <video
-				class="stage__video"
-				autoplay
-				muted
-				loop
-				playsinline
-				preload="auto"
-				poster="/images/dji_fly_video_clip.jpg"
-			>
-				<source src="/videos/dji_fly_video_clip.mp4" type="video/mp4" />
-				Your browser does not support the video tag.
-			</video> -->
-		</div>
-	</div>
 	<div class="stage__content_about">
 		<div class="stage__profile_photo_container">
-			<img class="stage__profile_photo" alt="profile_pic" src="/images/profile2.jpg" />
+			<img class="stage__profile_photo" alt="profile_pic" src="/images/profile.png" />
 		</div>
 		<div class="stage__about">
 			<p class="stage__about_text">{m.stage_aboutText()}</p>
 			<p class="stage__text">{m.stage_aboutText2()}</p>
-			<p class="stage__text">{m.stage_aboutText3()}</p>
-			<ul class="stage__list">
+			<!-- <p class="stage__text">{m.stage_aboutText3()}</p> -->
+			<!-- <ul class="stage__list">
 				<li class="stage__list-item">{m.stage_aboutListItem1()}</li>
 				<li class="stage__list-item">{m.stage_aboutListItem2()}</li>
 				<li class="stage__list-item">{m.stage_aboutListItem3_ai()}</li>
 				<li class="stage__list-item">{m.stage_aboutListItem3()}</li>
 				<li class="stage__list-item">{m.stage_aboutListItem4()}</li>
 				<li class="stage__list-item">{m.stage_aboutListItem5()}</li>
-			</ul>
+			</ul> -->
 		</div>
-
 	</div>
-	<section class="stage__content_key_offering">
+
+	<PortfolioAssistant
+		headline={m.stage_assistant_headline()}
+		description={m.stage_assistant_description()}
+		placeholder={m.stage_assistant_placeholder()}
+		suggestedLabel={m.stage_assistant_suggestedLabel()}
+		backToTopicsLabel={m.stage_assistant_backToTopics()}
+	/>
+
+	<!-- <section class="stage__content_key_offering">
 		<div class="stage__offerings_wrapper">
 			<div class="stage__key_offering_one">
 				<h3 class="stage__key_offering_headline">
@@ -92,7 +82,7 @@
 				<p class="stage__modern_tool_content_text2">{m.stage_modernTools_content_text2()}</p>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!--	<section class="stage__content_testimonials">-->
 	<!--		<h2 class="stage__testimonials_headline">Real Feedback, Real Results</h2>-->
 	<!--		<div class="stage__testimonials_wrapper">-->
@@ -107,7 +97,7 @@
 	<!--			</div>-->
 	<!--		</div>-->
 	<!--	</section>-->
-	<section class="stage__content_cta">
+	<!-- <section class="stage__content_cta">
 		<div class="stage__cta_wrapper">
 			<div class="stage__cta_text">
 				<h2 class="stage__cta_headline">{m.stage_ctaHeadlineConnect()}</h2>
@@ -132,7 +122,7 @@
 				</li>
 			</ul>
 		</div>
-	</section>
+	</section> -->
 </div>
 
 <style lang="scss">

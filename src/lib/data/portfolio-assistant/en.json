@@ -1,0 +1,200 @@
+{
+	"fallbackIntro": "I don't have a prepared answer for that in my portfolio data yet. I only respond from verified CV and project information — I won't invent experience.",
+	"fallbackBrowseLabel": "Browse by topic:",
+	"promptGroups": [
+		{
+			"id": "frontend-engineering",
+			"label": "💻 Frontend Engineering",
+			"promptIds": ["senior-frontend", "react-nextjs", "typescript", "frontend-architecture", "apis"]
+		},
+		{
+			"id": "design-systems-ui",
+			"label": "🎨 Design Systems & UI",
+			"promptIds": ["figma-to-code", "design-systems", "design-to-code"]
+		},
+		{
+			"id": "enterprise-projects",
+			"label": "🏢 Enterprise Projects",
+			"promptIds": ["enterprise-apps", "travel-compliance", "health-safety", "video-media"]
+		},
+		{
+			"id": "performance",
+			"label": "⚡ Performance",
+			"promptIds": ["performance"]
+		},
+		{
+			"id": "accessibility",
+			"label": "♿ Accessibility",
+			"promptIds": ["accessibility"]
+		},
+		{
+			"id": "testing",
+			"label": "🧪 Testing",
+			"promptIds": ["testing"]
+		}
+	],
+	"prompts": [
+		{
+			"id": "senior-frontend",
+			"question": "What makes you a senior frontend engineer?",
+			"answer": "Senior work for me means owning maintainability, accessibility, performance, design consistency, and API integration — not just shipping features. Over 10+ years I've led frontend at Qualmity (Health & Safety & compliance B2B apps), Sembo (travel platform rebuild), Signum/DISA (design system across 28 apps), and delivered enterprise UI at IBM iX/Aperto.\n\nI mentor junior developers, conduct code reviews, and make architectural decisions that keep products scalable after launch — component-based architecture, typed contracts, and clear collaboration with design and backend teams.",
+			"categories": ["Frontend Engineering"],
+			"keywords": ["senior", "frontend", "experience", "leadership", "architecture", "years"]
+		},
+		{
+			"id": "react-nextjs",
+			"question": "Tell me about your experience with React and Next.js.",
+			"answer": "React has been central across Qualmity (compliance & screening apps), Sembo (travel platform), Signum/DISA, Eyevinn (video admin tools), and IBM iX/Aperto (enterprise client projects with VEAMS and React).\n\nWith Next.js specifically at Sembo I led a corporate travel platform rebuild integrated with Sanity CMS — improving performance by 65% and reducing bounce rates by 48%. At Qualmity I use Next.js with Django REST APIs for compliance and pre-employment screening workflows. I work with SSR/SSG patterns, route-level data fetching, and performance-conscious component architecture.",
+			"categories": ["React", "Next.js", "TypeScript"],
+			"keywords": ["react", "next.js", "nextjs", "typescript", "frontend", "components", "ssr", "hooks", "sanity"],
+			"links": [
+				{ "label": "Sembo case study", "href": "/portfolio/sembo" },
+				{ "label": "Signum case study", "href": "/portfolio/signum" }
+			]
+		},
+		{
+			"id": "typescript",
+			"question": "What is your TypeScript experience?",
+			"answer": "I use TypeScript daily for component props, API response shapes, shared utilities, and design-system contracts across React and Next.js projects at Qualmity, Sembo, and Signum. Strong typing helps catch integration issues early — especially when connecting Next.js frontends to Django REST APIs or evolving component libraries.\n\nI'm pragmatic: strict where it prevents bugs, flexible where it speeds delivery, always aiming for types that make the UI layer easier for the team to maintain.",
+			"categories": ["TypeScript", "React", "Next.js"],
+			"keywords": ["typescript", "ts", "types", "typing", "interfaces", "generics", "strict"]
+		},
+		{
+			"id": "frontend-architecture",
+			"question": "How do you approach frontend architecture?",
+			"answer": "I start by identifying reusable patterns, shared components, data flow, routing needs, and how UI state maps to backend data. At Qualmity I switched a Health & Safety platform to component-based architecture with a reusable design system (~40% faster page loads). At Signum I architected a modular design system supporting multiple frameworks and helped migrate monoliths toward microservices (quarterly to biweekly releases).\n\nIn React/Next.js I focus on clear component boundaries, typed props, predictable API handling, and structures that support future features without becoming fragile.",
+			"categories": ["Frontend Engineering", "Architecture"],
+			"keywords": ["architecture", "frontend architecture", "scalable", "structure", "components", "microservices"]
+		},
+		{
+			"id": "apis",
+			"question": "How do you work with APIs on the frontend?",
+			"answer": "I treat API integration as part of the UI experience. At Qualmity I work closely with backend developers integrating Next.js with Django REST APIs — improving error handling, loading states, and data flows across orders, uploads, certificates, reporting, and dashboard pages.\n\nAt Eyevinn I collaborated on REST APIs for video monitoring and admin tools. I align on response shapes early, handle partial/slow data gracefully, and use typed contracts so components stay resilient in production.",
+			"categories": ["APIs", "React", "Next.js"],
+			"keywords": ["api", "apis", "rest", "fetch", "integration", "backend", "endpoint", "django", "jwt", "nextauth"]
+		},
+		{
+			"id": "figma-to-code",
+			"question": "How do you turn Figma designs into production-ready interfaces?",
+			"answer": "I map design tokens first — color, typography, spacing, breakpoints — then build components that match the system's intent, not just one screen. At Signum/DISA I reduced design-to-development handoff time by 50% through a modular design system. At Sembo I worked with designers and marketers in workshops and sprint planning to ship a travel platform with consistent UI.\n\nWith a UI design background, I clarify interaction states, responsive behavior, accessibility, and edge cases that designs don't always show explicitly.",
+			"categories": ["Design Systems", "UI Implementation"],
+			"keywords": ["figma", "design", "ui", "implementation", "mockup", "prototype", "handoff", "production"],
+			"links": [
+				{ "label": "Sembo — design system work", "href": "/portfolio/sembo" }
+			]
+		},
+		{
+			"id": "design-systems",
+			"question": "What is your experience with design systems and component libraries?",
+			"answer": "At Sembo I introduced a design system that reduced component development time by 40%. At Signum/DISA I architected a modular system used across 28 client applications with Bootstrap and TailwindCSS, cutting design-to-dev handoff by 50%. At Qualmity I built a reusable design system for a Health & Safety platform with client-specific branding flexibility.\n\nAt IBM iX/Aperto I worked with documented component libraries and the VEAMS framework. I think in terms of clear component APIs, composable patterns, Storybook-friendly documentation, and versioning.",
+			"categories": ["Design Systems"],
+			"keywords": ["design system", "component library", "tokens", "storybook", "mui", "carbon", "bootstrap", "tailwind"],
+			"links": [
+				{ "label": "Sembo case study", "href": "/portfolio/sembo" },
+				{ "label": "Signum case study", "href": "/portfolio/signum" }
+			]
+		},
+		{
+			"id": "design-to-code",
+			"question": "How closely can you match a Figma design?",
+			"answer": "I translate Figma designs closely into production UI when the design system is clear — paying attention to spacing, typography, responsive behavior, interaction states, and WCAG considerations. At Signum my UI design role combined with frontend delivery helped align design intent with scalable implementation across many client applications.\n\nI focus on pixel-faithful UI where it matters, but prioritize consistency, accessibility, and maintainability over one-off screen matching.",
+			"categories": ["Design Systems", "UI Implementation", "Figma"],
+			"keywords": ["figma", "design to code", "pixel", "ui", "implementation", "match", "designer"]
+		},
+		{
+			"id": "enterprise-apps",
+			"question": "What enterprise applications have you built?",
+			"answer": "Enterprise B2B work spans Qualmity (Health & Safety, Risk Management, Pre-Employment Screening, Compliance), Sembo (corporate travel platform), Signum/DISA (compliance apps across 28 clients), IBM iX/Aperto (5+ large client projects), and Eyevinn (B2B video admin portals).\n\nThese products involve complex workflows, role-based interfaces, dashboards, forms, document handling, and daily operational use. My focus is making dense interfaces clearer, more consistent, and more reliable for the people using them every day.",
+			"categories": ["Enterprise Projects"],
+			"keywords": ["enterprise", "dashboard", "internal tools", "compliance", "risk", "workflow", "b2b"],
+			"links": [
+				{ "label": "Signum case study", "href": "/portfolio/signum" },
+				{ "label": "Sembo case study", "href": "/portfolio/sembo" }
+			]
+		},
+		{
+			"id": "travel-compliance",
+			"question": "What projects have you worked on in travel or compliance?",
+			"answer": "Travel: At Sembo (Jan 2023 – Mar 2024) I led redevelopment of the corporate travel platform with Next.js and Sanity — 65% performance improvement, 48% lower bounce rate, mobile load times from 3.2s to 1.8s.\n\nCompliance: At Signum/DISA (2020–2022) I modernized compliance applications and a company-wide design system. At Qualmity (2024–present) I work on compliance and pre-employment screening apps used daily by analysts — orders, uploads, certificates, reporting, and dashboards integrated with Django REST APIs.",
+			"categories": ["Travel Projects", "Compliance Projects"],
+			"keywords": ["travel", "compliance", "sembo", "signum", "disa", "qualmity", "marketplace", "booking", "screening"],
+			"links": [
+				{ "label": "Sembo case study", "href": "/portfolio/sembo" },
+				{ "label": "Signum case study", "href": "/portfolio/signum" }
+			]
+		},
+		{
+			"id": "health-safety",
+			"question": "What health and safety software experience do you have?",
+			"answer": "At Qualmity (May 2024 – Present) I lead frontend development for a configurable Health & Safety platform managing driver, vehicle, and operational safety requirements across departments. I moved it to component-based architecture with a reusable design system, reducing page load times by approximately 40% while supporting client-specific branding.\n\nI also maintain other Qualmity B2B products in Risk Management and Compliance — all focused on clear workflows for operational users under daily time pressure.",
+			"categories": ["Health & Safety Projects", "Enterprise Projects"],
+			"keywords": ["health", "safety", "hse", "operational", "qualmity", "risk", "driver", "vehicle"]
+		},
+		{
+			"id": "video-media",
+			"question": "Tell me about your video and media frontend work.",
+			"answer": "At Eyevinn Technology (May – Oct 2020) in Stockholm I built frontend tools for video streaming platforms — a monitoring dashboard used by major media companies, a stream simulation tool to reproduce network traffic conditions, and optimized React components for a B2B admin portal.\n\nI also created reusable data visualization components for real-time media analytics, collaborating with backend developers on REST API integration in a Kanban agile environment.",
+			"categories": ["Enterprise Projects", "React", "APIs"],
+			"keywords": ["video", "media", "streaming", "eyevinn", "b2b", "admin", "portal", "monitoring"],
+			"links": [
+				{ "label": "Video Dev Team case study", "href": "/portfolio/video-dev-team" }
+			]
+		},
+		{
+			"id": "performance",
+			"question": "How do you improve frontend performance?",
+			"answer": "Measured results from my CV: at Sembo I improved site performance by 65%, reduced bounce rates by 48%, and cut mobile load times from 3.2s to 1.8s. At Qualmity, component-based architecture and a reusable design system reduced page load times by ~40%.\n\nMy approach includes bundle optimization, lazy loading, code splitting, Core Web Vitals monitoring, Lighthouse audits, and render-efficient React patterns — choosing the right data-fetching strategy in Next.js and avoiding unnecessary re-renders.",
+			"categories": ["Performance", "React", "Next.js"],
+			"keywords": ["performance", "speed", "lighthouse", "bundle", "lazy", "optimize", "core web vitals", "loading", "fast", "vitals"],
+			"links": [
+				{ "label": "Sembo case study", "href": "/portfolio/sembo" }
+			]
+		},
+		{
+			"id": "accessibility",
+			"question": "How do you approach accessibility and WCAG?",
+			"answer": "Accessibility is part of how I build — semantic HTML, meaningful headings, keyboard-friendly interactions, visible focus states, and ARIA only when native elements aren't enough. At IBM iX/Aperto I implemented components achieving WCAG 2.1 AA compliance across enterprise client projects.\n\nI also hold IBM Enterprise Design Thinking Practitioner and Interaction Design Foundation HCI certifications. I test with keyboard navigation and screen readers during development, not as a late audit.",
+			"categories": ["Accessibility"],
+			"keywords": ["accessibility", "wcag", "a11y", "aria", "keyboard", "inclusive", "screen reader", "focus", "aa"]
+		},
+		{
+			"id": "testing",
+			"question": "What testing experience do you have with Jest, React Testing Library, or Cypress?",
+			"answer": "At Sembo I implemented Jest unit testing and Cypress end-to-end testing for the travel platform rebuild. I use Jest and React Testing Library focusing on user-facing behavior — critical paths, forms, accessibility roles, and regression-prone edge cases.\n\nMy CV also lists TDD as a practice. I aim for enough coverage to ship confidently without brittle implementation-detail tests.",
+			"categories": ["Testing", "React"],
+			"keywords": ["testing", "jest", "react testing library", "rtl", "cypress", "e2e", "unit test", "tdd", "qa"],
+			"links": [
+				{ "label": "Sembo case study", "href": "/portfolio/sembo" }
+			]
+		},
+		{
+			"id": "collaboration",
+			"question": "How do you collaborate with designers, backend engineers, and product managers?",
+			"answer": "Cross-functional collaboration is consistent across my roles: at Sembo with designers, marketers, and backend in Kanban; at Qualmity with marketing and backend on REST APIs; at IBM iX/Aperto in Design Thinking workshops and Scrum teams; at Signum coordinating external teams across 28 applications.\n\nI review Figma early, align API contracts with backend engineers, translate business goals with product stakeholders, and document decisions in tickets and PRs for async remote work across Germany, Sweden, and international teams.",
+			"categories": ["Agile", "APIs"],
+			"keywords": ["collaborate", "collaboration", "designer", "backend", "product manager", "team", "cross-functional", "stakeholder"],
+			"featured": false
+		},
+		{
+			"id": "remote-teams",
+			"question": "What is your experience working in distributed teams?",
+			"answer": "I've worked remotely and hybrid across Berlin, Gothenburg, Stockholm, and international organizations — Qualmity (remote), Sembo (remote Sweden), Eyevinn (hybrid/remote), and Signum (hybrid Berlin). I'm comfortable with async communication, clear tickets, focused PRs, and collaborating across time zones in Kanban and Scrum environments.",
+			"categories": ["Agile"],
+			"keywords": ["remote", "distributed", "async", "hybrid", "team", "collaboration"],
+			"featured": false
+		},
+		{
+			"id": "selected-work",
+			"question": "What selected work is in your portfolio?",
+			"answer": "My published case studies cover Sembo (travel marketplace / Next.js rebuild), Signum (compliance platform & design system), and Video Dev Team (Eyevinn media frontend tools). Each includes my role, team context, tools, and outcomes — with more depth than a résumé bullet.\n\nAsk about Qualmity, IBM iX/Aperto, or specific skills for details not covered in a case study.",
+			"categories": ["Enterprise Projects"],
+			"keywords": ["portfolio", "selected work", "case study", "case studies", "projects", "work", "examples"],
+			"links": [
+				{ "label": "Sembo — travel marketplace", "href": "/portfolio/sembo" },
+				{ "label": "Signum — compliance & design system", "href": "/portfolio/signum" },
+				{ "label": "Video Dev Team — media frontend", "href": "/portfolio/video-dev-team" }
+			],
+			"featured": false
+		}
+	]
+}
