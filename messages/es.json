@@ -9,6 +9,9 @@
 	"nav_photography": "Fotografía",
 	"nav_drone": "Dron",
 
+	"theme_switchToLight": "Cambiar a modo claro",
+	"theme_switchToDark": "Cambiar a modo oscuro",
+
 	"stage_headline": "Frontend Web/Mobile Desarrollador",
 	"stage_heroText": "Combinando <span class='bold'>Desarrollo Web,</span> impresionante <span class='bold'>Fotografía de Drones,</span> y <span class='bold'>Diseños de Interfaz de Usuario</span> centrados en el usuario para dar vida a tus necesidades únicas.",
 	"stage_aboutText": "👋 Hola, soy Enrique, Desarrollador Frontend enfocado en la creación de experiencias digitales escalables y de alta calidad. \n Especializo en React, TypeScript y sistemas de diseño, ayudando a equipos a transformar ideas y conceptos de diseño en interfaces confiables y elegantes.",

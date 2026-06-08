@@ -9,6 +9,9 @@
 	"nav_photography": "Photography",
 	"nav_drone": "Drone",
 
+	"theme_switchToLight": "Switch to light mode",
+	"theme_switchToDark": "Switch to dark mode",
+
 	"stage_headline": "Frontend Web/Mobile Developer",
 	"stage_heroText": "Combining <span class='bold'>Frontend Development,</span> with <span class='bold'>Cinematic Drone footage,</span> and user-centric <span class='bold'>UI Designs</span> to tell your unique story with depth, clarity, and beauty",
 	"stage_aboutText": "👋 Hey, I'm Enrique.\n\nFor over a decade, I've been building and maintaining web applications, working through different stages of frontend development — from hand-coded HTML, CSS, and JavaScript to modern libraries like React, frameworks like Next.js, TypeScript, and today's AI-powered development tools.",

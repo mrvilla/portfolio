@@ -3,6 +3,61 @@
 *::after {
 	box-sizing: border-box;
 }
+
+html[data-theme='dark'] {
+	color-scheme: dark;
+
+	--color-bg: #000;
+	--color-text: #fff;
+	--color-text-muted: rgba(255, 255, 255, 0.68);
+	--color-accent: #a47764;
+	--color-surface-hover: rgba(164, 119, 100, 0.2);
+	--color-selection-bg: #a47764;
+	--color-selection-text: #fff;
+	--color-code-bg: #f0f0f0;
+	--color-code-text: #555;
+
+	--assistant-surface: rgba(255, 255, 255, 0.04);
+	--assistant-surface-elevated: rgba(255, 255, 255, 0.07);
+	--assistant-border: #a47764;
+	--assistant-text: #fff;
+	--assistant-muted: rgba(255, 255, 255, 0.68);
+	--assistant-user-bg: #a47764;
+	--assistant-user-text: #fff;
+	--assistant-assistant-bg: rgba(255, 255, 255, 0.08);
+	--assistant-input-bg: rgba(255, 255, 255, 0.06);
+	--assistant-prompt-bg: rgba(255, 255, 255, 0.05);
+	--assistant-prompt-hover: rgba(164, 119, 100, 0.2);
+	--assistant-focus: #a47764;
+}
+
+html[data-theme='light'] {
+	color-scheme: light;
+
+	--color-bg: #f7f5f4;
+	--color-text: #1a1a1a;
+	--color-text-muted: #5c5c5c;
+	--color-accent: #a47764;
+	--color-surface-hover: rgba(164, 119, 100, 0.12);
+	--color-selection-bg: #a47764;
+	--color-selection-text: #fff;
+	--color-code-bg: #ececec;
+	--color-code-text: #333;
+
+	--assistant-surface: #f7f5f4;
+	--assistant-surface-elevated: #ffffff;
+	--assistant-border: #a47764;
+	--assistant-text: #1a1a1a;
+	--assistant-muted: #5c5c5c;
+	--assistant-user-bg: #a47764;
+	--assistant-user-text: #fff;
+	--assistant-assistant-bg: #ffffff;
+	--assistant-input-bg: #ffffff;
+	--assistant-prompt-bg: #ffffff;
+	--assistant-prompt-hover: rgba(164, 119, 100, 0.12);
+	--assistant-focus: #a47764;
+}
+
 ul[class],
 ol[class] {
 	padding: 0;
@@ -25,8 +80,8 @@ dl,
 dd {
 	margin: 0;
 	::selection {
-		color: #fff;
-		background-color: #a47764;
+		color: var(--color-selection-text);
+		background-color: var(--color-selection-bg);
 	}
 }
 
@@ -42,6 +97,8 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	line-height: 1.4;
+	background-color: var(--color-bg);
+	color: var(--color-text);
 }
 
 h1,
@@ -79,8 +136,8 @@ a:not([class]) {
 code {
 	font-family: menlo, inconsolata, monospace;
 	font-size: calc(1em - 2px);
-	color: #555;
-	background-color: #f0f0f0;
+	color: var(--color-code-text);
+	background-color: var(--color-code-bg);
 	padding: 0.2em 0.4em;
 	border-radius: 2px;
 }

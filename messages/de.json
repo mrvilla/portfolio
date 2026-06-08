@@ -9,6 +9,9 @@
 	"nav_photography": "Fotografie",
 	"nav_drone": "Drohne",
 
+	"theme_switchToLight": "Zum hellen Modus wechseln",
+	"theme_switchToDark": "Zum dunklen Modus wechseln",
+
 	"stage_headline": "Frontend-Entwickler Web/Mobile",
 	"stage_heroText": "Kombinieren von <span class='bold'>Webentwicklung,</span> beeindruckender <span class='bold'>Drohnenfotografie</span> und benutzerzentriertem <span class='bold'>UI-Design</span>, um Ihre einzigartigen Bedürfnisse zum Leben zu erwecken.",
 	"stage_aboutText": "👋 Hallo, ich bin Enrique.\n\nSeit über einem Jahrzehnt entwickle und betreue ich Webanwendungen — von handgeschriebenem HTML, CSS und JavaScript bis zu modernen Bibliotheken wie React, Frameworks wie Next.js, TypeScript und den heutigen KI-gestützten Entwicklungstools.",

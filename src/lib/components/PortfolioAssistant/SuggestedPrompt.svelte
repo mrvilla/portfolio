@@ -14,7 +14,7 @@
 <style lang="scss">
 	.suggested-prompt {
 		appearance: none;
-		border: 1px solid white;
+		border: 1px solid var(--assistant-border);
 		background: var(--assistant-prompt-bg);
 		color: var(--assistant-text);
 		border-radius: 0.75rem;

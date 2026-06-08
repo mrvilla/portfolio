@@ -2,6 +2,22 @@
 <html lang="%paraglide.lang%" dir="%paraglide.textDirection%">
 	<head>
 		<meta charset="utf-8" />
+		<script>
+			(function () {
+				try {
+					var stored = localStorage.getItem('portfolio-theme');
+					var theme =
+						stored === 'light' || stored === 'dark'
+							? stored
+							: window.matchMedia('(prefers-color-scheme: light)').matches
+								? 'light'
+								: 'dark';
+					document.documentElement.dataset.theme = theme;
+				} catch (e) {
+					document.documentElement.dataset.theme = 'dark';
+				}
+			})();
+		</script>
 		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
 		<link
 			href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"

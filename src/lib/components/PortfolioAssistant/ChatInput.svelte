@@ -107,6 +107,7 @@
 		min-height: 2.75rem;
 		border: none;
 		border-radius: 0.5rem;
+		background: var(--assistant-user-bg);
 		color: var(--assistant-user-text);
 		cursor: pointer;
 		flex-shrink: 0;

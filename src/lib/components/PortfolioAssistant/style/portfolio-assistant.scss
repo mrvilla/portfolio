@@ -1,38 +1,12 @@
 .portfolio-assistant {
-	--assistant-surface: rgba(255, 255, 255, 0.04);
-	--assistant-surface-elevated: rgba(255, 255, 255, 0.07);
-	--assistant-border: #{$secondary-color};
-	--assistant-text: #{$white};
-	--assistant-muted: rgba(255, 255, 255, 0.68);
-	--assistant-user-bg: #{$secondary-color};
-	--assistant-user-text: #{$white};
-	--assistant-assistant-bg: rgba(255, 255, 255, 0.08);
-	--assistant-input-bg: rgba(255, 255, 255, 0.06);
-	--assistant-prompt-bg: rgba(255, 255, 255, 0.05);
-	--assistant-prompt-hover: rgba(164, 119, 100, 0.2);
-	--assistant-focus: #{$secondary-color};
 	--assistant-dock-height: 18rem;
 
-	color-scheme: dark light;
+	color-scheme: inherit;
 	position: relative;
 	flex: 1;
 	display: flex;
 	flex-direction: column;
 	min-height: 0;
-
-	@media (prefers-color-scheme: light) {
-		--assistant-surface: #f7f5f4;
-		--assistant-surface-elevated: #ffffff;
-		--assistant-border: #{$secondary-color};
-		--assistant-text: #1a1a1a;
-		--assistant-muted: #5c5c5c;
-		--assistant-user-bg: #{$secondary-color};
-		--assistant-user-text: #{$white};
-		--assistant-assistant-bg: #ffffff;
-		--assistant-input-bg: #ffffff;
-		--assistant-prompt-bg: #ffffff;
-		--assistant-prompt-hover: rgba(164, 119, 100, 0.12);
-	}
 
 	&__conversation {
 		flex: 1;
@@ -59,11 +33,7 @@
 			max-height: none;
 			overflow-y: auto;
 			padding-bottom: $spacing-16;
-			background: #{$primary-color};
-
-			@media (prefers-color-scheme: light) {
-				background: #f7f5f4;
-			}
+			background: var(--color-bg);
 		}
 	}
 
@@ -86,7 +56,7 @@
 		right: 0;
 		bottom: 0;
 		z-index: 10;
-		background: #{$primary-color};
+		background: var(--color-bg);
 		padding: $spacing-16 $spacing-16 $spacing-16 * 1.5;
 		box-shadow: 0 -0.5rem 2rem rgba(0, 0, 0, 0.35);
 
@@ -98,8 +68,7 @@
 			padding: $spacing-16 * 1.25 $spacing-16 * 4 $spacing-16 * 1.5;
 		}
 
-		@media (prefers-color-scheme: light) {
-			background: #f7f5f4;
+		html[data-theme='light'] & {
 			box-shadow: 0 -0.5rem 2rem rgba(0, 0, 0, 0.08);
 		}
 

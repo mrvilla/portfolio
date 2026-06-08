@@ -1,11 +1,11 @@
 .stage {
 	margin: $spacing-16 * 2 $spacing-16 $spacing-16 * 2;
-	background-color: $primary-color;
+	background-color: var(--color-bg);
 	min-height: calc(100vh - 3.5rem);
 	display: flex;
 	flex-direction: column;
 	padding-bottom: var(--assistant-dock-height, 18rem);
-	color: $white;
+	color: var(--color-text);
 
 	@media (min-width: 768px) {
 		margin: $spacing-16 * 4 $spacing-16 $spacing-16;

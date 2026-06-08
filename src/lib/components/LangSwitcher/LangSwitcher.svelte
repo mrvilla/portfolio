@@ -67,9 +67,9 @@
 			align-items: center;
 			gap: 0.5rem;
 			padding: 0.5rem;
-			background-color: #000;
-			color: #fff;
-			border: 0;
+			background-color: var(--color-bg);
+			color: var(--color-text);
+			border: 0.0625rem solid var(--color-accent);
 			border-radius: 0.25rem;
 			font-size: inherit;
 			line-height: inherit;
@@ -81,8 +81,8 @@
 			position: absolute;
 			top: 86%;
 			left: 0;
-			background-color: #000;
-			border: 0;
+			background-color: var(--color-bg);
+			border: 0.0625rem solid var(--color-accent);
 			border-radius: 0.25rem;
 			margin-top: 0;
 			min-width: 150px;
@@ -95,8 +95,8 @@
 				align-items: center;
 				gap: 0.5rem;
 				padding: 0.5rem;
-				background-color: #000;
-				color: #fff;
+				background-color: var(--color-bg);
+				color: var(--color-text);
 				cursor: pointer;
 				transition: background-color 0.2s;
 				border: 0;
