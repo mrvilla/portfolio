@@ -109,35 +109,45 @@
 			"keywords": ["enterprise", "dashboard", "internal tools", "compliance", "risk", "workflow", "b2b"],
 			"links": [
 				{ "label": "Signum case study", "href": "/portfolio/signum" },
-				{ "label": "Sembo case study", "href": "/portfolio/sembo" }
+				{ "label": "Sembo case study", "href": "/portfolio/sembo" },
+				{ "label": "IBMiX / Aperto case study", "href": "/portfolio/ibmix-aperto" },
+				{ "label": "Qualmity case study", "href": "/portfolio/qualmity" }
 			]
 		},
 		{
 			"id": "travel-compliance",
 			"question": "What projects have you worked on in travel or compliance?",
-			"answer": "Travel: At Sembo (Jan 2023 – Mar 2024) I led redevelopment of the corporate travel platform with Next.js and Sanity — 65% performance improvement, 48% lower bounce rate, mobile load times from 3.2s to 1.8s.\n\nCompliance: At Signum/DISA (2020–2022) I modernized compliance applications and a company-wide design system. At Qualmity (2024–present) I work on compliance and pre-employment screening apps used daily by analysts — orders, uploads, certificates, reporting, and dashboards integrated with Django REST APIs.",
+			"answer": "Travel: At Sembo (Jan 2023 – Mar 2024) I led redevelopment of the corporate travel platform with Next.js and Sanity — 65% performance improvement, 48% lower bounce rate, mobile load times from 3.2s to 1.8s.\n\nCompliance: At Signum/DISA (Nov 2020 – Dec 2022) I modernized compliance applications and a company-wide design system. At Qualmity (2024–present) I work on compliance and pre-employment screening apps used daily by analysts — orders, uploads, certificates, reporting, and dashboards integrated with Django REST APIs.",
 			"categories": ["Travel Projects", "Compliance Projects"],
 			"keywords": ["travel", "compliance", "sembo", "signum", "disa", "qualmity", "marketplace", "booking", "screening"],
 			"links": [
 				{ "label": "Sembo case study", "href": "/portfolio/sembo" },
-				{ "label": "Signum case study", "href": "/portfolio/signum" }
+				{ "label": "Signum case study", "href": "/portfolio/signum" },
+				{ "label": "Signum Consulting website", "href": "/portfolio/signum-consulting" },
+				{ "label": "Qualmity case study", "href": "/portfolio/qualmity" }
 			]
 		},
 		{
 			"id": "health-safety",
 			"question": "What health and safety software experience do you have?",
-			"answer": "At Qualmity (May 2024 – Present) I lead frontend development for a configurable Health & Safety platform managing driver, vehicle, and operational safety requirements across departments. I moved it to component-based architecture with a reusable design system, reducing page load times by approximately 40% while supporting client-specific branding.\n\nI also maintain other Qualmity B2B products in Risk Management and Compliance — all focused on clear workflows for operational users under daily time pressure.",
+			"answer": "At Qualmity (May 2024 – Present) I lead frontend development for a configurable Health & Safety platform managing driver, vehicle, and operational safety requirements across departments. I moved it to component-based architecture with a reusable design system, reducing page load times by approximately 40% while supporting client-specific branding.\n\nEarlier, at IBM iX/Aperto, I digitized Cemex Health & Safety field inspections in Germany — an admin dashboard for inspections on client sites and cement trucks.",
 			"categories": ["Health & Safety Projects", "Enterprise Projects"],
-			"keywords": ["health", "safety", "hse", "operational", "qualmity", "risk", "driver", "vehicle"]
+			"keywords": ["health", "safety", "hse", "operational", "qualmity", "risk", "driver", "vehicle", "cemex", "inspection"],
+			"links": [
+				{ "label": "Qualmity case study", "href": "/portfolio/qualmity" },
+				{ "label": "Cemex case study", "href": "/portfolio/cemex" }
+			]
 		},
 		{
 			"id": "video-media",
 			"question": "Tell me about your video and media frontend work.",
-			"answer": "At Eyevinn Technology (May – Oct 2020) in Stockholm I built frontend tools for video streaming platforms — a monitoring dashboard used by major media companies, a stream simulation tool to reproduce network traffic conditions, and optimized React components for a B2B admin portal.\n\nI also created reusable data visualization components for real-time media analytics, collaborating with backend developers on REST API integration in a Kanban agile environment.",
+			"answer": "At Eyevinn Technology (May – Oct 2020) in Stockholm I built frontend tools for video streaming platforms — a monitoring dashboard used by major media companies, a stream simulation tool (Stream Corruptor) to reproduce network traffic conditions, Consuo (VOD-to-linear stitching library landing page), and optimized React components for a B2B admin portal.\n\nI also created reusable data visualization components for real-time media analytics, collaborating with backend developers on REST API integration in a Kanban agile environment.",
 			"categories": ["Enterprise Projects", "React", "APIs"],
-			"keywords": ["video", "media", "streaming", "eyevinn", "b2b", "admin", "portal", "monitoring"],
+			"keywords": ["video", "media", "streaming", "eyevinn", "b2b", "admin", "portal", "monitoring", "corruptor", "consuo"],
 			"links": [
-				{ "label": "Video Dev Team case study", "href": "/portfolio/video-dev-team" }
+				{ "label": "Eyevinn / Video Dev Team", "href": "/portfolio/video-dev-team" },
+				{ "label": "Stream Corruptor", "href": "/portfolio/corruptor" },
+				{ "label": "Consuo", "href": "/portfolio/consuo" }
 			]
 		},
 		{
@@ -155,7 +165,10 @@
 			"question": "How do you approach accessibility and WCAG?",
 			"answer": "Accessibility is part of how I build — semantic HTML, meaningful headings, keyboard-friendly interactions, visible focus states, and ARIA only when native elements aren't enough. At IBM iX/Aperto I implemented components achieving WCAG 2.1 AA compliance across enterprise client projects.\n\nI also hold IBM Enterprise Design Thinking Practitioner and Interaction Design Foundation HCI certifications. I test with keyboard navigation and screen readers during development, not as a late audit.",
 			"categories": ["Accessibility"],
-			"keywords": ["accessibility", "wcag", "a11y", "aria", "keyboard", "inclusive", "screen reader", "focus", "aa"]
+			"keywords": ["accessibility", "wcag", "a11y", "aria", "keyboard", "inclusive", "screen reader", "focus", "aa"],
+			"links": [
+				{ "label": "IBMiX / Aperto case study", "href": "/portfolio/ibmix-aperto" }
+			]
 		},
 		{
 			"id": "testing",
@@ -186,13 +199,22 @@
 		{
 			"id": "selected-work",
 			"question": "What selected work is in your portfolio?",
-			"answer": "My published case studies cover Sembo (travel marketplace / Next.js rebuild), Signum (compliance platform & design system), and Video Dev Team (Eyevinn media frontend tools). Each includes my role, team context, tools, and outcomes — with more depth than a résumé bullet.\n\nAsk about Qualmity, IBM iX/Aperto, or specific skills for details not covered in a case study.",
+			"answer": "My published case studies cover work across travel, compliance, enterprise agency clients, video/media tooling, and Health & Safety:\n\n• Sembo — travel marketplace / Next.js rebuild\n• Signum — compliance platform & design system\n• Signum Consulting — company website rebuild\n• Qualmity — Health & Safety / screening products\n• IBMiX/Aperto — enterprise agency work (plus DIHK, BTV, Consus, Cemex)\n• Eyevinn — Video Dev Team, Stream Corruptor, Consuo\n\nEach case study includes role, team context, tools, and outcomes. Ask for a project name to open the matching case study.",
 			"categories": ["Enterprise Projects"],
 			"keywords": ["portfolio", "selected work", "case study", "case studies", "projects", "work", "examples"],
 			"links": [
-				{ "label": "Sembo — travel marketplace", "href": "/portfolio/sembo" },
-				{ "label": "Signum — compliance & design system", "href": "/portfolio/signum" },
-				{ "label": "Video Dev Team — media frontend", "href": "/portfolio/video-dev-team" }
+				{ "label": "Sembo", "href": "/portfolio/sembo" },
+				{ "label": "Signum", "href": "/portfolio/signum" },
+				{ "label": "IBMiX / Aperto", "href": "/portfolio/ibmix-aperto" },
+				{ "label": "Eyevinn / Video Dev Team", "href": "/portfolio/video-dev-team" },
+				{ "label": "Stream Corruptor", "href": "/portfolio/corruptor" },
+				{ "label": "BTV", "href": "/portfolio/btv" },
+				{ "label": "DIHK", "href": "/portfolio/dihk" },
+				{ "label": "Consuo", "href": "/portfolio/consuo" },
+				{ "label": "Signum Consulting", "href": "/portfolio/signum-consulting" },
+				{ "label": "Consus", "href": "/portfolio/consus" },
+				{ "label": "Cemex", "href": "/portfolio/cemex" },
+				{ "label": "Qualmity", "href": "/portfolio/qualmity" }
 			],
 			"featured": false
 		}

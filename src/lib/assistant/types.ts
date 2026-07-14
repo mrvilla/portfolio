@@ -97,6 +97,7 @@ export interface AssistantResult {
 	answer: string;
 	promptId?: string;
 	topicId?: string;
+	projectId?: string;
 	categories?: string[];
 	links?: AssistantLink[];
 	source: 'local' | 'api';

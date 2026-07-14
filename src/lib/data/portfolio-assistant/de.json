@@ -109,35 +109,45 @@
 			"keywords": ["enterprise", "dashboard", "interne tools", "compliance", "risiko", "workflow", "b2b"],
 			"links": [
 				{ "label": "Signum Case Study", "href": "/portfolio/signum" },
-				{ "label": "Sembo Case Study", "href": "/portfolio/sembo" }
+				{ "label": "Sembo Case Study", "href": "/portfolio/sembo" },
+				{ "label": "IBMiX / Aperto Case Study", "href": "/portfolio/ibmix-aperto" },
+				{ "label": "Qualmity Case Study", "href": "/portfolio/qualmity" }
 			]
 		},
 		{
 			"id": "travel-compliance",
 			"question": "An welchen Reise- oder Compliance-Projekten hast du gearbeitet?",
-			"answer": "Reise: Bei Sembo (Jan 2023 – Mär 2024) leitete ich den Neubau der Reiseplattform mit Next.js und Sanity — 65% Performance, 48% weniger Absprungrate, mobile Ladezeit von 3,2s auf 1,8s.\n\nCompliance: Bei Signum/DISA (2020–2022) modernisierte ich Compliance-Apps und ein firmenweites Designsystem. Bei Qualmity (2024–heute) arbeite ich an Compliance- und Screening-Apps für Analysten — Orders, Uploads, Zertifikate, Reporting, Dashboards mit Django REST APIs.",
+			"answer": "Reise: Bei Sembo (Jan 2023 – Mär 2024) leitete ich den Neubau der Reiseplattform mit Next.js und Sanity — 65% Performance, 48% weniger Absprungrate, mobile Ladezeit von 3,2s auf 1,8s.\n\nCompliance: Bei Signum/DISA (Nov 2020 – Dez 2022) modernisierte ich Compliance-Apps und ein firmenweites Designsystem. Bei Qualmity (2024–heute) arbeite ich an Compliance- und Screening-Apps für Analysten — Orders, Uploads, Zertifikate, Reporting, Dashboards mit Django REST APIs.",
 			"categories": ["Travel Projects", "Compliance Projects"],
 			"keywords": ["reise", "travel", "compliance", "sembo", "signum", "disa", "qualmity", "marktplatz", "buchung", "screening"],
 			"links": [
 				{ "label": "Sembo Case Study", "href": "/portfolio/sembo" },
-				{ "label": "Signum Case Study", "href": "/portfolio/signum" }
+				{ "label": "Signum Case Study", "href": "/portfolio/signum" },
+				{ "label": "Signum Consulting Website", "href": "/portfolio/signum-consulting" },
+				{ "label": "Qualmity Case Study", "href": "/portfolio/qualmity" }
 			]
 		},
 		{
 			"id": "health-safety",
 			"question": "Welche Erfahrung hast du mit Health-&-Safety-Software?",
-			"answer": "Bei Qualmity (Mai 2024 – heute) leite ich Frontend für eine konfigurierbare Health-&-Safety-Plattform — Fahrer-, Fahrzeug- und operative Sicherheitsanforderungen über Abteilungen. Umstellung auf komponentenbasierte Architektur mit Designsystem, ~40% schnellere Ladezeiten und kundenspezifisches Branding.\n\nAußerdem pflege ich weitere Qualmity B2B-Produkte in Risk Management und Compliance — klare Workflows für operative Nutzer unter Zeitdruck.",
+			"answer": "Bei Qualmity (Mai 2024 – heute) leite ich Frontend für eine konfigurierbare Health-&-Safety-Plattform — Fahrer-, Fahrzeug- und operative Sicherheitsanforderungen über Abteilungen. Umstellung auf komponentenbasierte Architektur mit Designsystem, ~40% schnellere Ladezeiten und kundenspezifisches Branding.\n\nFrüher bei IBM iX/Aperto digitalisierte ich Cemex Health-&-Safety-Feldinspektionen in Deutschland — Admin-Dashboard für Inspektionen an Baustellen und Betonmischer.",
 			"categories": ["Health & Safety Projects", "Enterprise Projects"],
-			"keywords": ["health", "safety", "arbeitsschutz", "hse", "operativ", "qualmity", "risiko", "fahrer", "fahrzeug"]
+			"keywords": ["health", "safety", "arbeitsschutz", "hse", "operativ", "qualmity", "risiko", "fahrer", "fahrzeug", "cemex", "inspection"],
+			"links": [
+				{ "label": "Qualmity Case Study", "href": "/portfolio/qualmity" },
+				{ "label": "Cemex Case Study", "href": "/portfolio/cemex" }
+			]
 		},
 		{
 			"id": "video-media",
 			"question": "Erzähl mir von deiner Video- und Media-Frontend-Arbeit.",
-			"answer": "Bei Eyevinn Technology (Mai – Okt 2020) in Stockholm baute ich Frontend-Tools für Video-Streaming — Monitoring-Dashboard für große Medienunternehmen, Stream-Simulation für Netzwerkbedingungen und optimierte React-Komponenten für ein B2B-Admin-Portal.\n\nWiederverwendbare Datenvisualisierung für Echtzeit-Media-Analytics, REST-API-Integration mit Backend in Kanban-Umgebung.",
+			"answer": "Bei Eyevinn Technology (Mai – Okt 2020) in Stockholm baute ich Frontend-Tools für Video-Streaming — Monitoring-Dashboard, Stream Corruptor (Netzwerksimulation), Consuo (VOD-zu-linear Landingpage) und optimierte React-Komponenten für ein B2B-Admin-Portal.\n\nWiederverwendbare Datenvisualisierung für Echtzeit-Media-Analytics, REST-API-Integration mit Backend in Kanban-Umgebung.",
 			"categories": ["Enterprise Projects", "React", "APIs"],
-			"keywords": ["video", "media", "streaming", "eyevinn", "b2b", "admin", "portal", "monitoring"],
+			"keywords": ["video", "media", "streaming", "eyevinn", "b2b", "admin", "portal", "monitoring", "corruptor", "consuo"],
 			"links": [
-				{ "label": "Video Dev Team Case Study", "href": "/portfolio/video-dev-team" }
+				{ "label": "Eyevinn / Video Dev Team", "href": "/portfolio/video-dev-team" },
+				{ "label": "Stream Corruptor", "href": "/portfolio/corruptor" },
+				{ "label": "Consuo", "href": "/portfolio/consuo" }
 			]
 		},
 		{
@@ -155,7 +165,10 @@
 			"question": "Wie gehst du an Barrierefreiheit und WCAG heran?",
 			"answer": "Barrierefreiheit ist Teil meines Builds — semantisches HTML, sinnvolle Überschriften, Tastaturnavigation, sichtbare Focus-States, ARIA nur wenn native Elemente nicht reichen. Bei IBM iX/Aperto implementierte ich WCAG 2.1 AA konforme Komponenten in Enterprise-Projekten.\n\nIBM Enterprise Design Thinking Practitioner und Interaction Design Foundation HCI-Zertifizierung. Ich teste mit Tastatur und Screenreadern während der Entwicklung, nicht erst im Audit.",
 			"categories": ["Accessibility"],
-			"keywords": ["accessibility", "barrierefreiheit", "wcag", "a11y", "aria", "tastatur", "inklusiv", "screen reader", "focus", "aa"]
+			"keywords": ["accessibility", "barrierefreiheit", "wcag", "a11y", "aria", "tastatur", "inklusiv", "screen reader", "focus", "aa"],
+			"links": [
+				{ "label": "IBMiX / Aperto Case Study", "href": "/portfolio/ibmix-aperto" }
+			]
 		},
 		{
 			"id": "testing",
@@ -186,13 +199,22 @@
 		{
 			"id": "selected-work",
 			"question": "Welche ausgewählten Arbeiten sind in deinem Portfolio?",
-			"answer": "Veröffentlichte Case Studies: Sembo (Reise-Marktplatz / Next.js-Neubau), Signum (Compliance-Plattform & Designsystem), Video Dev Team (Eyevinn Media-Frontend). Jede enthält Rolle, Teamkontext, Tools und Ergebnisse — mehr Tiefe als ein Lebenslauf-Bullet.\n\nFrag nach Qualmity, IBM iX/Aperto oder spezifischen Skills für Details außerhalb einer Case Study.",
+			"answer": "Veröffentlichte Case Studies aus Reise, Compliance, Enterprise-Agentur, Video/Media und Health & Safety:\n\n• Sembo — Reise-Marktplatz / Next.js-Neubau\n• Signum — Compliance-Plattform & Designsystem\n• Signum Consulting — Unternehmenswebsite\n• Qualmity — Health & Safety / Screening\n• IBMiX/Aperto — Enterprise-Agenturarbeit (plus DIHK, BTV, Consus, Cemex)\n• Eyevinn — Video Dev Team, Stream Corruptor, Consuo\n\nJede Case Study enthält Rolle, Teamkontext, Tools und Ergebnisse. Frag nach einem Projektnamen für die passende Case Study.",
 			"categories": ["Enterprise Projects"],
 			"keywords": ["portfolio", "ausgewählte arbeit", "case study", "case studies", "projekte", "arbeit", "beispiele"],
 			"links": [
-				{ "label": "Sembo — Reise-Marktplatz", "href": "/portfolio/sembo" },
-				{ "label": "Signum — Compliance & Designsystem", "href": "/portfolio/signum" },
-				{ "label": "Video Dev Team — Media Frontend", "href": "/portfolio/video-dev-team" }
+				{ "label": "Sembo", "href": "/portfolio/sembo" },
+				{ "label": "Signum", "href": "/portfolio/signum" },
+				{ "label": "IBMiX / Aperto", "href": "/portfolio/ibmix-aperto" },
+				{ "label": "Eyevinn / Video Dev Team", "href": "/portfolio/video-dev-team" },
+				{ "label": "Stream Corruptor", "href": "/portfolio/corruptor" },
+				{ "label": "BTV", "href": "/portfolio/btv" },
+				{ "label": "DIHK", "href": "/portfolio/dihk" },
+				{ "label": "Consuo", "href": "/portfolio/consuo" },
+				{ "label": "Signum Consulting", "href": "/portfolio/signum-consulting" },
+				{ "label": "Consus", "href": "/portfolio/consus" },
+				{ "label": "Cemex", "href": "/portfolio/cemex" },
+				{ "label": "Qualmity", "href": "/portfolio/qualmity" }
 			],
 			"featured": false
 		}

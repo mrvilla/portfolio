@@ -102,9 +102,10 @@
 				"Led frontend for a configurable Health & Safety platform with a reusable design system (~40% faster page loads)",
 				"Modernized compliance and screening apps with Next.js and Django REST APIs",
 				"Built Torque Sphere website and e-commerce experience (reported 10% sales increase)",
+				"Develops and maintains dashboard visualizations and admin portals for enterprise apps",
 				"Code reviews and mentoring junior developers in React, Next.js, and Material UI"
 			],
-			"keywords": ["qualmity", "current", "present", "health", "safety", "risk", "screening", "compliance", "torque sphere", "django", "material ui", "mui"]
+			"keywords": ["qualmity", "current", "present", "health", "safety", "risk", "screening", "compliance", "torque sphere", "django", "material ui", "mui", "dashboard", "visualization"]
 		},
 		{
 			"id": "sembo",
@@ -125,15 +126,16 @@
 			"id": "signum",
 			"name": "SIGNUM Consulting GmbH / DISA",
 			"role": "Senior Frontend Developer / UI Designer",
-			"period": "Aug 2020 – Dec 2022",
+			"period": "Nov 2020 – Dec 2022",
 			"location": "Berlin, Germany · Hybrid",
 			"highlights": [
 				"Design system implementation and application modernization (48% increased user engagement)",
 				"Modular design system reduced design-to-development handoff time by 50%",
 				"Migrated monolithic apps toward microservices (quarterly to biweekly releases)",
-				"Responsive component library with Bootstrap and TailwindCSS across 28 client applications"
+				"Responsive component library with Bootstrap and TailwindCSS across 28 client applications",
+				"Hybrid collaboration via Slack, Mural, and Figma"
 			],
-			"keywords": ["signum", "disa", "compliance", "design system", "microservices", "tailwind", "bootstrap"]
+			"keywords": ["signum", "disa", "compliance", "design system", "microservices", "tailwind", "bootstrap", "figma", "mural"]
 		},
 		{
 			"id": "eyevinn",
@@ -170,30 +172,137 @@
 			"name": "Sembo Travel Platform",
 			"company": "Sembo",
 			"period": "2023 – 2024",
-			"summary": "Corporate travel platform rebuild with Next.js and Sanity CMS — major performance and UX improvements for a flexible booking experience.",
+			"summary": "Marketplace platform redesign and implementation for a flexible travel booking experience — rebuilt with Next.js and Sanity CMS, with major performance and UX improvements.",
 			"technologies": ["Next.js", "React", "TypeScript", "Sanity CMS", "Jest", "Cypress"],
-			"keywords": ["sembo", "travel", "next.js", "sanity", "marketplace"],
+			"keywords": ["sembo", "travel", "next.js", "sanity", "marketplace", "booking"],
 			"caseStudyHref": "/portfolio/sembo"
 		},
 		{
 			"id": "signum-disa",
 			"name": "Signum / DISA Compliance Platform",
-			"company": "SIGNUM Consulting",
-			"period": "2020 – 2022",
-			"summary": "Design system and compliance-focused web applications used across internal tools and the corporate site.",
-			"technologies": ["React", "Bootstrap", "TailwindCSS", "Design Systems"],
-			"keywords": ["signum", "disa", "compliance", "design system"],
+			"company": "SIGNUM Consulting / DISA",
+			"period": "Nov 2020 – Dec 2022",
+			"summary": "Design system implementation and application modernization for compliance and risk-management products (now DISA) — modular multi-framework system, Bootstrap & TailwindCSS component library, microservices migration, and consistent UI across 28 client applications.",
+			"technologies": [
+				"React",
+				"Bootstrap",
+				"TailwindCSS",
+				"SASS",
+				"Design systems",
+				"Figma",
+				"Microservices"
+			],
+			"keywords": ["signum", "disa", "compliance", "design system", "risk", "microservices", "tailwind", "bootstrap"],
 			"caseStudyHref": "/portfolio/signum"
 		},
 		{
+			"id": "ibmix-aperto",
+			"name": "IBMiX / Aperto",
+			"company": "IBM iX / Aperto",
+			"period": "2017 – 2020",
+			"summary": "Enterprise web apps and documented design-system components for agency clients — React, VEAMS, accessibility, and responsive UI across large multidisciplinary projects.",
+			"technologies": ["React", "Vue", "VEAMS", "SASS", "Webpack", "Handlebars"],
+			"keywords": ["ibm", "ibmix", "ibm ix", "aperto", "ibmix-aperto", "veams", "agency"],
+			"caseStudyHref": "/portfolio/ibmix-aperto"
+		},
+		{
 			"id": "video-dev-team",
-			"name": "Video Dev Team / Eyevinn Tools",
+			"name": "Eyevinn Technology / Video Dev Team",
 			"company": "Eyevinn Technology",
 			"period": "2020",
-			"summary": "Frontend tools for video streaming — monitoring dashboards, stream simulation, and B2B admin interfaces.",
-			"technologies": ["React", "REST APIs", "Data Visualization"],
-			"keywords": ["video", "streaming", "eyevinn", "media", "admin"],
+			"summary": "Frontend tools and interfaces for video streaming platforms — monitoring dashboards, simulation tooling, and a public-facing team site.",
+			"technologies": ["React", "Next.js", "Material-UI", "Webpack", "Figma"],
+			"keywords": ["video-dev-team", "video dev team", "eyevinn", "streaming", "media", "video"],
 			"caseStudyHref": "/portfolio/video-dev-team"
+		},
+		{
+			"id": "corruptor",
+			"name": "Stream Corruptor",
+			"company": "Eyevinn Technology",
+			"period": "2020",
+			"summary": "Product landing page and UI for a digitized simulator that corrupts video streams to test streaming reliability under adverse network conditions.",
+			"technologies": ["React", "Next.js", "Material-UI", "Node.js", "Docker"],
+			"keywords": ["corruptor", "stream corruptor", "corruption", "simulator", "streaming test"],
+			"caseStudyHref": "/portfolio/corruptor"
+		},
+		{
+			"id": "btv",
+			"name": "BTV — Bavarian Tennis Club",
+			"company": "IBM iX / Aperto",
+			"period": "2017 – 2020",
+			"summary": "Content management system enabling multiple users to create, read, update, and delete content for Bavarian tennis clubs in Germany.",
+			"technologies": ["Magnolia CMS", "VEAMS", "SASS", "Handlebars", "Webpack"],
+			"keywords": ["btv", "bavarian", "tennis", "magnolia"],
+			"caseStudyHref": "/portfolio/btv"
+		},
+		{
+			"id": "dihk",
+			"name": "DIHK — Chambers of Industry and Commerce",
+			"company": "IBM iX / Aperto",
+			"period": "2017 – 2020",
+			"summary": "UI implementation for the German Chamber of Commerce organization (81 chambers) — a CMS for admins to manage site content.",
+			"technologies": ["CoreMedia CMS", "VEAMS", "SASS", "Handlebars", "Webpack"],
+			"keywords": ["dihk", "chamber", "chambers", "commerce", "coremedia"],
+			"caseStudyHref": "/portfolio/dihk"
+		},
+		{
+			"id": "consuo",
+			"name": "Eyevinn — Consuo",
+			"company": "Eyevinn Technology",
+			"period": "2020",
+			"summary": "Landing page for an open-source library that stitches pre-transcoded VOD assets into a linear video stream.",
+			"technologies": ["React", "Next.js", "Material-UI", "Node.js", "MongoDB"],
+			"keywords": ["consuo", "vod", "stitch", "linear stream", "open source"],
+			"caseStudyHref": "/portfolio/consuo"
+		},
+		{
+			"id": "signum-consulting",
+			"name": "Signum Consulting Website",
+			"company": "SIGNUM Consulting",
+			"period": "2020 – 2022",
+			"summary": "Redesigned and rebuilt the company website for a pre-employment screening, risk management, and compliance services provider — with scalability and SEO/analytics improvements.",
+			"technologies": ["jQuery", "HTML5", "CSS3", "Bootstrap"],
+			"keywords": ["signum consulting", "signum-consulting", "corporate website", "screening website"],
+			"caseStudyHref": "/portfolio/signum-consulting"
+		},
+		{
+			"id": "consus",
+			"name": "Consus AG",
+			"company": "IBM iX / Aperto",
+			"period": "2017 – 2020",
+			"summary": "New pages highlighting investment and residential real-estate insights for Consus AG — a German real-estate company focused on residential properties.",
+			"technologies": ["VEAMS", "WordPress", "SASS", "Handlebars", "PHP"],
+			"keywords": ["consus", "consus ag", "real estate", "residential", "investment"],
+			"caseStudyHref": "/portfolio/consus"
+		},
+		{
+			"id": "cemex",
+			"name": "Cemex",
+			"company": "IBM iX / Aperto",
+			"period": "2017 – 2020",
+			"summary": "Digitized field inspections for Cemex Health & Safety in Germany — dashboard for admins to view, edit, upload, and delete inspections performed on client sites and cement trucks.",
+			"technologies": ["HTML5", "CSS3", "jQuery", "PHP"],
+			"keywords": ["cemex", "concrete", "inspection", "inspections", "health and safety cemex"],
+			"caseStudyHref": "/portfolio/cemex"
+		},
+		{
+			"id": "qualmity",
+			"name": "Qualmity",
+			"company": "Qualmity",
+			"period": "2024 – Present",
+			"summary": "Senior Frontend on large-scale B2B platforms for Health & Safety, Risk Management, Pre-Employment Screening, and Compliance — including design-system work (~40% faster page loads), Next.js + Django REST screening workflows, dashboard visualizations, and the Torque Sphere e-commerce experience.",
+			"technologies": [
+				"React",
+				"Next.js",
+				"TypeScript",
+				"Material UI",
+				"Django REST APIs",
+				"SCSS",
+				"Design systems",
+				"Dashboard visualization"
+			],
+			"keywords": ["qualmity", "torque sphere", "torque", "current company", "health", "safety", "screening", "mui"],
+			"caseStudyHref": "/portfolio/qualmity"
 		}
 	],
 	"topics": [
@@ -205,9 +314,10 @@
 		},
 		{
 			"id": "qualmity-current",
-			"answer": "Since May 2024 at Qualmity (Berlin, remote), I improve and maintain large B2B applications across Health & Safety, Risk Management, Pre-Employment Screening, and Compliance. Recent work includes leading frontend for a configurable Health & Safety platform with a reusable design system (~40% faster page loads), modernizing screening workflows with Next.js and Django REST APIs, and building the Torque Sphere e-commerce site.",
+			"answer": "Since May 2024 at Qualmity (Berlin, remote), I improve and maintain large B2B applications across Health & Safety, Risk Management, Pre-Employment Screening, and Compliance. Recent work includes leading frontend for a configurable Health & Safety platform with a reusable design system (~40% faster page loads), modernizing screening workflows with Next.js and Django REST APIs, building dashboard visualizations and admin portals, and delivering the Torque Sphere e-commerce site.",
 			"categories": ["Enterprise Projects", "Health & Safety Projects", "Compliance Projects"],
-			"keywords": ["qualmity", "current role", "current job", "what do you do now", "present role", "present", "now", "torque", "screening", "risk management"]
+			"keywords": ["qualmity", "current role", "current job", "what do you do now", "present role", "present", "now", "torque", "screening", "risk management"],
+			"links": [{ "label": "Qualmity case study", "href": "/portfolio/qualmity" }]
 		},
 		{
 			"id": "mentoring",
@@ -223,9 +333,16 @@
 		},
 		{
 			"id": "ibm-aperto",
-			"answer": "At IBM iX/Aperto (2017–2020) I delivered enterprise web applications for multiple clients using React and the in-house VEAMS framework. I implemented WCAG 2.1 AA compliant components, reusable UI patterns, and participated in Design Thinking workshops. I also mentored a junior developer entering frontend engineering.",
+			"answer": "At IBM iX/Aperto (2017–2020) I delivered enterprise web applications for multiple clients using React and the in-house VEAMS framework. I implemented WCAG 2.1 AA compliant components, reusable UI patterns, and participated in Design Thinking workshops. I also mentored a junior developer entering frontend engineering. Client work from that period includes DIHK, BTV, Consus, and Cemex — each has a case study in the portfolio.",
 			"categories": ["Enterprise Projects", "Accessibility"],
-			"keywords": ["ibm", "ix", "aperto", "veams", "carbon", "enterprise design thinking"]
+			"keywords": ["ibm", "ix", "aperto", "ibmix", "veams", "carbon", "enterprise design thinking"],
+			"links": [
+				{ "label": "IBMiX / Aperto case study", "href": "/portfolio/ibmix-aperto" },
+				{ "label": "DIHK", "href": "/portfolio/dihk" },
+				{ "label": "BTV", "href": "/portfolio/btv" },
+				{ "label": "Consus", "href": "/portfolio/consus" },
+				{ "label": "Cemex", "href": "/portfolio/cemex" }
+			]
 		},
 		{
 			"id": "ai-workflow",
