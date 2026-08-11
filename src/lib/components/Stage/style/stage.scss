@@ -1,18 +1,24 @@
 .stage {
 	margin: $spacing-16 * 2 $spacing-16 $spacing-16 * 2;
-	background-color: var(--color-bg);
+	background-color: transparent;
 	min-height: calc(100vh - 3.5rem);
 	display: flex;
 	flex-direction: column;
+	justify-content: flex-start;
 	padding-bottom: var(--assistant-dock-height, 18rem);
 	color: var(--color-text);
 
 	@media (min-width: 768px) {
-		margin: $spacing-16 * 4 $spacing-16 $spacing-16;
+		margin: $spacing-16 * 3 $spacing-16 $spacing-16;
 	}
 
 	@media (min-width: 1024px) {
-		margin: $spacing-16 $spacing-16 0;
+		margin: $spacing-16 * 2 $spacing-16 0;
+	}
+
+	// Keep the chat docked without stretching a tall empty region above it
+	:global(.portfolio-assistant) {
+		flex: 0 0 auto;
 	}
 
 	.stage__headline {
@@ -103,57 +109,25 @@
 
 	.stage__content_about {
 		display: flex;
-		flex-direction: column;
+		margin: 0 auto $spacing-16 * 2.5;
 		justify-content: center;
-		margin-bottom: $spacing-16 * 4;
-		align-items: center;
 		padding: 0;
+		text-align: left;
 
 		@media (min-width: 768px) {
-			text-align: left;
-			margin-bottom: $spacing-16;
+			margin-bottom: $spacing-16 * 3;
 			padding: 0 $spacing-16;
 		}
 
 		@media (min-width: 1024px) {
-			flex-direction: row;
-			margin-bottom: $spacing-16 * 3;
-			align-items: unset;
+			margin-bottom: $spacing-16 * 3.5;
 			padding: 0 $spacing-16 * 2;
-		}
-	}
-
-	.stage__profile_photo_container {
-		//display: flex;
-		//justify-content: center;
-		margin-bottom: $spacing-16 * 2;
-		width: 50%;
-
-		@media (min-width: 768px) {
-			width: 30%;
-		}
-
-		@media (min-width: 1024px) {
-			width: 10%;
-			margin-bottom: 0;
-		}
-
-		.stage__profile_photo {
-			width: 100%;
-			border-radius: 10%;
+			max-width: 48rem;
 		}
 	}
 
 	.stage__about {
 		width: 100%;
-
-		@media (min-width: 768px) {
-			width: 100%;
-		}
-
-		@media (min-width: 1024px) {
-			width: 50%;
-		}
 
 		.stage__list {
 			list-style: none;
@@ -176,7 +150,6 @@
 			@media (min-width: 1024px) {
 				font-size: 1vw;
 				line-height: 1.6;
-				margin: 0 0 0 $spacing-16 * 4;
 			}
 		}
 	}
@@ -189,14 +162,12 @@
 		@media (min-width: 768px) {
 			font-size: 2vw;
 			line-height: 1.75;
-			padding: 0;
 		}
 
 		@media (min-width: 1024px) {
 			font-size: 1vw;
 			line-height: 1.6;
 			margin-top: 0;
-			padding: 0 0 0 $spacing-16 * 4;
 		}
 
 		&::first-letter {
@@ -217,13 +188,11 @@
 		@media (min-width: 768px) {
 			font-size: 1.2vw;
 			line-height: 1.75;
-			padding: 0;
 		}
 
 		@media (min-width: 1024px) {
 			font-size: 1vw;
 			line-height: 1.6;
-			padding: 0 0 0 $spacing-16 * 4;
 		}
 	}
 

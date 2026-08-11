@@ -1,6 +1,7 @@
 <script>
 	import '../lib/styles/global.css';
 	import Nav from '$lib/components/Nav/Nav.svelte';
+	import AmbientEffects from '$lib/components/AmbientEffects/AmbientEffects.svelte';
 	import { i18n } from '$lib/i18n';
 	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
 	import { onMount } from 'svelte';
@@ -24,6 +25,7 @@
 </script>
 
 <ParaglideJS {i18n}>
+	<AmbientEffects />
 	<Nav />
 	<main>
 		<slot />
@@ -33,7 +35,8 @@
 <style>
 	main {
 		position: relative;
-		background-color: var(--color-bg);
+		z-index: 1;
+		background-color: transparent;
 		color: var(--color-text);
 		margin: 0;
 		padding: 0;

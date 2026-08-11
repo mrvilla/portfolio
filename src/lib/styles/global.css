@@ -90,6 +90,12 @@ body {
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	--mouse-x: 50vw;
+	--mouse-y: 35vh;
+}
+
 body {
 	scroll-behavior: smooth;
 	text-rendering: optimizeSpeed;
@@ -97,8 +103,78 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 18px;
 	line-height: 1.4;
-	background-color: var(--color-bg);
 	color: var(--color-text);
+	background-color: var(--color-bg);
+	background-image:
+		radial-gradient(
+			380px circle at var(--mouse-x) var(--mouse-y),
+			rgba(181, 132, 108, 0.07),
+			transparent 48%
+		),
+		radial-gradient(circle at 20% 18%, rgba(181, 132, 108, 0.05), transparent 28rem),
+		radial-gradient(circle at 82% 68%, rgba(181, 132, 108, 0.032), transparent 32rem);
+	background-attachment: fixed;
+}
+
+html[data-theme='light'] body {
+	background-image:
+		radial-gradient(
+			380px circle at var(--mouse-x) var(--mouse-y),
+			rgba(164, 119, 100, 0.06),
+			transparent 48%
+		),
+		radial-gradient(circle at 20% 18%, rgba(164, 119, 100, 0.045), transparent 28rem),
+		radial-gradient(circle at 82% 68%, rgba(164, 119, 100, 0.03), transparent 32rem);
+}
+
+body::before {
+	content: '';
+	position: fixed;
+	inset: 0;
+	pointer-events: none;
+	z-index: 0;
+	opacity: 0.045;
+	background-image:
+		linear-gradient(rgba(255, 255, 255, 0.09) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(255, 255, 255, 0.09) 1px, transparent 1px);
+	background-size: 48px 48px;
+	mask-image:
+		radial-gradient(420px circle at var(--mouse-x) var(--mouse-y), #000 0%, transparent 72%),
+		linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+	mask-composite: intersect;
+	-webkit-mask-image:
+		radial-gradient(420px circle at var(--mouse-x) var(--mouse-y), #000 0%, transparent 72%),
+		linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+	-webkit-mask-composite: source-in;
+}
+
+html[data-theme='light'] body::before {
+	opacity: 0.035;
+	background-image:
+		linear-gradient(rgba(0, 0, 0, 0.07) 1px, transparent 1px),
+		linear-gradient(90deg, rgba(0, 0, 0, 0.07) 1px, transparent 1px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+	body {
+		background-image:
+			radial-gradient(circle at 20% 18%, rgba(181, 132, 108, 0.045), transparent 28rem),
+			radial-gradient(circle at 82% 68%, rgba(181, 132, 108, 0.028), transparent 32rem);
+	}
+
+	html[data-theme='light'] body {
+		background-image:
+			radial-gradient(circle at 20% 18%, rgba(164, 119, 100, 0.04), transparent 28rem),
+			radial-gradient(circle at 82% 68%, rgba(164, 119, 100, 0.025), transparent 32rem);
+	}
+
+	body::before {
+		mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+		-webkit-mask-image: linear-gradient(to bottom, transparent, #000 18%, #000 82%, transparent);
+		mask-composite: unset;
+		-webkit-mask-composite: unset;
+		opacity: 0.03;
+	}
 }
 
 h1,

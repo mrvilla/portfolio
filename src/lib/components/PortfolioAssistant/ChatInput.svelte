@@ -66,10 +66,16 @@
 		border-radius: 0.75rem;
 		background: var(--assistant-input-bg);
 		overflow: hidden;
+		transition:
+			box-shadow 280ms ease,
+			background-color 280ms ease;
 
 		&:focus-within {
-			outline: 0.125rem solid var(--assistant-focus);
-			outline-offset: 0.0625rem;
+			outline: none;
+			background: rgba(164, 119, 100, 0.1);
+			box-shadow:
+				0 0 0 1px rgba(164, 119, 100, 0.55),
+				0 0 28px rgba(164, 119, 100, 0.2);
 		}
 	}
 

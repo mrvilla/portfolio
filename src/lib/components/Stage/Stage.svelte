@@ -1,14 +1,12 @@
 <script>
 	import * as m from '$lib/paraglide/messages';
 	import PortfolioAssistant from '$lib/components/PortfolioAssistant/PortfolioAssistant.svelte';
+	import SelectedWork from '$lib/components/SelectedWork/SelectedWork.svelte';
 </script>
 
 <div class="stage">
 <!-- <h1 class="stage__headline">{m.stage_headline()}</h1> -->
 	<div class="stage__content_about">
-		<div class="stage__profile_photo_container">
-			<img class="stage__profile_photo" alt="profile_pic" src="/images/profile.png" />
-		</div>
 		<div class="stage__about">
 			<p class="stage__about_text">{m.stage_aboutText()}</p>
 			<p class="stage__text">{m.stage_aboutText2()}</p>
@@ -23,6 +21,8 @@
 			</ul> -->
 		</div>
 	</div>
+
+	<SelectedWork />
 
 	<PortfolioAssistant
 		headline={m.stage_assistant_headline()}
