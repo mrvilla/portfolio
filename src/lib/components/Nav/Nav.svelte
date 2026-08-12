@@ -14,7 +14,7 @@
 </style>
 
 <nav>
-	<a aria-current={isHome ? 'page' : undefined} href="/">iammrvilla</a>
+	<a aria-current={isHome ? 'page' : undefined} href="/">iamevilla</a>
 	<div class="nav__menu">
 		<ul class="nav__social">
 			<li>
