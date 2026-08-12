@@ -21,7 +21,6 @@ const config = {
 				entries: [
 					'/about',
 					'/experience',
-					'/photography',
 					'/portfolio',
 					'/portfolio/sembo',
 					'/portfolio/signum',
