@@ -61,13 +61,13 @@
 	}
 	a > img:hover {
 		border-radius: 1.25rem;
-		border: 0.25rem solid #a47764;
+		border: 0.25rem solid #6d8faf;
 	}
 	.company__title {
 		font-size: 1.36rem;
 		margin: 2rem 0 1rem;
     font-weight: bold;
-		color: #a47764;
+		color: #6d8faf;
 	}
 	.company__item-date {
 		font-family: 'Source Code Pro', monospace;

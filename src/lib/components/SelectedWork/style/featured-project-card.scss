@@ -7,7 +7,7 @@
 	background-color: $white;
 	color: $primary-color;
 	box-sizing: border-box;
-	box-shadow: 0 0 0 1px rgba(181, 132, 108, 0);
+	box-shadow: 0 0 0 1px rgba(var(--atmospheric-blue-rgb), 0);
 	transform: translateY(0);
 	transform-style: preserve-3d;
 	transition:
@@ -21,13 +21,14 @@
 	@media (hover: hover) and (pointer: fine) {
 		&:hover,
 		&:focus-within {
-			background-color: #fffcfa;
+			background-color: var(--atmospheric-mist, #e8f0f7);
 			box-shadow:
-				0 16px 40px rgba(0, 0, 0, 0.22),
-				0 0 0 1px rgba(181, 132, 108, 0.16);
+				0 16px 40px rgba(61, 95, 132, 0.14),
+				0 0 0 1px rgba(var(--atmospheric-blue-rgb), 0.2);
 
 			.featured-card__category {
-				background-color: #b58973;
+				background-color: $atmospheric-blue;
+				color: $black;
 			}
 
 			.featured-card__links {
@@ -46,13 +47,14 @@
 		&:hover,
 		&:focus-within {
 			transform: translateY(-4px);
-			background-color: #fffcfa;
+			background-color: var(--atmospheric-mist, #e8f0f7);
 			box-shadow:
-				0 16px 40px rgba(0, 0, 0, 0.22),
-				0 0 0 1px rgba(181, 132, 108, 0.16);
+				0 16px 40px rgba(61, 95, 132, 0.14),
+				0 0 0 1px rgba(var(--atmospheric-blue-rgb), 0.2);
 
 			.featured-card__category {
-				background-color: #b58973;
+				background-color: $atmospheric-blue;
+				color: $black;
 			}
 		}
 	}
@@ -64,8 +66,8 @@
 	margin: 0 0 $spacing-16 * 0.75;
 	padding: 0.15rem 0.45rem;
 	border-radius: 0.25rem;
-	background-color: $secondary-color;
-	color: $white;
+	background-color: $atmospheric-sky;
+	color: $black;
 	font-size: 0.7rem;
 	font-weight: 500;
 	letter-spacing: 0.04em;

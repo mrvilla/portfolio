@@ -8,7 +8,7 @@
 	$: featuredProjects = resolveFeaturedProjects(m);
 </script>
 
-<section class="selected-work" aria-labelledby="selected-work-heading">
+<section id="selected-work" class="selected-work" aria-labelledby="selected-work-heading">
 	<h4 id="selected-work-heading" class="selected-work__label">{m.stage_selectedWork_label()}</h4>
 
 	<div class="selected-work__grid">

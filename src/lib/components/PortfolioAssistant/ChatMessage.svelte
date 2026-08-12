@@ -70,9 +70,9 @@
 		line-height: 1.2;
 		padding: 0.25rem 0.5rem;
 		border-radius: 999px;
-		background: rgba(164, 119, 100, 0.12);
+		background: rgba(var(--atmospheric-sky-rgb), 0.55);
 		color: var(--assistant-focus);
-		border: 0.0625rem solid rgba(164, 119, 100, 0.25);
+		border: 0.0625rem solid rgba(var(--atmospheric-blue-rgb), 0.22);
 	}
 
 	.chat-message__content {

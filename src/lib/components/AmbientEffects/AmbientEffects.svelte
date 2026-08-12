@@ -104,12 +104,12 @@
 		left: 0;
 		width: 26px;
 		height: 26px;
-		border: 1px solid rgba(180, 132, 108, 0.55);
+		border: 1px solid rgba(var(--cursor-ring-rgb), 0.5);
 		border-radius: 50%;
 		pointer-events: none;
 		z-index: 9999;
 		opacity: 0;
-		box-shadow: 0 0 18px rgba(180, 132, 108, 0.12);
+		box-shadow: 0 0 18px rgba(var(--cursor-glow-rgb), 0.16);
 		transition:
 			width 180ms ease,
 			height 180ms ease,
@@ -126,18 +126,10 @@
 			width: 42px;
 			height: 42px;
 			opacity: 1;
-			border-color: rgba(180, 132, 108, 0.8);
-			box-shadow: 0 0 24px rgba(180, 132, 108, 0.18);
-		}
-	}
-
-	:global(html[data-theme='light']) .cursor-orb {
-		border-color: rgba(164, 119, 100, 0.45);
-		box-shadow: 0 0 16px rgba(164, 119, 100, 0.1);
-
-		&.is-hovering {
-			border-color: rgba(164, 119, 100, 0.7);
-			box-shadow: 0 0 22px rgba(164, 119, 100, 0.16);
+			border-color: rgba(var(--cursor-accent-rgb), 0.75);
+			box-shadow:
+				0 0 20px rgba(var(--cursor-glow-rgb), 0.24),
+				0 0 34px rgba(var(--cursor-accent-rgb), 0.18);
 		}
 	}
 </style>

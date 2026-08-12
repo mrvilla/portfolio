@@ -134,7 +134,7 @@
 
 	.progress-circle .progress {
 		fill: none;
-		stroke: #a47764;
+		stroke: #6d8faf;
 		stroke-width: 5;
 		stroke-linecap: butt;
 		stroke-dasharray: 100;

@@ -30,6 +30,8 @@
 		placeholder={m.stage_assistant_placeholder()}
 		suggestedLabel={m.stage_assistant_suggestedLabel()}
 		backToTopicsLabel={m.stage_assistant_backToTopics()}
+		openLabel={m.stage_assistant_openLabel()}
+		closeLabel={m.stage_assistant_closeLabel()}
 	/>
 
 	<!-- <section class="stage__content_key_offering">

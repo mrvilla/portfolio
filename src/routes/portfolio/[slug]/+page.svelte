@@ -2,6 +2,7 @@
 	import ProjectDetail from '$lib/components/ProjectDetail/ProjectDetail.svelte';
 	import { page } from '$app/stores';
 	import * as m from '$lib/paraglide/messages';
+	import { localizedPath } from '$lib/utils/localizedPath.js';
 	import projectDetails from '../_portfolio.js';
 
 	/** @type {{ data: import('./$types').PageData }} */
@@ -89,9 +90,15 @@
 
 {#if translatedProject}
 	<ProjectDetail>
-		<h2 class="project-detail__headline">
-			{translatedProject.extendedTitle || translatedProject.title}
-		</h2>
+		<div class="project-detail__hero">
+			<a class="project-detail__back" href={localizedPath('/#selected-work')}>
+				<span class="project-detail__back-icon" aria-hidden="true">←</span>
+				{m.project_backToSelectedWork()}
+			</a>
+			<h2 class="project-detail__headline">
+				{translatedProject.extendedTitle || translatedProject.title}
+			</h2>
+		</div>
 
 		<div class="project-detail__content">
 			<div class="project-detail__overview">
@@ -285,7 +292,7 @@
 	.project-detail__content :global(.content-controls__left .content-controls__left-title) {
 			font-size: 1rem;
 			padding-bottom: 1rem;
-			color: #a47764;
+			color: #6d8faf;
 	}
 	@media (min-width: 480px) {
 		.project-detail__content :global(.content-controls__right .content-controls__right-title),
@@ -301,23 +308,56 @@
 	}
 	.project-detail__content :global(figcaption a:hover),
 	.project-detail__content :global(.project-detail__content-controls a:hover) {
-			color: #a47764;
+			color: #6d8faf;
 			text-decoration: none;
 	}
+	.project-detail__hero {
+		background-color: #000;
+		color: #fff;
+		padding: 1.5rem 1.125rem 0;
+	}
+
+	.project-detail__back {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.4rem;
+		margin-bottom: 1.25rem;
+		color: #d4e8f5;
+		font-size: 0.9rem;
+		line-height: 1.4;
+		text-decoration: none;
+		transition: color 0.2s ease;
+
+		&:hover {
+			color: #6aafc4;
+		}
+
+		&:focus-visible {
+			outline: 0.125rem solid #6aafc4;
+			outline-offset: 0.2rem;
+			border-radius: 0.125rem;
+		}
+	}
+
+	.project-detail__back-icon {
+		font-size: 1rem;
+		line-height: 1;
+	}
+
 	.project-detail__headline {
 			font-family: 'Source Code Pro', monospace;
 			font-weight: bold;
 			font-size: 2.6rem;
-			padding: 4.5rem 1.125rem 1.125rem;
+			padding: 0 0 1.125rem;
 			color: #fff;
-			background-color: #000;
+			background-color: transparent;
 	}
 	.overview-content__headline,	
 	.contributions-content__headline,
 	.key-results-content__headline,
 	.content-imgs__headline {
       font-weight: bold;
-      color: #a47764;
+      color: #6d8faf;
 	}
 
 	.overview-content__p {

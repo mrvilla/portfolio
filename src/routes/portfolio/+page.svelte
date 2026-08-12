@@ -55,8 +55,8 @@
 
 <style lang="scss">
   .item-details__subtitle {
-	  background-color: #a47764;
-	  color: #fff;
+	  background-color: #d4e8f5;
+	  color: #000;
     display: inline-block;
     border-radius: 0.25rem;
     padding: 0 0.5rem;
@@ -86,7 +86,7 @@
         content: '';
         width: 100%;
         height: 0.438rem;
-        background-color: #a47764;
+        background-color: #6d8faf;
 	      border-radius: 0.25rem;
         display: block;
         bottom: -0.563rem;

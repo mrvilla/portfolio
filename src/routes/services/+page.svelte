@@ -265,7 +265,7 @@
         font-size: 2.6em;
         font-weight: bold;
         margin: 0 0 1.5rem 0;
-        color: #a47764;
+        color: #000;
     }
 
     /* .service__content {
@@ -380,7 +380,7 @@
       border-radius: 1.25rem;
       padding: 1rem;
       background-color: #fff;
-	    border: 0.375rem solid #a47764;
+	    border: 0.375rem solid #6d8faf;
       color: #514e4e;
 
       h5 {
@@ -444,7 +444,7 @@
       border-radius: 1.25rem;
       background-color: rgba(255, 255, 255, 0.1);
       color: #fff;
-      border: 0.375rem solid #a47764;
+      border: 0.375rem solid #6d8faf;
       text-decoration: none;
 	    width: fit-content;
 
