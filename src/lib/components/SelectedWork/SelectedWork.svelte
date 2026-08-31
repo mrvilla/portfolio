@@ -16,8 +16,8 @@
 			<FeaturedProjectCard
 				category={project.category}
 				title={project.title}
+				logo={project.logo}
 				statement={project.statement}
-				supporting={project.supporting}
 				meta={project.meta}
 				slug={project.slug}
 				caseStudyLabel={project.caseStudyLabel}

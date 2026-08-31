@@ -75,6 +75,17 @@
 	transition: background-color 240ms ease;
 }
 
+.featured-card__logo {
+	display: block;
+	max-height: 2rem;
+	max-width: 10rem;
+	width: auto;
+	height: auto;
+	margin: 0 0 $spacing-16 * 0.75;
+	object-fit: contain;
+	object-position: left center;
+}
+
 .featured-card__title {
 	margin: 0 0 $spacing-16 * 0.75;
 	font-size: 1.25rem;
@@ -99,16 +110,8 @@
 	}
 }
 
-.featured-card__supporting {
-	margin: 0 0 $spacing-16;
-	font-size: 0.9rem;
-	font-weight: 400;
-	line-height: 1.5;
-	color: $primary-color-text;
-}
-
 .featured-card__meta {
-	margin: 0 0 $spacing-16 * 1.25;
+	margin: 0 0 $spacing-16;
 	font-size: 0.75rem;
 	font-weight: 400;
 	letter-spacing: 0.02em;

@@ -15,9 +15,7 @@
 		subtitle: m[`project${index + 1}_subtitle`]
 			? m[`project${index + 1}_subtitle`]()
 			: `Missing: project${index + 1}_subtitle`,
-		shortDesc: m[`project${index + 1}_shortDesc`]
-			? m[`project${index + 1}_shortDesc`]()
-			: `Missing: project${index + 1}_shortDesc`,
+		logo: portfolio.companyLogo,
 		link: m[`project${index + 1}_link`]
 			? m[`project${index + 1}_link`]()
 			: `Missing: project${index + 1}_link`,
@@ -32,12 +30,15 @@
 </svelte:head>
 
 <ProjectCase>
-	{#each translatedPortfolios as { title, subtitle, shortDesc, slug, link, projectLink, projectHref }}
+	{#each translatedPortfolios as { title, subtitle, logo, slug, link, projectLink, projectHref }}
 		<div class="project-case__item">
 			<div class="project-case__item-details">
 				<span class="item-details__subtitle">{subtitle}</span>
-				<h4>{title}</h4>
-				<p>{shortDesc}</p>
+				{#if logo}
+					<img class="project-case__item-logo" src={logo} alt={title} />
+				{:else}
+					<h4>{title}</h4>
+				{/if}
 			</div>
 			<div class="project-case__item-links">
 				<a rel="prefetch" href={`/portfolio/${slug}`}>
@@ -97,8 +98,15 @@
 		font-size: 2rem;
 		font-weight: bold;
 	}
-	p {
-		padding-bottom: 4rem;
+	.project-case__item-logo {
+		display: block;
+		max-height: 2.5rem;
+		max-width: 12rem;
+		width: auto;
+		height: auto;
+		margin: 0.25rem 0 0.75rem;
+		object-fit: contain;
+		object-position: left center;
 	}
 	span {
 		font-size: 0.9rem;

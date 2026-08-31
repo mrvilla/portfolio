@@ -24,11 +24,11 @@ export function resolveFeaturedProjects(m) {
 		return {
 			slug: project.slug,
 			title: titleFn ? titleFn() : project.title,
+			logo: project.companyLogo,
 			projectHref: project.projectHref,
 			showVisitSite: Boolean(showVisitSite && project.projectHref),
 			category: m[`featured_${slug}_category`](),
 			statement: m[`featured_${slug}_statement`](),
-			supporting: m[`featured_${slug}_supporting`](),
 			meta: m[`featured_${slug}_meta`](),
 			caseStudyLabel: m.stage_selectedWork_viewCaseStudy(),
 			visitSiteLabel: m.stage_selectedWork_visitSite()

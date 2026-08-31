@@ -113,7 +113,7 @@
 	"project1_tools": "Next.js, React, Sanity CMS, Storybook, Cypress, Figma",
 	"project1_solutionsHeadlineText": "",
 	"project1_solutions": "",
-	"project1_companyLogo": "/projects/so.png",
+	"project1_companyLogo": "/projects/so.svg",
 	"project1_contributionsHeadlineText": "En qué me centré",
 	"project1_contributionsSubheadlineText1": "Arquitectura frontend",
 	"project1_contributionsText1": "Creación de un mercado moderno utilizando Next.js y una estructura de componentes modulares.",

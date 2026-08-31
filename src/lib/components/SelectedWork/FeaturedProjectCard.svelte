@@ -1,8 +1,8 @@
 <script>
 	export let category;
 	export let title;
+	export let logo;
 	export let statement;
-	export let supporting;
 	export let meta;
 	export let slug;
 	export let caseStudyLabel;
@@ -46,9 +46,12 @@
 	on:pointerleave={resetTilt}
 >
 	<span class="featured-card__category">{category}</span>
-	<h3 class="featured-card__title">{title}</h3>
+	{#if logo}
+		<img class="featured-card__logo" src={logo} alt={title} />
+	{:else}
+		<h3 class="featured-card__title">{title}</h3>
+	{/if}
 	<p class="featured-card__statement">{statement}</p>
-	<p class="featured-card__supporting">{supporting}</p>
 	<p class="featured-card__meta">{meta}</p>
 	<div class="featured-card__links">
 		<a class="featured-card__link" rel="prefetch" href={`/portfolio/${slug}`}>
