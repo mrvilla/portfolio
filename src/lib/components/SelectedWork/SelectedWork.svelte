@@ -1,11 +1,9 @@
 <script>
-	import * as m from '$lib/paraglide/messages';
-	import { languageTag } from '$lib/paraglide/runtime.js';
+	import m from '$lib/messages.js';
 	import { resolveFeaturedProjects } from '$lib/data/featured-work.js';
 	import FeaturedProjectCard from './FeaturedProjectCard.svelte';
 
-	$: languageTag();
-	$: featuredProjects = resolveFeaturedProjects(m);
+	const featuredProjects = resolveFeaturedProjects(m);
 </script>
 
 <section id="selected-work" class="selected-work" aria-labelledby="selected-work-heading">

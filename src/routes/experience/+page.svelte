@@ -1,6 +1,6 @@
 <script>
 	import Company from '$lib/components/Company/Company.svelte';
-	import * as m from '$lib/paraglide/messages.js';
+	import m from '$lib/messages.js';
 
 	export let data;
 	const { companies } = data;

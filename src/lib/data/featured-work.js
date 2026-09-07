@@ -8,7 +8,7 @@ export const featuredWorkConfig = [
 
 /**
  * Resolve featured homepage projects from portfolio data + homepage-specific copy.
- * @param {typeof import('$lib/paraglide/messages')} m
+ * @param {typeof import('$lib/messages.js').default} m
  */
 export function resolveFeaturedProjects(m) {
 	return featuredWorkConfig.map(({ slug, showVisitSite }) => {

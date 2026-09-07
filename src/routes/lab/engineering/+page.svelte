@@ -1,10 +1,7 @@
 <script>
 	import LabPlaceholderPage from '$lib/components/Lab/LabPlaceholderPage.svelte';
 	import LabExperiment from '$lib/components/Lab/LabExperiment.svelte';
-	import * as m from '$lib/paraglide/messages';
-	import { languageTag } from '$lib/paraglide/runtime.js';
-
-	$: languageTag();
+	import m from '$lib/messages.js';
 
 	const videoSrc = '';
 </script>

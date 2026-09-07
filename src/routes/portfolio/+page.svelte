@@ -1,19 +1,18 @@
 <script>
 	import ProjectCase from '$lib/components/ProjectCase/ProjectCase.svelte';
 	import FeaturedProjectCard from '$lib/components/SelectedWork/FeaturedProjectCard.svelte';
-	import * as m from '$lib/paraglide/messages';
-	import { languageTag } from '$lib/paraglide/runtime.js';
-	import { localizedPath } from '$lib/utils/localizedPath.js';
+	import m from '$lib/messages.js';
 
 	export let data;
 	const { portfolios } = data;
+
+	const selectedWorkHref = '/#selected-work';
 
 	function msg(key) {
 		const fn = m[key];
 		return typeof fn === 'function' ? fn() : '';
 	}
 
-	$: languageTag();
 	$: translatedPortfolios = portfolios.map((portfolio, index) => {
 		const n = index + 1;
 		const slug = portfolio.slug;
@@ -41,7 +40,7 @@
 </svelte:head>
 
 <ProjectCase
-	backHref={localizedPath('/#selected-work')}
+	backHref={selectedWorkHref}
 	backLabel={m.project_backToSelectedWork()}
 >
 	{#each translatedPortfolios as project (project.slug)}

@@ -1,6 +1,4 @@
 <script>
-	import { localizedPath } from '$lib/utils/localizedPath.js';
-
 	export let message;
 </script>
 
@@ -17,7 +15,7 @@
 		<ul class="chat-message__links">
 			{#each message.links as link}
 				<li>
-					<a class="chat-message__link" href={localizedPath(link.href)} rel="prefetch">
+					<a class="chat-message__link" href={link.href} rel="prefetch">
 						{link.label}
 					</a>
 				</li>

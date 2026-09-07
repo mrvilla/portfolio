@@ -1,5 +1,5 @@
 <script>
-	import * as m from '$lib/paraglide/messages';
+	import m from '$lib/messages.js';
 
 	export let backHref = '';
 	export let backLabel = '';

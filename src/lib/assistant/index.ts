@@ -1,7 +1,5 @@
 import knowledgeEn from '$lib/data/portfolio-assistant/knowledge.en.json' with { type: 'json' };
-import knowledgeDe from '$lib/data/portfolio-assistant/knowledge.de.json' with { type: 'json' };
 import contentEn from '$lib/data/portfolio-assistant/en.json' with { type: 'json' };
-import contentDe from '$lib/data/portfolio-assistant/de.json' with { type: 'json' };
 import { buildFallback } from './build-fallback.js';
 import { LocalAssistantProvider } from './providers/local-provider.js';
 import type { AssistantContent, AssistantData, AssistantKnowledge, AssistantProvider } from './types.js';
@@ -19,18 +17,18 @@ function mergeAssistantData(
 	return data;
 }
 
-const dataByLocale: Record<string, AssistantData> = {
-	en: mergeAssistantData(knowledgeEn as AssistantKnowledge, contentEn as AssistantContent),
-	de: mergeAssistantData(knowledgeDe as AssistantKnowledge, contentDe as AssistantContent)
-};
+const assistantData: AssistantData = mergeAssistantData(
+	knowledgeEn as AssistantKnowledge,
+	contentEn as AssistantContent
+);
 
-export function getAssistantData(locale: string): AssistantData {
-	return dataByLocale[locale] ?? dataByLocale.en;
+export function getAssistantData(): AssistantData {
+	return assistantData;
 }
 
 /** Returns a local provider today; replace with ApiAssistantProvider when an endpoint exists. */
-export function createAssistantProvider(locale: string): AssistantProvider {
-	return new LocalAssistantProvider(getAssistantData(locale));
+export function createAssistantProvider(): AssistantProvider {
+	return new LocalAssistantProvider(getAssistantData());
 }
 
 export type {

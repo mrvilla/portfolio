@@ -2,7 +2,6 @@
 	import { onMount, tick } from 'svelte';
 	import { fade, fly } from 'svelte/transition';
 	import { cubicOut } from 'svelte/easing';
-	import { languageTag } from '$lib/paraglide/runtime.js';
 	import { createAssistantProvider, getAssistantData } from '$lib/assistant/index';
 	import ChatMessageComponent from './ChatMessage.svelte';
 	import SuggestedPrompt from './SuggestedPrompt.svelte';
@@ -27,11 +26,10 @@
 	let messageId = 0;
 	let selectedGroupId = null;
 
-	$: locale = languageTag();
-	$: assistantData = getAssistantData(locale);
-	$: provider = createAssistantProvider(locale);
-	$: promptGroups = assistantData.promptGroups ?? [];
-	$: promptsById = Object.fromEntries(assistantData.prompts.map((prompt) => [prompt.id, prompt]));
+	const assistantData = getAssistantData();
+	const provider = createAssistantProvider();
+	const promptGroups = assistantData.promptGroups ?? [];
+	const promptsById = Object.fromEntries(assistantData.prompts.map((prompt) => [prompt.id, prompt]));
 	$: activeGroup = promptGroups.find((group) => group.id === selectedGroupId);
 	$: groupPrompts = activeGroup
 		? activeGroup.promptIds.map((id) => promptsById[id]).filter(Boolean)

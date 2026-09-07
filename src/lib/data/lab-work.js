@@ -13,8 +13,8 @@ export const labWorkConfig = [
 ];
 
 /**
- * Resolve Lab homepage cards from config + i18n copy.
- * @param {typeof import('$lib/paraglide/messages')} m
+ * Resolve Lab homepage cards from config + copy.
+ * @param {typeof import('$lib/messages.js').default} m
  */
 export function resolveLabProjects(m) {
 	return labWorkConfig.map((item) => ({

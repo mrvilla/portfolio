@@ -1,6 +1,6 @@
 <script>
 	import Article from '$lib/components/Article/Article.svelte';
-	import * as m from '$lib/paraglide/messages.js';
+	import m from '$lib/messages.js';
 </script>
 
 <svelte:head>

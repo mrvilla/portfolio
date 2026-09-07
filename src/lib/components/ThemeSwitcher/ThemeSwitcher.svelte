@@ -1,5 +1,5 @@
 <script>
-	import * as m from '$lib/paraglide/messages';
+	import m from '$lib/messages.js';
 	import { theme, THEME_DARK } from '$lib/theme/theme.js';
 </script>
 

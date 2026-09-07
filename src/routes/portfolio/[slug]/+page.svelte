@@ -1,8 +1,7 @@
 <script>
 	import ProjectDetail from '$lib/components/ProjectDetail/ProjectDetail.svelte';
 	import { page } from '$app/stores';
-	import * as m from '$lib/paraglide/messages';
-	import { localizedPath } from '$lib/utils/localizedPath.js';
+	import m from '$lib/messages.js';
 	import projectDetails from '../_portfolio.js';
 
 	/** @type {{ data: import('./$types').PageData }} */
@@ -23,6 +22,7 @@
 
 	$: projectIndex = slugToIndex[slug];
 	$: projectNumber = projectIndex === undefined ? null : projectIndex + 1;
+	const selectedWorkHref = '/#selected-work';
 
 	$: translatedProject =
 		projectNumber == null
@@ -91,7 +91,7 @@
 {#if translatedProject}
 	<ProjectDetail>
 		<div class="project-detail__hero">
-			<a class="project-detail__back" href={localizedPath('/#selected-work')}>
+			<a class="project-detail__back" href={selectedWorkHref}>
 				← {m.project_backToSelectedWork()}
 			</a>
 			<h1 class="project-detail__headline">

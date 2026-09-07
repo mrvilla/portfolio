@@ -1,17 +1,9 @@
 <script>
 	import { page } from '$app/stores';
-	import * as m from '$lib/paraglide/messages';
-	import { i18n } from '$lib/i18n.js';
-	import { languageTag } from '$lib/paraglide/runtime.js';
-	import LangSwitcher from '$lib/components/LangSwitcher/LangSwitcher.svelte';
+	import m from '$lib/messages.js';
 	import ThemeSwitcher from '$lib/components/ThemeSwitcher/ThemeSwitcher.svelte';
 
-	$: isHome =
-		$page.url.pathname === '/' ||
-		$page.url.pathname === '/de' ||
-		$page.url.pathname === '/es';
-	$: languageTag();
-	$: labHref = `${i18n.resolveRoute('/', languageTag())}#lab`;
+	$: isHome = $page.url.pathname === '/';
 </script>
 
 <style lang="scss">
@@ -26,7 +18,7 @@
 				<a
 					aria-label={m.stage_lab_navLabel()}
 					class="social-icon nav__lab"
-					href={labHref}
+					href="/#lab"
 				>
 					<svg class="icon" fill="none" height="128" viewBox="0 0 128 128" width="128">
 						<g clip-path="url(#clip0_541_1918)">
@@ -66,6 +58,5 @@
 			</li>
 		</ul>
 		<ThemeSwitcher />
-		<LangSwitcher />
 	</div>
 </nav>

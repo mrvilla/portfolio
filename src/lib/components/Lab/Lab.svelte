@@ -1,11 +1,9 @@
 <script>
-	import * as m from '$lib/paraglide/messages';
-	import { languageTag } from '$lib/paraglide/runtime.js';
+	import m from '$lib/messages.js';
 	import { resolveLabProjects } from '$lib/data/lab-work.js';
 	import LabCard from './LabCard.svelte';
 
-	$: languageTag();
-	$: labProjects = resolveLabProjects(m);
+	const labProjects = resolveLabProjects(m);
 </script>
 
 <section id="lab" class="lab" aria-labelledby="lab-heading">

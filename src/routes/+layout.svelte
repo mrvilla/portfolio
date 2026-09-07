@@ -2,8 +2,6 @@
 	import '../lib/styles/global.css';
 	import Nav from '$lib/components/Nav/Nav.svelte';
 	import AmbientEffects from '$lib/components/AmbientEffects/AmbientEffects.svelte';
-	import { i18n } from '$lib/i18n';
-	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
 	import { onMount } from 'svelte';
 	import { theme } from '$lib/theme/theme.js';
 
@@ -24,13 +22,11 @@
 	});
 </script>
 
-<ParaglideJS {i18n}>
-	<AmbientEffects />
-	<Nav />
-	<main>
-		<slot />
-	</main>
-</ParaglideJS>
+<AmbientEffects />
+<Nav />
+<main>
+	<slot />
+</main>
 
 <style>
 	main {
