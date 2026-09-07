@@ -1,26 +1,60 @@
 .project-case {
-	padding: $spacing-16 * 4 $spacing-16 $spacing-16 * 4;
-	position: relative;
-	background-color: $primary-color;
+	width: 100%;
+	max-width: 64rem;
+	margin: $spacing-16 * 2 auto $spacing-16 * 4;
+	padding: 0 $spacing-16;
+	box-sizing: border-box;
+	background-color: transparent;
+	color: var(--color-text);
 
-	.project-case__headline {
-		font-size: 2.6em;
-		font-weight: bold;
-		margin: 0 0 1.5em 0;
-		color: $white;
+	@media (min-width: 768px) {
+		margin-top: $spacing-16 * 3;
+		padding: 0 $spacing-16;
 	}
 
-	.project-case__content {
-		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-		gap: 2.5em;
+	@media (min-width: 1024px) {
+		padding: 0 $spacing-16 * 2;
 	}
+}
 
-	@media (min-width: 480px) {
-		.project-case__content {
-			display: grid;
-			grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
-			gap: 2.5em;
-		}
+.project-case__back {
+	display: inline-block;
+	margin-bottom: $spacing-16 * 1.5;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-weight: 500;
+	line-height: 1.4;
+	color: var(--color-text);
+	transition: color 0.15s ease;
+
+	&:hover,
+	&:focus-visible {
+		color: $secondary-color;
+	}
+}
+
+.project-case__headline {
+	margin: 0 0 $spacing-16 * 1.25;
+	font-size: 1.25rem;
+	font-weight: inherit;
+	letter-spacing: normal;
+	line-height: 1.4;
+	text-align: center;
+	text-transform: none;
+	color: var(--color-text);
+
+	@media (min-width: 768px) {
+		font-size: 1.2rem;
+	}
+}
+
+.project-case__content {
+	display: grid;
+	grid-template-columns: 1fr;
+	gap: $spacing-16 * 1.25;
+
+	@media (min-width: 640px) {
+		grid-template-columns: repeat(2, minmax(0, 1fr));
+		gap: $spacing-16 * 1.5;
 	}
 }

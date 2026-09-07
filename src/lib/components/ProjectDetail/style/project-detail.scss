@@ -1,3 +1,14 @@
 .project-detail {
-	background-color: $white;
+	width: 100%;
+	max-width: 40rem;
+	margin: $spacing-16 * 2 auto $spacing-16 * 4;
+	padding: 0 $spacing-16;
+	box-sizing: border-box;
+	color: var(--color-text);
+	background-color: transparent;
+
+	@media (min-width: 768px) {
+		margin-top: $spacing-16 * 3;
+		padding: 0 $spacing-16 * 2;
+	}
 }

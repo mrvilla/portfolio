@@ -1,0 +1,71 @@
+.lab-placeholder {
+	width: 100%;
+	max-width: 64rem;
+	margin: $spacing-16 * 2 auto $spacing-16 * 4;
+	padding: 0 $spacing-16;
+	box-sizing: border-box;
+	color: var(--color-text);
+
+	@media (min-width: 768px) {
+		margin-top: $spacing-16 * 3;
+		padding: 0 $spacing-16 * 2;
+	}
+}
+
+.lab-placeholder__intro {
+	max-width: 40rem;
+	margin-inline: auto;
+}
+
+.lab-placeholder__back {
+	display: inline-block;
+	margin-bottom: $spacing-16 * 1.5;
+	text-decoration: none;
+	font-size: 0.9rem;
+	font-weight: 500;
+	color: var(--color-text);
+	transition: color 0.15s ease;
+
+	&:hover,
+	&:focus-visible {
+		color: $secondary-color;
+	}
+}
+
+.lab-placeholder__kicker {
+	display: block;
+	margin: 0 0 $spacing-16 * 0.75;
+	font-family: 'Source Code Pro', monospace;
+	font-size: 0.72rem;
+	letter-spacing: 0.08em;
+	color: var(--color-text-muted);
+}
+
+.lab-placeholder__title {
+	margin: 0 0 $spacing-16;
+	font-size: 1.6rem;
+	font-weight: 700;
+	line-height: 1.3;
+	white-space: pre-line;
+
+	@media (min-width: 768px) {
+		font-size: 2rem;
+	}
+}
+
+.lab-placeholder__description {
+	margin: 0 0 $spacing-16;
+	font-size: 1rem;
+	line-height: 1.6;
+}
+
+.lab-placeholder__note {
+	margin: 0;
+	font-size: 0.9rem;
+	line-height: 1.5;
+	color: var(--color-text-muted);
+}
+
+.lab-placeholder__body {
+	margin-top: $spacing-16 * 3;
+}

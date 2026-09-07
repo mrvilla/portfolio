@@ -92,12 +92,11 @@
 	<ProjectDetail>
 		<div class="project-detail__hero">
 			<a class="project-detail__back" href={localizedPath('/#selected-work')}>
-				<span class="project-detail__back-icon" aria-hidden="true">←</span>
-				{m.project_backToSelectedWork()}
+				← {m.project_backToSelectedWork()}
 			</a>
-			<h2 class="project-detail__headline">
+			<h1 class="project-detail__headline">
 				{translatedProject.extendedTitle || translatedProject.title}
-			</h2>
+			</h1>
 		</div>
 
 		<div class="project-detail__content">
@@ -226,46 +225,50 @@
 
 <style>
 	.project-detail__content {
-			padding: 3.25rem 1.125rem 1.125rem;
+			padding: 0;
 	}
 	.project-detail__content :global(h3) {
-			font-size: 2rem;
-			padding-bottom: 2rem;
+			font-size: 1.35rem;
+			padding-bottom: 1.25rem;
 	}
 	.project-detail__content :global(h4) {
-			font-size: 1.36rem;
-			padding-bottom: 1.125rem;
-			color: #000;
+			font-size: 1.05rem;
+			padding-bottom: 0.75rem;
+			color: var(--color-text);
 	}
 	.project-detail__content :global(p) {
 			font-size: 1rem;
 			padding-bottom: 1.25rem;
-			color: #000;
+			color: var(--color-text);
 	}
 	.project-detail__content :global(.project-detail__overview) {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-		gap: 2.5rem;
-		justify-items: center;
-    	align-items: center;
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+		justify-items: start;
+		align-items: start;
+	}
+	.project-detail__content :global(.project-detail__overview > img) {
+		max-height: 2.5rem;
+		width: auto;
 	}
 	.project-detail__content :global(.project-detail__contributions) {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-		gap: 2.5rem;
-		margin: 2rem auto 2rem;
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
+		margin: 2rem auto;
 	}
 	.project-detail__content :global(.project-detail__key-results) {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-		gap: 2.5rem;
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
 		margin: 0 auto 2rem;
 	}
 	.project-detail__content :global(.project-detail__content-imgs-content) {
 		padding: 0 0 2rem;
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
-		gap: 2.5rem;
+		grid-template-columns: 1fr;
+		gap: 1.5rem;
 	}
 	.project-detail__content :global(figcaption) {
 			text-align: center;
@@ -303,7 +306,7 @@
 	}
 
 	.project-detail__content :global(.project-detail__content-controls a) {
-			color: #000;
+			color: var(--color-text);
 			text-decoration: underline;
 	}
 	.project-detail__content :global(figcaption a:hover),
@@ -312,45 +315,47 @@
 			text-decoration: none;
 	}
 	.project-detail__hero {
-		background-color: #000;
-		color: #fff;
-		padding: 1.5rem 1.125rem 0;
+		margin: 0 0 2rem;
+		padding: 0;
+		background-color: transparent;
+		color: var(--color-text);
 	}
 
 	.project-detail__back {
-		display: inline-flex;
-		align-items: center;
-		gap: 0.4rem;
-		margin-bottom: 1.25rem;
-		color: #d4e8f5;
+		display: inline-block;
+		margin-bottom: 1.5rem;
+		color: var(--color-text);
 		font-size: 0.9rem;
+		font-weight: 500;
 		line-height: 1.4;
 		text-decoration: none;
-		transition: color 0.2s ease;
+		transition: color 0.15s ease;
 
-		&:hover {
-			color: #6aafc4;
+		&:hover,
+		&:focus-visible {
+			color: var(--atmospheric-blue);
 		}
 
 		&:focus-visible {
-			outline: 0.125rem solid #6aafc4;
+			outline: 0.125rem solid var(--atmospheric-blue);
 			outline-offset: 0.2rem;
 			border-radius: 0.125rem;
 		}
 	}
 
-	.project-detail__back-icon {
-		font-size: 1rem;
-		line-height: 1;
+	.project-detail__headline {
+			margin: 0;
+			font-size: 1.6rem;
+			font-weight: 700;
+			line-height: 1.3;
+			color: var(--color-text);
+			background-color: transparent;
 	}
 
-	.project-detail__headline {
-			font-family: 'Source Code Pro', monospace;
-			font-weight: bold;
-			font-size: 2.6rem;
-			padding: 0 0 1.125rem;
-			color: #fff;
-			background-color: transparent;
+	@media (min-width: 768px) {
+		.project-detail__headline {
+			font-size: 2rem;
+		}
 	}
 	.overview-content__headline,	
 	.contributions-content__headline,

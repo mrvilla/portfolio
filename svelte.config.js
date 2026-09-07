@@ -34,7 +34,9 @@ const config = {
 					'/portfolio/signum-consulting',
 					'/portfolio/consus',
 					'/portfolio/cemex',
-					'/portfolio/qualmity'
+					'/portfolio/qualmity',
+					'/lab/engineering',
+					'/lab/creative'
 				],
 				handleHttpError: 'ignore'
 			}

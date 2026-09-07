@@ -38,7 +38,8 @@
 			'summary',
 			'[role="button"]',
 			'[tabindex]:not([tabindex="-1"])',
-			'.featured-card'
+			'.featured-card',
+			'.lab-card'
 		].join(',');
 
 		const updateOrb = () => {

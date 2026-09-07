@@ -2,6 +2,7 @@
 	import * as m from '$lib/paraglide/messages';
 	import PortfolioAssistant from '$lib/components/PortfolioAssistant/PortfolioAssistant.svelte';
 	import SelectedWork from '$lib/components/SelectedWork/SelectedWork.svelte';
+	import Lab from '$lib/components/Lab/Lab.svelte';
 </script>
 
 <div class="stage">
@@ -23,6 +24,8 @@
 	</div>
 
 	<SelectedWork />
+
+	<Lab />
 
 	<PortfolioAssistant
 		headline={m.stage_assistant_headline()}

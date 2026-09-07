@@ -52,7 +52,9 @@
 		<h3 class="featured-card__title">{title}</h3>
 	{/if}
 	<p class="featured-card__statement">{statement}</p>
-	<p class="featured-card__meta">{meta}</p>
+	{#if meta}
+		<p class="featured-card__meta">{meta}</p>
+	{/if}
 	<div class="featured-card__links">
 		<a class="featured-card__link" rel="prefetch" href={`/portfolio/${slug}`}>
 			{caseStudyLabel}
