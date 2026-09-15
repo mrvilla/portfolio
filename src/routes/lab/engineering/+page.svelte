@@ -33,7 +33,7 @@
 				</div>
 				<figure class="lab-experiment__visual">
 					<img
-						src="/experiments/engineering/relay05.png"
+						src="/experiments/engineering/001/relay05.png"
 						alt={m.lab_engineering_plan_alt()}
 					/>
 				</figure>
@@ -42,7 +42,7 @@
 			<div class="lab-experiment__moment lab-experiment__moment--image-start">
 				<figure class="lab-experiment__visual">
 					<img
-						src="/experiments/engineering/rela07.png"
+						src="/experiments/engineering/001/rela07.png"
 						alt={m.lab_engineering_execution_alt()}
 					/>
 				</figure>
@@ -59,7 +59,7 @@
 				</div>
 				<figure class="lab-experiment__visual">
 					<img
-						src="/experiments/engineering/rela08.png"
+						src="/experiments/engineering/001/rela08.png"
 						alt={m.lab_engineering_control_alt()}
 					/>
 				</figure>
@@ -68,7 +68,7 @@
 			<div class="lab-experiment__moment lab-experiment__moment--wide">
 				<figure class="lab-experiment__visual">
 					<img
-						src="/experiments/engineering/relay13.png"
+						src="/experiments/engineering/001/relay13.png"
 						alt={m.lab_engineering_recovery_alt()}
 					/>
 				</figure>

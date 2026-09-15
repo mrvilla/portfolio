@@ -30,19 +30,19 @@
 
 		<figure class="lab-experiment__visual lab-experiment__visual--hero">
 			<img
-				src="/experiments/creative/depth-cover04.png"
+				src="/experiments/creative/001/depth-cover04.png"
 				alt={m.lab_creative_hero_alt()}
 			/>
 		</figure>
 		<figure class="lab-experiment__visual">
 			<img
-				src="/experiments/creative/depth-cover03.png"
+				src="/experiments/creative/001/depth-cover03.png"
 				alt={m.lab_creative_scale_alt()}
 			/>
 		</figure>
 		<figure class="lab-experiment__visual">
 			<img
-				src="/experiments/creative/depth-cover01.png"
+				src="/experiments/creative/001/depth-cover01.png"
 				alt={m.lab_creative_viewpoint_alt()}
 			/>
 		</figure>

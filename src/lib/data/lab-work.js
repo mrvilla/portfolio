@@ -1,4 +1,4 @@
-/** Homepage Lab experiments. `href` is the category index for that track. */
+/** Homepage Lab experiments. `href` is the detail page for that experiment. */
 export const labWorkConfig = [
 	{
 		id: 'engineering',
@@ -6,9 +6,19 @@ export const labWorkConfig = [
 		href: '/lab/engineering'
 	},
 	{
+		id: 'engineering_002',
+		variant: 'engineering',
+		href: '/lab/engineering/002'
+	},
+	{
 		id: 'creative',
 		variant: 'creative',
 		href: '/lab/creative'
+	},
+	{
+		id: 'creative_002',
+		variant: 'creative',
+		href: '/lab/creative/002'
 	}
 ];
 

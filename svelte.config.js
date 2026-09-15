@@ -36,7 +36,9 @@ const config = {
 					'/portfolio/cemex',
 					'/portfolio/qualmity',
 					'/lab/engineering',
-					'/lab/creative'
+					'/lab/engineering/002',
+					'/lab/creative',
+					'/lab/creative/002'
 				],
 				handleHttpError: 'ignore'
 			}
